@@ -1,0 +1,19 @@
+# Workshop years configuration
+# Add new workshop years to this list
+# The first entry with is_current: true will be featured on the landing page
+
+- year: 2026
+  title: "AIEPS Day 2026 – Workshop on AI in Earth & Planetary Sciences"
+  date: "TBA"
+  location: "TBA"
+  url: "/2026"
+  is_current: true
+  status: "upcoming"
+
+- year: 2025
+  title: "AIEPS Day 2025 – Workshop on AI in Earth & Planetary Sciences"
+  date: "27 May 2025"
+  location: "Geological Survey of Finland (GTK), Espoo, Finland"
+  url: "/2025"
+  is_current: false
+  status: "completed"

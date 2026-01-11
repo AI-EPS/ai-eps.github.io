@@ -13,10 +13,27 @@
         <ul class="dropdown-menu" role="menu">
           {% for workshop in site.data.workshops %}
           <li role="menuitem">
-            <a href="{{ workshop.url | relative_url }}" {% if page.year == workshop.year %}class="active"{% endif %}>
+            <a href="{{ workshop.url | relative_url }}" {% if page.year == workshop.year and page.layout == 'workshop' %}class="active"{% endif %}>
               {{ workshop.year }}
               {% if workshop.is_current %}<span class="badge">Current</span>{% endif %}
               {% if workshop.status == "completed" %}<span class="status-completed">✓</span>{% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="seminar-dropdown">
+        <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+          <span class="dropdown-label">AIEPS Seminar</span>
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          {% for seminar in site.data.seminars %}
+          <li role="menuitem">
+            <a href="{{ seminar.url | relative_url }}" {% if page.year == seminar.year and page.layout == 'seminar' %}class="active"{% endif %}>
+              {{ seminar.year }}
+              {% if seminar.is_current %}<span class="badge">Current</span>{% endif %}
+              {% if seminar.status == "completed" %}<span class="status-completed">✓</span>{% endif %}
             </a>
           </li>
           {% endfor %}

@@ -19,4 +19,6 @@ exclude:
   - README.md
   - LICENSE
   - YYYY-template.md
+  - WORKSHOPS.md
+  - SEMINARS.md
   - vendor/

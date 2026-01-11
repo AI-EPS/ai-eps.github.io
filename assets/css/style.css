@@ -193,8 +193,14 @@ p {
   font-size: var(--text-2xl);
 }
 
-/* Year Dropdown */
-.year-dropdown {
+.site-nav {
+  display: flex;
+  gap: var(--space-4);
+}
+
+/* Year Dropdown and Seminar Dropdown */
+.year-dropdown,
+.seminar-dropdown {
   position: relative;
 }
 
@@ -322,8 +328,8 @@ p {
 .hero {
   position: relative;
   padding: calc(var(--space-24) + 80px) 0 var(--space-16);
-  background: linear-gradient(135deg, var(--color-gray-900) 0%, var(--color-gray-800) 50%, #1e3a5f 100%);
-  color: var(--color-white);
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 50%, #7dd3fc 100%);
+  color: var(--color-gray-900);
   overflow: hidden;
 }
 
@@ -384,12 +390,12 @@ p {
   font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
   font-weight: 700;
   margin-bottom: var(--space-4);
-  color: var(--color-white);
+  color: var(--color-gray-900);
 }
 
 .hero-subtitle {
   font-size: var(--text-xl);
-  color: var(--color-gray-300);
+  color: var(--color-gray-700);
   max-width: 700px;
   margin: 0 auto var(--space-8);
 }
@@ -407,7 +413,7 @@ p {
   align-items: center;
   gap: var(--space-2);
   font-size: var(--text-lg);
-  color: var(--color-gray-200);
+  color: var(--color-gray-700);
 }
 
 .info-icon {
@@ -453,13 +459,13 @@ p {
 }
 
 .btn-secondary {
-  background: transparent;
-  color: var(--color-white);
-  border-color: var(--color-white);
+  background: var(--color-white);
+  color: var(--color-gray-900);
+  border-color: var(--color-gray-900);
 }
 
 .btn-secondary:hover {
-  background: var(--color-white);
+  background: var(--color-gray-100);
   color: var(--color-gray-900);
 }
 

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  
+  <main class="seminar-page">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          {% if page.status == "upcoming" %}
+            <span class="badge-upcoming">Upcoming</span>
+          {% elsif page.status == "completed" %}
+            <span class="badge-completed">Past</span>
+          {% else %}
+            <span class="badge-default">Seminars</span>
+          {% endif %}
+        </div>
+        <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+        <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
+      </div>
+      <div class="hero-decoration"></div>
+    </section>
+
+    <!-- Dynamic Content Sections -->
+    <div class="content-wrapper">
+      {{ content }}
+    </div>
+
+    <!-- Contact Section -->
+    {% if page.contact %}
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+          {{ page.contact | markdownify }}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">🌍</span>
+        <span class="footer-title">AI in Earth & Planetary Sciences</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/AI-EPS" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:pankaj.mishra@gtk.fi">Contact</a>
+      </div>
+      <div class="footer-copyright">
+        <p>© {{ 'now' | date: "%Y" }} AIEPS. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Dropdown toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+      const mobileToggle = document.querySelector('.mobile-menu-toggle');
+      const header = document.querySelector('.site-header');
+      
+      dropdownToggles.forEach(function(dropdownToggle) {
+        const dropdownMenu = dropdownToggle.nextElementSibling;
+        
+        dropdownToggle.addEventListener('click', function(e) {
+          e.stopPropagation();
+          const isExpanded = this.getAttribute('aria-expanded') === 'true';
+          
+          // Close all other dropdowns
+          dropdownToggles.forEach(function(toggle) {
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.nextElementSibling.classList.remove('show');
+          });
+          
+          // Toggle this dropdown
+          this.setAttribute('aria-expanded', !isExpanded);
+          dropdownMenu.classList.toggle('show');
+        });
+      });
+      
+      // Mobile menu toggle
+      if (mobileToggle) {
+        mobileToggle.addEventListener('click', function() {
+          header.classList.toggle('mobile-open');
+        });
+      }
+      
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.year-dropdown') && !e.target.closest('.seminar-dropdown')) {
+          dropdownToggles.forEach(function(toggle) {
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.nextElementSibling.classList.remove('show');
+          });
+        }
+      });
+      
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

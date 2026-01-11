@@ -1,166 +1,52 @@
 ---
 layout: workshop
-title: "AIEPS Day 2026"
-year: 2026
-status: upcoming
-hero_title: "AIEPS Day 2026"
-hero_subtitle: "Workshop on AI in Earth & Planetary Sciences"
-date: "TBA"
-location: "TBA"
-format: "Hybrid (In-person + Online)"
-description: "Join us for the 2026 Workshop on Artificial Intelligence in Earth & Planetary Sciences, bringing together researchers and practitioners to explore the latest developments in AI applications."
-sections:
-  - id: overview
-    title: Overview
-  - id: topics
-    title: Topics
-  - id: dates
-    title: Key Dates
-  - id: venue
-    title: Venue
-  - id: registration
-    title: Registration
-  - id: schedule
-    title: Schedule
-  - id: speakers
-    title: Speakers
-  - id: organisers
-    title: Organisers
-  - id: conduct
-    title: Code of Conduct
-cta_buttons:
-  - text: "Submit Abstract"
-    url: "#"
-    primary: true
-    disabled: true
-  - text: "Register Now"
-    url: "#"
-    primary: false
-    disabled: true
-sponsors:
-  - name: "TBA"
-contact: |
-  For inquiries, please contact: **pankaj[dot]mishra[AT]gtk.fi**
-  
-  For more information about the AI-EPS workshop series, visit our [GitHub organization](https://github.com/AI-EPS).
+title: "AIEPS - AI in Earth & Planetary Sciences"
+hero_title: "AIEPS"
+hero_subtitle: "Artificial Intelligence in Earth & Planetary Sciences"
+description: "AIEPS is a special interest group bringing together researchers and practitioners working at the intersection of artificial intelligence and Earth & Planetary Sciences."
 ---
 
-## Overview
-{: #overview}
+## About AIEPS
 
-The **2026 Workshop on Artificial Intelligence in Earth & Planetary Sciences (AIEPS Day 2026)** will bring together researchers, practitioners, and students working at the intersection of artificial intelligence and Earth & Planetary Sciences.
+**AIEPS (AI in Earth & Planetary Sciences)** is a special interest group dedicated to advancing the application of artificial intelligence, machine learning, and scientific computing in Earth and Planetary Sciences.
 
-Building on the success of previous workshops, AIEPS Day 2026 will explore emerging trends in **AI, machine learning, and scientific computing** as applied to Earth and planetary systems. The workshop will feature invited talks, contributed presentations, and opportunities for networking and collaboration.
+We bring together researchers, practitioners, and students from diverse backgrounds to explore how AI is transforming geoscience research, from climate modeling and geophysical inversion to planetary exploration and natural hazard prediction.
 
 ---
 
-## Topics of Interest
-{: #topics}
+## Our Activities
 
-We welcome contributions on a wide range of topics, including but not limited to:
+### Annual Workshop
 
-- **Climate Science**: Machine learning for climate modeling and prediction
-- **Geophysics**: AI-driven seismic analysis and interpretation
-- **Remote Sensing**: Deep learning for satellite and aerial imagery analysis
-- **Planetary Science**: AI applications in planetary exploration and data analysis
-- **Natural Hazards**: Predictive modeling for earthquakes, floods, and other hazards
-- **Geology**: Automated mineral identification and geological mapping
-- **Oceanography**: AI for ocean modeling and marine data analysis
-- **Atmospheric Science**: Deep learning for weather prediction and atmospheric analysis
-- **Scientific Machine Learning**: Physics-informed neural networks and hybrid approaches
-- **Large Language Models**: Applications of LLMs in geoscience research
+Our flagship event is the **AIEPS Day Workshop**, an annual gathering featuring invited talks, contributed presentations, and networking opportunities. The workshop covers topics including:
 
----
+- Scientific Machine Learning
+- Geophysical Modeling and Inversion
+- Remote Sensing and Satellite Imagery Analysis
+- Climate Science and Earth System Modeling
+- Planetary Science and Exploration
+- Natural Hazard Prediction
 
-## Key Dates
-{: #dates}
+Visit the **Workshop Year** dropdown menu to explore current and past workshops.
 
-| Milestone | Date |
-|-----------|------|
-| Abstract Submission Opens | TBA |
-| Abstract Submission Deadline | TBA |
-| Notification of Acceptance | TBA |
-| Registration Deadline | TBA |
-| **Workshop Date** | **TBA** |
+### Seminar Series
+
+The **AIEPS Seminar Series** provides ongoing opportunities for researchers to share their work throughout the year. These online seminars feature cutting-edge research and practical applications of AI in geoscience.
+
+Visit the **AIEPS Seminar** dropdown menu to view upcoming and past seminars.
 
 ---
 
-## Venue
-{: #venue}
+## Get Involved
 
-**Location:** TBA
+AIEPS welcomes participation from researchers, students, and practitioners working at the intersection of AI and Earth & Planetary Sciences.
 
-**Format:** Hybrid (In-person + Online)
-
-More details about the venue and virtual participation options will be announced soon.
-
----
-
-## Registration
-{: #registration}
-
-Registration details will be announced soon.
-
-<div class="highlight-box">
-<h3>📢 Stay Updated</h3>
-<p>Registration will open soon. Check back for updates or contact the organisers to be notified when registration opens.</p>
-</div>
+**Stay connected:**
+- Follow our activities on [GitHub](https://github.com/AI-EPS)
+- Contact us: **pankaj[dot]mishra[AT]gtk.fi**
 
 ---
 
-## Schedule
-{: #schedule}
+## Upcoming Events
 
-The detailed program will be announced closer to the event date.
-
-| Time | Session |
-|------|---------|
-| TBA | Opening & Welcome |
-| TBA | Invited Talks |
-| TBA | Contributed Presentations |
-| TBA | Panel Discussion |
-| TBA | Closing Remarks |
-
----
-
-## Speakers
-{: #speakers}
-
-### Invited Speakers
-
-To be announced.
-
-### Call for Contributions
-
-We invite submissions of original research, work-in-progress papers, and extended abstracts on topics related to AI applications in Earth and Planetary Sciences.
-
-**Submission Guidelines:** Details will be announced soon.
-
----
-
-## Organisers
-{: #organisers}
-
-### Organizing Committee
-
-- TBA
-
-### Program Committee
-
-- TBA
-
----
-
-## Code of Conduct
-{: #conduct}
-
-All participants are expected to adhere to the workshop's code of conduct, which promotes a respectful, inclusive, and harassment-free environment for everyone.
-
-We are committed to providing a welcoming and supportive environment for all participants, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, or technology choices.
-
-**Expected Behavior:**
-- Be respectful and considerate in your interactions
-- Refrain from demeaning, discriminatory, or harassing behavior
-- Alert organisers if you notice violations of this code
-
-For full details, please contact the organizers.
+Check the Workshop Year and AIEPS Seminar dropdown menus for information about upcoming workshops and seminars.

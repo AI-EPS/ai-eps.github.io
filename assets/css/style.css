@@ -442,6 +442,7 @@ p {
 
 .section-nav.is-scrolled .section-nav-container {
   background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
 
@@ -1243,8 +1244,13 @@ p {
 }
 
 /* --------------------------------------------------------------------------
-   Prevent horizontal overflow
+   Prevent horizontal overflow on main containers
    -------------------------------------------------------------------------- */
-html, body {
+.site-header,
+.hero,
+.section-nav,
+.content-wrapper,
+.site-footer {
+  max-width: 100%;
   overflow-x: hidden;
 }

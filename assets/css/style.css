@@ -1,6 +1,5 @@
 /* ==========================================================================
    AIEPS Workshop Website Styles
-   Modern, clean design with good typography and responsive layout
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
@@ -14,8 +13,6 @@
 
 html {
   scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -34,7 +31,6 @@ img {
 a {
   color: #4a4a4a;
   text-decoration: none;
-  transition: color 150ms ease;
 }
 
 a:hover {
@@ -46,7 +42,6 @@ a:hover {
    Typography
    -------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #333333;
@@ -64,37 +59,22 @@ p {
 }
 
 /* --------------------------------------------------------------------------
-   Layout Utilities
+   Site Frame - Unified white container
    -------------------------------------------------------------------------- */
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-/* Site frame - consistent centered container */
 .site-frame {
   max-width: 1000px;
   margin: 0 auto;
   background: #ffffff;
 }
 
+.container {
+  padding: 0 1.5rem;
+}
+
 /* --------------------------------------------------------------------------
    Header Styles
    -------------------------------------------------------------------------- */
 .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: transparent;
-}
-
-.header-outer {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -106,24 +86,14 @@ p {
 }
 
 .site-logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-family: 'Roboto', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: #4a4a4a;
-  text-decoration: none;
 }
 
 .site-logo:hover {
   color: #333333;
   text-decoration: none;
-}
-
-/* Hide logo icon */
-.logo-icon {
-  display: none;
 }
 
 .site-nav {
@@ -267,29 +237,9 @@ p {
    Hero Section
    -------------------------------------------------------------------------- */
 .hero {
-  position: relative;
-  padding: calc(6rem + 80px) 0 4rem;
-  background: #a6a6a6;
-  color: #4a4a4a;
-  overflow: hidden;
-}
-
-.hero-inner {
-  max-width: 1000px;
-  margin: 0 auto;
+  padding: 4rem 1.5rem;
   background: #f5f5f5;
-  border-radius: 0.75rem;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-  padding: 0 1.5rem;
   text-align: center;
-}
-
-.hero-decoration {
-  display: none;
 }
 
 .hero-badge {
@@ -424,43 +374,11 @@ p {
    Section Navigation
    -------------------------------------------------------------------------- */
 .section-nav {
-  background: transparent;
-  padding: 1rem 0;
-  transition: all 150ms ease;
-  margin-bottom: 2rem;
-}
-
-.section-nav.sticky {
-  position: fixed;
-  top: 73px;
-  left: 0;
-  right: 0;
-  z-index: 900;
-  margin-bottom: 0;
-  background: transparent;
-}
-
-.section-nav.is-scrolled .section-nav-container {
-  background: rgba(255, 255, 255, 0.9);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-}
-
-.section-nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 1rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
-  background: #ffffff;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-}
-
-.section-nav.sticky .section-nav-container {
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .section-nav-link {
@@ -469,7 +387,6 @@ p {
   font-weight: 500;
   color: #4a4a4a;
   border-radius: 0.5rem;
-  transition: all 150ms ease;
 }
 
 .section-nav-link:hover {
@@ -487,26 +404,11 @@ p {
    Content Wrapper & Sections
    -------------------------------------------------------------------------- */
 .content-wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
   padding: 3rem 1.5rem;
-  background-color: #ffffff;
-  margin-top: -2rem;
-  margin-bottom: 3rem;
-  position: relative;
-  z-index: 1;
-}
-
-@media (max-width: 768px) {
-  .content-wrapper {
-    margin-top: 0;
-    padding: 2rem 1rem;
-  }
 }
 
 .section {
   margin-bottom: 4rem;
-  scroll-margin-top: 140px;
 }
 
 .section-title {
@@ -736,43 +638,22 @@ p {
    Footer
    -------------------------------------------------------------------------- */
 .site-footer {
-  background: #a6a6a6;
-  color: #4a4a4a;
-  padding: 3rem 0;
-}
-
-.footer-container {
-  max-width: 1000px;
-  margin: 0 auto;
   padding: 2rem 1.5rem;
-  background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
   text-align: center;
+  border-top: 1px solid #e5e5e5;
 }
 
 .footer-brand {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
   font-size: 1.125rem;
   color: #4a4a4a;
-}
-
-/* Hide footer logo emoji */
-.footer-logo {
-  display: none;
-}
-
-.footer-title {
-  color: #4a4a4a;
+  margin-bottom: 1rem;
 }
 
 .footer-links {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .footer-links a {
@@ -790,7 +671,6 @@ p {
 }
 
 .footer-copyright p {
-  color: #4a4a4a;
   margin: 0;
 }
 
@@ -803,13 +683,12 @@ p {
   font-weight: 500;
   border: 1px solid #4a4a4a;
   border-radius: 0.5rem;
-  transition: all 150ms ease;
+  margin-bottom: 1rem;
 }
 
 .back-to-top:hover {
   background: #4a4a4a;
   color: #ffffff;
-  border-color: #4a4a4a;
   text-decoration: none;
 }
 
@@ -922,11 +801,6 @@ p {
     padding: 1rem;
   }
   
-  .site-header.mobile-open .year-dropdown,
-  .site-header.mobile-open .seminar-dropdown {
-    width: 100%;
-  }
-  
   .site-header.mobile-open .dropdown-toggle {
     width: 100%;
     justify-content: space-between;
@@ -944,16 +818,11 @@ p {
   }
   
   .hero {
-    padding-top: calc(4rem + 80px);
-    padding-bottom: 3rem;
+    padding: 3rem 1rem;
   }
   
   .hero-title {
     font-size: 1.875rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.125rem;
   }
   
   .hero-info {
@@ -969,12 +838,10 @@ p {
     width: 100%;
   }
   
-  .section-nav-container {
+  .section-nav {
     overflow-x: auto;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 0.5rem;
   }
   
   .section-nav-link {
@@ -983,12 +850,6 @@ p {
   
   .content-wrapper {
     padding: 2rem 1rem;
-  }
-  
-  .content-wrapper table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
   
   .card-grid {
@@ -1217,10 +1078,6 @@ p {
 }
 
 @media (max-width: 768px) {
-  .seminar-spotlight {
-    padding: 0;
-  }
-  
   .seminar-spotlight-title {
     font-size: 1.25rem;
   }
@@ -1236,21 +1093,4 @@ p {
   .past-seminar-title {
     font-size: 1rem;
   }
-  
-  .past-seminar-toggle {
-    width: 28px;
-    height: 28px;
-  }
-}
-
-/* --------------------------------------------------------------------------
-   Prevent horizontal overflow on main containers
-   -------------------------------------------------------------------------- */
-.site-header,
-.hero,
-.section-nav,
-.content-wrapper,
-.site-footer {
-  max-width: 100%;
-  overflow-x: hidden;
 }

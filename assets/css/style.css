@@ -586,7 +586,7 @@ p {
    Content Wrapper & Sections
    -------------------------------------------------------------------------- */
 .content-wrapper {
-  max-width: 80%;
+  max-width: var(--site-width);
   margin: 0 auto;
   padding: var(--space-12) var(--container-padding);
   background-color: var(--color-content-bg);
@@ -1231,7 +1231,7 @@ p {
 }
 
 .past-seminar-header:focus {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--color-gray-800);
   outline-offset: -2px;
 }
 

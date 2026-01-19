@@ -87,7 +87,7 @@
   --container-padding: var(--space-6);
   
   /* Page background - dark grey outside, white content */
-  --color-page-bg: #1f2328;
+  --color-page-bg: #ffffff;
   --color-content-bg: #ffffff;
 }
 

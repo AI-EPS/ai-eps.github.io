@@ -28,6 +28,12 @@
         </div>
         <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
         <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
+        
+        <div class="hero-info-row">
+          <span>📅 {{ page.event_date | default: "See seminar schedule" }}</span>
+          <span>📍 {{ page.event_location | default: "Online" }}</span>
+          <span>🏛️ {{ page.event_format | default: "Virtual Seminars" }}</span>
+        </div>
       </section>
 
       <!-- Dynamic Content Sections -->
@@ -52,7 +58,7 @@
       <a href="#hero" class="back-to-top">Back to top</a>
       <div class="footer-brand">AI in Earth & Planetary Sciences</div>
       <div class="footer-links">
-        <a href="https://github.com/AI-EPS" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/AI-EPS" target="_blank" rel="noopener">🐙 GitHub</a>
         <a href="mailto:pankaj.mishra@gtk.fi">Contact</a>
       </div>
       <div class="footer-copyright">
@@ -67,47 +73,63 @@
       const mobileToggle = document.querySelector('.mobile-menu-toggle');
       const header = document.querySelector('.site-header');
       
+      // Close all dropdowns
+      function closeAllDropdowns() {
+        dropdownToggles.forEach(function(toggle) {
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.nextElementSibling.classList.remove('show');
+        });
+      }
+      
+      // Dropdown toggle click handler
       dropdownToggles.forEach(function(dropdownToggle) {
         const dropdownMenu = dropdownToggle.nextElementSibling;
         
         dropdownToggle.addEventListener('click', function(e) {
+          e.preventDefault();
           e.stopPropagation();
           const isExpanded = this.getAttribute('aria-expanded') === 'true';
           
+          // Close other dropdowns first
           dropdownToggles.forEach(function(toggle) {
-            toggle.setAttribute('aria-expanded', 'false');
-            toggle.nextElementSibling.classList.remove('show');
+            if (toggle !== dropdownToggle) {
+              toggle.setAttribute('aria-expanded', 'false');
+              toggle.nextElementSibling.classList.remove('show');
+            }
           });
           
+          // Toggle current dropdown
           this.setAttribute('aria-expanded', !isExpanded);
-          dropdownMenu.classList.toggle('show');
+          dropdownMenu.classList.toggle('show', !isExpanded);
         });
       });
       
+      // Mobile menu toggle
       if (mobileToggle) {
         mobileToggle.addEventListener('click', function() {
           header.classList.toggle('mobile-open');
+          // Close dropdowns when closing mobile menu
+          if (!header.classList.contains('mobile-open')) {
+            closeAllDropdowns();
+          }
         });
       }
       
+      // Click outside to close dropdowns
       document.addEventListener('click', function(e) {
         if (!e.target.closest('.year-dropdown') && !e.target.closest('.seminar-dropdown')) {
-          dropdownToggles.forEach(function(toggle) {
-            toggle.setAttribute('aria-expanded', 'false');
-            toggle.nextElementSibling.classList.remove('show');
-          });
+          closeAllDropdowns();
         }
       });
       
-      dropdownToggles.forEach(function(toggle) {
-        toggle.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape') {
-            this.setAttribute('aria-expanded', 'false');
-            this.nextElementSibling.classList.remove('show');
-          }
-        });
+      // ESC key to close dropdowns
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          closeAllDropdowns();
+        }
       });
       
+      // Smooth scroll for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
           e.preventDefault();
@@ -118,6 +140,7 @@
         });
       });
       
+      // Past seminar collapsible sections
       document.querySelectorAll('.past-seminar-header').forEach(function(header) {
         header.addEventListener('click', function() {
           const content = this.nextElementSibling;

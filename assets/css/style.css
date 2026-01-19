@@ -88,7 +88,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-heading);
 }
 
-p, li, span, td, th, label, input, textarea {
+.content-wrapper p,
+.content-wrapper li,
+.content-wrapper td,
+.content-wrapper th {
   color: var(--color-text-body);
 }
 

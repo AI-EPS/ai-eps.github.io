@@ -11,53 +11,46 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  {% include header.html %}
-  
-  <main class="seminar-page">
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-      <div class="hero-inner">
-        <div class="hero-content">
-          <div class="hero-badge">
-            {% if page.status == "upcoming" %}
-              <span class="badge-upcoming">Upcoming</span>
-            {% elsif page.status == "completed" %}
-              <span class="badge-completed">Past</span>
-            {% else %}
-              <span class="badge-default">Seminars</span>
-            {% endif %}
+  <div class="site-frame">
+    {% include header.html %}
+    
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+        <div class="hero-badge">
+          {% if page.status == "upcoming" %}
+            <span class="badge-upcoming">Upcoming</span>
+          {% elsif page.status == "completed" %}
+            <span class="badge-completed">Past</span>
+          {% else %}
+            <span class="badge-default">Seminars</span>
+          {% endif %}
+        </div>
+        <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+        <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
+      </section>
+
+      <!-- Dynamic Content Sections -->
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+
+      <!-- Contact Section -->
+      {% if page.contact %}
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-content">
+            {{ page.contact | markdownify }}
           </div>
-          <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
-          <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
         </div>
-      </div>
-      <div class="hero-decoration"></div>
-    </section>
+      </section>
+      {% endif %}
+    </main>
 
-    <!-- Dynamic Content Sections -->
-    <div class="content-wrapper">
-      {{ content }}
-    </div>
-
-    <!-- Contact Section -->
-    {% if page.contact %}
-    <section class="section contact-section" id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-content">
-          {{ page.contact | markdownify }}
-        </div>
-      </div>
-    </section>
-    {% endif %}
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-container">
+    <footer class="site-footer">
       <a href="#hero" class="back-to-top">Back to top</a>
-      <div class="footer-brand">
-        <span class="footer-title">AI in Earth & Planetary Sciences</span>
-      </div>
+      <div class="footer-brand">AI in Earth & Planetary Sciences</div>
       <div class="footer-links">
         <a href="https://github.com/AI-EPS" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:pankaj.mishra@gtk.fi">Contact</a>
@@ -65,11 +58,10 @@
       <div class="footer-copyright">
         <p>© {{ 'now' | date: "%Y" }} AIEPS. All rights reserved.</p>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script>
-    // Dropdown toggle
     document.addEventListener('DOMContentLoaded', function() {
       const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
       const mobileToggle = document.querySelector('.mobile-menu-toggle');
@@ -82,26 +74,22 @@
           e.stopPropagation();
           const isExpanded = this.getAttribute('aria-expanded') === 'true';
           
-          // Close all other dropdowns
           dropdownToggles.forEach(function(toggle) {
             toggle.setAttribute('aria-expanded', 'false');
             toggle.nextElementSibling.classList.remove('show');
           });
           
-          // Toggle this dropdown
           this.setAttribute('aria-expanded', !isExpanded);
           dropdownMenu.classList.toggle('show');
         });
       });
       
-      // Mobile menu toggle
       if (mobileToggle) {
         mobileToggle.addEventListener('click', function() {
           header.classList.toggle('mobile-open');
         });
       }
       
-      // Close dropdown when clicking outside
       document.addEventListener('click', function(e) {
         if (!e.target.closest('.year-dropdown') && !e.target.closest('.seminar-dropdown')) {
           dropdownToggles.forEach(function(toggle) {
@@ -111,7 +99,6 @@
         }
       });
       
-      // Keyboard accessibility for dropdowns
       dropdownToggles.forEach(function(toggle) {
         toggle.addEventListener('keydown', function(e) {
           if (e.key === 'Escape') {
@@ -121,7 +108,6 @@
         });
       });
       
-      // Smooth scroll for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
           e.preventDefault();
@@ -132,7 +118,6 @@
         });
       });
       
-      // Collapsible past seminar abstracts
       document.querySelectorAll('.past-seminar-header').forEach(function(header) {
         header.addEventListener('click', function() {
           const content = this.nextElementSibling;
@@ -142,7 +127,6 @@
           content.classList.toggle('show');
         });
         
-        // Keyboard accessibility
         header.addEventListener('keydown', function(e) {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();

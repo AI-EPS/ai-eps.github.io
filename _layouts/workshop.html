@@ -11,115 +11,106 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  {% include header.html %}
-  
-  <main class="workshop-page">
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-      <div class="hero-inner">
-        <div class="hero-content">
-          {% if page.year %}
-          <div class="hero-badge">
-            {% if page.status == "upcoming" %}
-              <span class="badge-upcoming">Upcoming Event</span>
-            {% elsif page.status == "completed" %}
-              <span class="badge-completed">Past Event</span>
-            {% else %}
-              <span class="badge-default">Workshop</span>
-            {% endif %}
+  <div class="site-frame">
+    {% include header.html %}
+    
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+        {% if page.year %}
+        <div class="hero-badge">
+          {% if page.status == "upcoming" %}
+            <span class="badge-upcoming">Upcoming Event</span>
+          {% elsif page.status == "completed" %}
+            <span class="badge-completed">Past Event</span>
+          {% else %}
+            <span class="badge-default">Workshop</span>
+          {% endif %}
+        </div>
+        {% endif %}
+        <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+        <p class="hero-subtitle">{{ page.hero_subtitle | default: "Exploring the intersection of AI and Earth & Planetary Sciences" }}</p>
+        
+        {% if page.date or page.location %}
+        <div class="hero-info">
+          {% if page.date %}
+          <div class="hero-info-item">
+            <span class="info-text">Date: {{ page.date }}</span>
           </div>
           {% endif %}
-          <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
-          <p class="hero-subtitle">{{ page.hero_subtitle | default: "Exploring the intersection of AI and Earth & Planetary Sciences" }}</p>
-          
-          {% if page.date or page.location %}
-          <div class="hero-info">
-            {% if page.date %}
-            <div class="hero-info-item">
-              <span class="info-text">Date: {{ page.date }}</span>
-            </div>
-            {% endif %}
-            {% if page.location %}
-            <div class="hero-info-item">
-              <span class="info-text">Location: {{ page.location }}</span>
-            </div>
-            {% endif %}
-            {% if page.format %}
-            <div class="hero-info-item">
-              <span class="info-text">Format: {{ page.format }}</span>
-            </div>
-            {% endif %}
+          {% if page.location %}
+          <div class="hero-info-item">
+            <span class="info-text">Location: {{ page.location }}</span>
           </div>
           {% endif %}
-          
-          {% if page.cta_buttons %}
-          <div class="hero-cta">
-            {% for button in page.cta_buttons %}
-            <a href="{{ button.url }}" class="btn {% if button.primary %}btn-primary{% else %}btn-secondary{% endif %}" {% if button.disabled %}aria-disabled="true"{% endif %}>
-              {{ button.text }}
-            </a>
-            {% endfor %}
+          {% if page.format %}
+          <div class="hero-info-item">
+            <span class="info-text">Format: {{ page.format }}</span>
           </div>
           {% endif %}
         </div>
-      </div>
-      <div class="hero-decoration"></div>
-    </section>
+        {% endif %}
+        
+        {% if page.cta_buttons %}
+        <div class="hero-cta">
+          {% for button in page.cta_buttons %}
+          <a href="{{ button.url }}" class="btn {% if button.primary %}btn-primary{% else %}btn-secondary{% endif %}" {% if button.disabled %}aria-disabled="true"{% endif %}>
+            {{ button.text }}
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </section>
 
-    <!-- Section Navigation -->
-    {% if page.sections %}
-    <nav class="section-nav" id="section-nav">
-      <div class="section-nav-container">
+      <!-- Section Navigation -->
+      {% if page.sections %}
+      <nav class="section-nav" id="section-nav">
         {% for section in page.sections %}
         <a href="#{{ section.id }}" class="section-nav-link">{{ section.title }}</a>
         {% endfor %}
+      </nav>
+      {% endif %}
+
+      <!-- Dynamic Content Sections -->
+      <div class="content-wrapper">
+        {{ content }}
       </div>
-    </nav>
-    {% endif %}
 
-    <!-- Dynamic Content Sections -->
-    <div class="content-wrapper">
-      {{ content }}
-    </div>
-
-    <!-- Sponsors Section (if defined) -->
-    {% if page.sponsors %}
-    <section class="section sponsors-section" id="sponsors">
-      <div class="container">
-        <h2 class="section-title">Sponsors & Supporters</h2>
-        <div class="sponsors-grid">
-          {% for sponsor in page.sponsors %}
-          <div class="sponsor-card">
-            {% if sponsor.logo %}
-            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-logo">
-            {% endif %}
-            <span class="sponsor-name">{{ sponsor.name }}</span>
+      <!-- Sponsors Section (if defined) -->
+      {% if page.sponsors %}
+      <section class="section sponsors-section" id="sponsors">
+        <div class="container">
+          <h2 class="section-title">Sponsors & Supporters</h2>
+          <div class="sponsors-grid">
+            {% for sponsor in page.sponsors %}
+            <div class="sponsor-card">
+              {% if sponsor.logo %}
+              <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-logo">
+              {% endif %}
+              <span class="sponsor-name">{{ sponsor.name }}</span>
+            </div>
+            {% endfor %}
           </div>
-          {% endfor %}
         </div>
-      </div>
-    </section>
-    {% endif %}
+      </section>
+      {% endif %}
 
-    <!-- Contact Section -->
-    {% if page.contact %}
-    <section class="section contact-section" id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-content">
-          {{ page.contact | markdownify }}
+      <!-- Contact Section -->
+      {% if page.contact %}
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-content">
+            {{ page.contact | markdownify }}
+          </div>
         </div>
-      </div>
-    </section>
-    {% endif %}
-  </main>
+      </section>
+      {% endif %}
+    </main>
 
-  <footer class="site-footer">
-    <div class="footer-container">
+    <footer class="site-footer">
       <a href="#hero" class="back-to-top">Back to top</a>
-      <div class="footer-brand">
-        <span class="footer-title">AI in Earth & Planetary Sciences</span>
-      </div>
+      <div class="footer-brand">AI in Earth & Planetary Sciences</div>
       <div class="footer-links">
         <a href="https://github.com/AI-EPS" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:pankaj.mishra@gtk.fi">Contact</a>
@@ -127,11 +118,10 @@
       <div class="footer-copyright">
         <p>© {{ 'now' | date: "%Y" }} AIEPS Workshop Series. All rights reserved.</p>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script>
-    // Dropdown toggle
     document.addEventListener('DOMContentLoaded', function() {
       const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
       const mobileToggle = document.querySelector('.mobile-menu-toggle');
@@ -144,26 +134,22 @@
           e.stopPropagation();
           const isExpanded = this.getAttribute('aria-expanded') === 'true';
           
-          // Close all other dropdowns
           dropdownToggles.forEach(function(toggle) {
             toggle.setAttribute('aria-expanded', 'false');
             toggle.nextElementSibling.classList.remove('show');
           });
           
-          // Toggle this dropdown
           this.setAttribute('aria-expanded', !isExpanded);
           dropdownMenu.classList.toggle('show');
         });
       });
       
-      // Mobile menu toggle
       if (mobileToggle) {
         mobileToggle.addEventListener('click', function() {
           header.classList.toggle('mobile-open');
         });
       }
       
-      // Close dropdown when clicking outside
       document.addEventListener('click', function(e) {
         if (!e.target.closest('.year-dropdown') && !e.target.closest('.seminar-dropdown')) {
           dropdownToggles.forEach(function(toggle) {
@@ -173,28 +159,6 @@
         }
       });
       
-      // Sticky section nav with scroll transparency
-      const sectionNav = document.getElementById('section-nav');
-      if (sectionNav) {
-        const sectionNavTop = sectionNav.offsetTop;
-        // Threshold in pixels before applying scroll transparency effect
-        const scrollThreshold = 50;
-        window.addEventListener('scroll', function() {
-          if (window.pageYOffset > sectionNavTop) {
-            sectionNav.classList.add('sticky');
-          } else {
-            sectionNav.classList.remove('sticky');
-          }
-          // Add transparency class when user has scrolled past threshold
-          if (window.pageYOffset > scrollThreshold) {
-            sectionNav.classList.add('is-scrolled');
-          } else {
-            sectionNav.classList.remove('is-scrolled');
-          }
-        });
-      }
-      
-      // Keyboard accessibility for dropdowns
       dropdownToggles.forEach(function(toggle) {
         toggle.addEventListener('keydown', function(e) {
           if (e.key === 'Escape') {
@@ -204,7 +168,6 @@
         });
       });
       
-      // Smooth scroll for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
           e.preventDefault();

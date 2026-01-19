@@ -181,6 +181,7 @@
       const sectionNav = document.getElementById('section-nav');
       if (sectionNav) {
         const sectionNavTop = sectionNav.offsetTop;
+        // Threshold in pixels before applying scroll transparency effect
         const scrollThreshold = 50;
         window.addEventListener('scroll', function() {
           if (window.pageYOffset > sectionNavTop) {
@@ -188,7 +189,7 @@
           } else {
             sectionNav.classList.remove('sticky');
           }
-          // Add transparency class when scrolled
+          // Add transparency class when user has scrolled past threshold
           if (window.pageYOffset > scrollThreshold) {
             sectionNav.classList.add('is-scrolled');
           } else {

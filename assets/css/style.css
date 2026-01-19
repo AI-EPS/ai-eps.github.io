@@ -62,9 +62,17 @@ p {
    Site Frame - Unified white container
    -------------------------------------------------------------------------- */
 .site-frame {
-  max-width: 1000px;
+  max-width: 1200px;
+  width: min(1200px, calc(100% - 3rem));
   margin: 0 auto;
   background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1;
 }
 
 .container {

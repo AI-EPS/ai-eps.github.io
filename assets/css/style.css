@@ -31,7 +31,7 @@
   --font-body: 'Roboto', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
 
   --color-text-body: #4a4a4a;
-  --color-text-heading: #333333;
+  --color-text-heading: #1e3a5f;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -75,10 +75,21 @@
 
   --container-max: 1000px;
   --container-padding: var(--space-6);
-  --site-width: 100%;
+  --site-width: var(--container-max);
 
   --color-page-bg: #f5f5f5;
   --color-content-bg: #ffffff;
+}
+
+/* --------------------------------------------------------------------------
+   Base Typography
+   -------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-heading);
+}
+
+p, li, span, td, th, label, input, textarea {
+  color: var(--color-text-body);
 }
 
 /* --------------------------------------------------------------------------

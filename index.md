@@ -3,6 +3,9 @@ layout: workshop
 title: "AIEPS - AI in Earth & Planetary Sciences"
 hero_title: "AIEPS"
 hero_subtitle: "Artificial Intelligence in Earth & Planetary Sciences"
+event_date: "See workshop/seminar pages"
+event_location: "Finland"
+event_format: "Workshops + Seminars"
 description: "AIEPS is a special interest group bringing together researchers and practitioners working at the intersection of artificial intelligence and Earth & Planetary Sciences."
 ---
 

@@ -16,18 +16,20 @@
   <main class="seminar-page">
     <!-- Hero Section -->
     <section class="hero" id="hero">
-      <div class="hero-content">
-        <div class="hero-badge">
-          {% if page.status == "upcoming" %}
-            <span class="badge-upcoming">Upcoming</span>
-          {% elsif page.status == "completed" %}
-            <span class="badge-completed">Past</span>
-          {% else %}
-            <span class="badge-default">Seminars</span>
-          {% endif %}
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">
+            {% if page.status == "upcoming" %}
+              <span class="badge-upcoming">Upcoming</span>
+            {% elsif page.status == "completed" %}
+              <span class="badge-completed">Past</span>
+            {% else %}
+              <span class="badge-default">Seminars</span>
+            {% endif %}
+          </div>
+          <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+          <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
         </div>
-        <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
-        <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
       </div>
       <div class="hero-decoration"></div>
     </section>

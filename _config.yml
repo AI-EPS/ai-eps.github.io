@@ -18,7 +18,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
-  - YYYY-template.md
-  - WORKSHOPS.md
-  - SEMINARS.md
   - vendor/
+  - "**/_year-template.md"

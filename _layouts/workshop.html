@@ -7,7 +7,7 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
@@ -132,19 +132,28 @@
   <script>
     // Dropdown toggle
     document.addEventListener('DOMContentLoaded', function() {
-      const dropdownToggle = document.querySelector('.dropdown-toggle');
-      const dropdownMenu = document.querySelector('.dropdown-menu');
+      const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
       const mobileToggle = document.querySelector('.mobile-menu-toggle');
       const header = document.querySelector('.site-header');
       
-      if (dropdownToggle) {
+      dropdownToggles.forEach(function(dropdownToggle) {
+        const dropdownMenu = dropdownToggle.nextElementSibling;
+        
         dropdownToggle.addEventListener('click', function(e) {
           e.stopPropagation();
           const isExpanded = this.getAttribute('aria-expanded') === 'true';
+          
+          // Close all other dropdowns
+          dropdownToggles.forEach(function(toggle) {
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.nextElementSibling.classList.remove('show');
+          });
+          
+          // Toggle this dropdown
           this.setAttribute('aria-expanded', !isExpanded);
           dropdownMenu.classList.toggle('show');
         });
-      }
+      });
       
       // Mobile menu toggle
       if (mobileToggle) {
@@ -155,9 +164,11 @@
       
       // Close dropdown when clicking outside
       document.addEventListener('click', function(e) {
-        if (!e.target.closest('.year-dropdown')) {
-          dropdownToggle?.setAttribute('aria-expanded', 'false');
-          dropdownMenu?.classList.remove('show');
+        if (!e.target.closest('.year-dropdown') && !e.target.closest('.seminar-dropdown')) {
+          dropdownToggles.forEach(function(toggle) {
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.nextElementSibling.classList.remove('show');
+          });
         }
       });
       

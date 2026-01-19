@@ -36,20 +36,17 @@
           <div class="hero-info">
             {% if page.date %}
             <div class="hero-info-item">
-              <span class="info-icon">📅</span>
-              <span class="info-text">{{ page.date }}</span>
+              <span class="info-text">Date: {{ page.date }}</span>
             </div>
             {% endif %}
             {% if page.location %}
             <div class="hero-info-item">
-              <span class="info-icon">📍</span>
-              <span class="info-text">{{ page.location }}</span>
+              <span class="info-text">Location: {{ page.location }}</span>
             </div>
             {% endif %}
             {% if page.format %}
             <div class="hero-info-item">
-              <span class="info-icon">🎥</span>
-              <span class="info-text">{{ page.format }}</span>
+              <span class="info-text">Format: {{ page.format }}</span>
             </div>
             {% endif %}
           </div>
@@ -119,9 +116,8 @@
 
   <footer class="site-footer">
     <div class="footer-container">
-      <a href="#hero" class="back-to-top">↑ Back to top</a>
+      <a href="#hero" class="back-to-top">Back to top</a>
       <div class="footer-brand">
-        <span class="footer-logo">🌍</span>
         <span class="footer-title">AI in Earth & Planetary Sciences</span>
       </div>
       <div class="footer-links">

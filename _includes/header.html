@@ -2,7 +2,6 @@
   <div class="header-outer">
     <div class="header-container">
       <a href="{{ '/' | relative_url }}" class="site-logo">
-        <span class="logo-icon"> </span>
         <span class="logo-text">AIEPS</span>
       </a>
       <nav class="site-nav">
@@ -17,7 +16,6 @@
               <a href="{{ workshop.url | relative_url }}" {% if page.year == workshop.year and page.layout == 'workshop' %}class="active"{% endif %}>
                 {{ workshop.year }}
                 {% if workshop.is_current %}<span class="badge">Current</span>{% endif %}
-                {% if workshop.status == "completed" %}<span class="status-completed">✓</span>{% endif %}
               </a>
             </li>
             {% endfor %}
@@ -34,7 +32,6 @@
               <a href="{{ seminar.url | relative_url }}" {% if page.year == seminar.year and page.layout == 'seminar' %}class="active"{% endif %}>
                 {{ seminar.year }}
                 {% if seminar.is_current %}<span class="badge">Current</span>{% endif %}
-                {% if seminar.status == "completed" %}<span class="status-completed">✓</span>{% endif %}
               </a>
             </li>
             {% endfor %}

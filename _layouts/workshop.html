@@ -16,51 +16,55 @@
   <main class="workshop-page">
     <!-- Hero Section -->
     <section class="hero" id="hero">
-      <div class="hero-content">
-        <div class="hero-badge">
-          {% if page.status == "upcoming" %}
-            <span class="badge-upcoming">Upcoming Event</span>
-          {% elsif page.status == "completed" %}
-            <span class="badge-completed">Past Event</span>
-          {% else %}
-            <span class="badge-default">Workshop</span>
-          {% endif %}
-        </div>
-        <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
-        <p class="hero-subtitle">{{ page.hero_subtitle | default: "Exploring the intersection of AI and Earth & Planetary Sciences" }}</p>
-        
-        {% if page.date or page.location %}
-        <div class="hero-info">
-          {% if page.date %}
-          <div class="hero-info-item">
-            <span class="info-icon">📅</span>
-            <span class="info-text">{{ page.date }}</span>
+      <div class="hero-inner">
+        <div class="hero-content">
+          {% if page.year %}
+          <div class="hero-badge">
+            {% if page.status == "upcoming" %}
+              <span class="badge-upcoming">Upcoming Event</span>
+            {% elsif page.status == "completed" %}
+              <span class="badge-completed">Past Event</span>
+            {% else %}
+              <span class="badge-default">Workshop</span>
+            {% endif %}
           </div>
           {% endif %}
-          {% if page.location %}
-          <div class="hero-info-item">
-            <span class="info-icon">📍</span>
-            <span class="info-text">{{ page.location }}</span>
+          <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+          <p class="hero-subtitle">{{ page.hero_subtitle | default: "Exploring the intersection of AI and Earth & Planetary Sciences" }}</p>
+          
+          {% if page.date or page.location %}
+          <div class="hero-info">
+            {% if page.date %}
+            <div class="hero-info-item">
+              <span class="info-icon">📅</span>
+              <span class="info-text">{{ page.date }}</span>
+            </div>
+            {% endif %}
+            {% if page.location %}
+            <div class="hero-info-item">
+              <span class="info-icon">📍</span>
+              <span class="info-text">{{ page.location }}</span>
+            </div>
+            {% endif %}
+            {% if page.format %}
+            <div class="hero-info-item">
+              <span class="info-icon">🎥</span>
+              <span class="info-text">{{ page.format }}</span>
+            </div>
+            {% endif %}
           </div>
           {% endif %}
-          {% if page.format %}
-          <div class="hero-info-item">
-            <span class="info-icon">🎥</span>
-            <span class="info-text">{{ page.format }}</span>
+          
+          {% if page.cta_buttons %}
+          <div class="hero-cta">
+            {% for button in page.cta_buttons %}
+            <a href="{{ button.url }}" class="btn {% if button.primary %}btn-primary{% else %}btn-secondary{% endif %}" {% if button.disabled %}aria-disabled="true"{% endif %}>
+              {{ button.text }}
+            </a>
+            {% endfor %}
           </div>
           {% endif %}
         </div>
-        {% endif %}
-        
-        {% if page.cta_buttons %}
-        <div class="hero-cta">
-          {% for button in page.cta_buttons %}
-          <a href="{{ button.url }}" class="btn {% if button.primary %}btn-primary{% else %}btn-secondary{% endif %}" {% if button.disabled %}aria-disabled="true"{% endif %}>
-            {{ button.text }}
-          </a>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
       <div class="hero-decoration"></div>
     </section>

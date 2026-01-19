@@ -119,6 +119,7 @@
 
   <footer class="site-footer">
     <div class="footer-container">
+      <a href="#hero" class="back-to-top">↑ Back to top</a>
       <div class="footer-brand">
         <span class="footer-logo">🌍</span>
         <span class="footer-title">AI in Earth & Planetary Sciences</span>
@@ -176,18 +177,36 @@
         }
       });
       
-      // Sticky section nav
+      // Sticky section nav with scroll transparency
       const sectionNav = document.getElementById('section-nav');
       if (sectionNav) {
         const sectionNavTop = sectionNav.offsetTop;
+        // Threshold in pixels before applying scroll transparency effect
+        const scrollThreshold = 50;
         window.addEventListener('scroll', function() {
           if (window.pageYOffset > sectionNavTop) {
             sectionNav.classList.add('sticky');
           } else {
             sectionNav.classList.remove('sticky');
           }
+          // Add transparency class when user has scrolled past threshold
+          if (window.pageYOffset > scrollThreshold) {
+            sectionNav.classList.add('is-scrolled');
+          } else {
+            sectionNav.classList.remove('is-scrolled');
+          }
         });
       }
+      
+      // Keyboard accessibility for dropdowns
+      dropdownToggles.forEach(function(toggle) {
+        toggle.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            this.setAttribute('aria-expanded', 'false');
+            this.nextElementSibling.classList.remove('show');
+          }
+        });
+      });
       
       // Smooth scroll for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {

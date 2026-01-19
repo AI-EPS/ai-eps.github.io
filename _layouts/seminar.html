@@ -54,6 +54,7 @@
 
   <footer class="site-footer">
     <div class="footer-container">
+      <a href="#hero" class="back-to-top">↑ Back to top</a>
       <div class="footer-brand">
         <span class="footer-logo">🌍</span>
         <span class="footer-title">AI in Earth & Planetary Sciences</span>
@@ -109,6 +110,16 @@
             toggle.nextElementSibling.classList.remove('show');
           });
         }
+      });
+      
+      // Keyboard accessibility for dropdowns
+      dropdownToggles.forEach(function(toggle) {
+        toggle.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            this.setAttribute('aria-expanded', 'false');
+            this.nextElementSibling.classList.remove('show');
+          }
+        });
       });
       
       // Smooth scroll for anchor links

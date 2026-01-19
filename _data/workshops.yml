@@ -6,7 +6,7 @@
   title: "AIEPS Day 2026 – Workshop on AI in Earth & Planetary Sciences"
   date: "28-29 May 2026"
   location: "TBA"
-  url: "/2026"
+  url: "/workshops/2026"
   is_current: true
   status: "upcoming"
 
@@ -14,6 +14,6 @@
   title: "AIEPS Day 2025 – Workshop on AI in Earth & Planetary Sciences"
   date: "27 May 2025"
   location: "Geological Survey of Finland (GTK), Espoo, Finland"
-  url: "/2025"
+  url: "/workshops/2025"
   is_current: false
   status: "completed"

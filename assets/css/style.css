@@ -831,6 +831,10 @@ p {
    Responsive Design
    -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
+  .site-frame {
+    width: 100%;
+  }
+  
   .site-header {
     position: relative;
   }

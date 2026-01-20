@@ -94,6 +94,9 @@ p {
 }
 
 .site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 700;
   font-size: 1.25rem;
   color: #4a4a4a;
@@ -102,6 +105,11 @@ p {
 .site-logo:hover {
   color: #333333;
   text-decoration: none;
+}
+
+.site-logo-img {
+  height: 40px;
+  width: auto;
 }
 
 .site-nav {

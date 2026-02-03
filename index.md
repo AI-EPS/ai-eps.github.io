@@ -2,7 +2,6 @@
 layout: workshop
 title: "AIEPS"
 hero_title: "AIEPS"
-hero_subtitle: "Artificial Intelligence in Earth & Planetary Sciences"
 description: "AIEPS is a special interest group bringing together researchers and practitioners working at the intersection of artificial intelligence and Earth & Planetary Sciences."
 ---
 

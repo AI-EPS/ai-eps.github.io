@@ -995,7 +995,7 @@ p {
   display: inline-block;
   padding: 0.25rem 0.75rem;
   background: #03002e;
-  color: #ffffff;
+  color: #e0dddd;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -1004,9 +1004,9 @@ p {
 }
 
 .seminar-spotlight-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #333333;
+  color: #1c029d;
   margin-bottom: 1rem;
 }
 
@@ -1021,9 +1021,10 @@ p {
 }
 
  .seminar-spotlight-abstract {
-  background: #FFFACD;
-  border-radius: 0.75rem;
-  padding: 1.5rem;
+  background: #e0e0de;
+  border-radius: 1rem;
+
+  padding: 1rem;
 }
 
 .seminar-spotlight-abstract h4 {

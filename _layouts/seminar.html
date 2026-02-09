@@ -15,21 +15,12 @@
     {% include header.html %}
     
     <main>
-      <!-- Hero Section -->
-      <section class="hero" id="hero">
-        <div class="hero-badge">
-          {% if page.status == "upcoming" %}
-            <span class="badge-upcoming">Upcoming</span>
-          {% elsif page.status == "completed" %}
-            <span class="badge-completed">Past</span>
-          {% else %}
-            <span class="badge-default">Seminars</span>
-          {% endif %}
-        </div>
-        <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
-        <p class="hero-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
+      <!-- Compact Header for Seminar Pages -->
+      <section class="seminar-compact-header" id="seminar-header">
+        <h1 class="seminar-page-title">{{ page.hero_title | default: page.title }}</h1>
+        <p class="seminar-page-subtitle">{{ page.hero_subtitle | default: "AIEPS Seminar Series" }}</p>
         
-        <div class="hero-info-row">
+        <div class="seminar-page-meta">
           <span>📅 {{ page.event_date | default: "See seminar schedule" }}</span>
           <span>📍 {{ page.event_location | default: "Online" }}</span>
           <span>🏛️ {{ page.event_format | default: "Virtual Seminars" }}</span>
@@ -55,7 +46,7 @@
     </main>
 
     <footer class="site-footer">
-      <a href="#hero" class="back-to-top">Back to top</a>
+      <a href="#seminar-header" class="back-to-top">Back to top</a>
       <div class="footer-brand">AI in Earth & Planetary Sciences</div>
       <div class="footer-links">
         <a href="https://github.com/AI-EPS" target="_blank" rel="noopener">🐙 GitHub</a>

@@ -270,6 +270,39 @@ p {
 .hamburger::after { top: 7px; }
 
 /* --------------------------------------------------------------------------
+   Seminar Compact Header (replaces hero for seminar pages)
+   -------------------------------------------------------------------------- */
+.seminar-compact-header {
+  padding: 2rem 1.5rem 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.seminar-page-title {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+
+.seminar-page-subtitle {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+
+.seminar-page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+}
+
+.seminar-page-meta span {
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
    Hero Section
    -------------------------------------------------------------------------- */
 .hero {
@@ -979,24 +1012,25 @@ p {
    Seminar Spotlight Section (Current Talk)
    -------------------------------------------------------------------------- */
 .seminar-spotlight {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 0;
+  background: #f8f9ff;
+  border: 2px solid #03002e;
+  border-radius: 1rem;
+  padding: 2rem;
   margin-bottom: 3rem;
   position: relative;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .seminar-spotlight-header {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .seminar-spotlight-badge {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 1rem;
   background: #03002e;
-  color: #e0dddd;
-  font-size: 0.75rem;
+  color: #ffffff;
+  font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1004,27 +1038,56 @@ p {
 }
 
 .seminar-spotlight-title {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: #1c029d;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
 }
 
 .seminar-spotlight-meta {
   margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .seminar-spotlight-meta p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   color: #4a4a4a;
+  font-size: 1rem;
+}
+
+.seminar-spotlight-cta {
+  margin-bottom: 1.5rem;
+}
+
+.seminar-spotlight-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #03002e;
+  color: #ffffff;
+  border: 2px solid #03002e;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: all 150ms ease;
+}
+
+.seminar-spotlight-cta .btn:hover {
+  background: #3da8f5;
+  border-color: #3da8f5;
+  color: #ffffff;
+  text-decoration: none;
 }
 
  .seminar-spotlight-abstract {
-  background: #e0e0de;
+  background: #ffffff;
   border-radius: 1rem;
-
-  padding: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #e5e5e5;
 }
 
 .seminar-spotlight-abstract h4 {
@@ -1164,6 +1227,23 @@ p {
 }
 
 @media (max-width: 768px) {
+  .seminar-compact-header {
+    padding: 1.5rem 1rem 1rem;
+  }
+  
+  .seminar-page-title {
+    font-size: 1.5rem;
+  }
+  
+  .seminar-page-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .seminar-spotlight {
+    padding: 1.5rem;
+  }
+  
   .seminar-spotlight-title {
     font-size: 1.25rem;
   }

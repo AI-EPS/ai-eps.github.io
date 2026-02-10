@@ -1,0 +1,96 @@
+---
+pagetitle: "AIEPS Day 2026"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Upcoming]{.page-header-badge .badge-upcoming}
+
+# AIEPS Day 2026
+
+[Workshop on AI in Earth & Planetary Sciences]{.tagline}
+
+::: {.meta}
+[📅 28–29 May 2026]{} [📍 Espoo, Finland]{} [🔗 Onsite (hybrid keynotes)]{}
+:::
+
+::: {.actions}
+[Submit Abstract](#){.btn-act .primary .disabled}
+[Register](#){.btn-act .secondary .disabled}
+:::
+:::
+
+::: {.section-nav}
+[Overview](#overview) [Topics](#topics) [Key Dates](#dates) [Venue](#venue) [Schedule](#schedule) [Speakers](#speakers) [Organisers](#organisers) [Code of Conduct](#conduct)
+:::
+
+::: {.content-body}
+
+## Overview {#overview}
+
+**AIEPS Day 2026** will bring together researchers, practitioners, and students at the intersection of AI and Earth & Planetary Sciences. Building on the success of the 2025 workshop, it will feature invited talks, contributed presentations, hands-on exercises, and networking.
+
+- **May 28:** Hands-on exercises
+- **May 29:** Full-day talks
+- **Format:** Onsite; selected keynotes available online
+
+## Topics {#topics}
+
+- Physics-informed neural networks & hybrid approaches
+- AI for geophysical modeling, inversion & uncertainty quantification
+- Deep learning for satellite/aerial imagery
+- AI in planetary exploration & data analysis
+- Predictive modeling for natural hazards
+- Automated mineral identification & geological mapping
+- AI for ocean, atmospheric & climate modeling
+- LLMs in geoscience research
+
+## Key Dates {#dates}
+
+| Milestone | Date |
+|-----------|------|
+| Abstract Submission Opens | TBA |
+| Abstract Submission Deadline | TBA |
+| Notification of Acceptance | TBA |
+| Registration Deadline | TBA |
+| **Hands-on Exercises** | **28 May 2026** |
+| **Full-day Talks** | **29 May 2026** |
+
+## Venue {#venue}
+
+**Location:** TBA  
+**Format:** Onsite only (selected keynotes available online)
+
+## Schedule {#schedule}
+
+Detailed program will be announced closer to the event.
+
+| Time | Session |
+|------|---------|
+| TBA | Opening & Welcome |
+| TBA | Invited Talks |
+| TBA | Contributed Presentations |
+| TBA | Panel Discussion |
+| TBA | Closing Remarks |
+
+## Speakers {#speakers}
+
+Invited speakers to be announced.
+
+We invite submissions of original research, work-in-progress, and extended abstracts. Submission guidelines coming soon.
+
+## Organisers {#organisers}
+
+Organizing and program committees to be announced.
+
+## Code of Conduct {#conduct}
+
+All participants are expected to maintain a respectful, inclusive, and harassment-free environment. We welcome everyone regardless of background, identity, or experience level.
+
+- Be respectful and considerate
+- Refrain from discriminatory or harassing behavior
+- Alert organisers if you notice violations
+
+:::

@@ -1,0 +1,78 @@
+---
+pagetitle: "AIEPS Seminars 2026"
+toc: true
+toc-location: right
+page-layout: article
+include-after-body:
+  text: |
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.talk-header').forEach(function(h) {
+        h.addEventListener('click', function() {
+          var b = this.nextElementSibling;
+          var x = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !x);
+          b.classList.toggle('show');
+        });
+      });
+    });
+    </script>
+---
+
+::: {.page-header}
+[Upcoming]{.page-header-badge .badge-upcoming}
+
+# AIEPS Seminars 2026
+
+[Monthly online talks on AI in Earth & Planetary Sciences]{.tagline}
+
+::: {.meta}
+[📅 Monthly]{} [📍 Online]{} [🔗 Microsoft Teams / Zoom]{}
+:::
+:::
+
+::: {.content-body}
+
+::: {.seminar-spotlight}
+[Next Talk]{.spotlight-badge}
+
+[Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure]{.spotlight-title}
+
+::: {.spotlight-meta}
+**[Jonas Köhler](https://www.linkedin.com/in/jonas-k%C3%B6hler-5664693a6/)** · Frankfurt Institute for Advanced Studies  
+**19 Feb 2026** · 15:00–15:45 EET · Online via Microsoft Teams
+
+Registration: [Register via Microsoft Teams](https://events.teams.microsoft.com/event/f8741de1-b037-4c84-97a5-d1794bccd7af@060cdb85-43cf-4df1-b998-18fe372e407a/registration)
+:::
+
+::: {.spotlight-abstract}
+Forecasting earthquake sequences remains a central challenge in seismology, particularly under non-stationary conditions. While deep learning models have shown promise, their ability to generalize across time remains poorly understood. We evaluate neural and hybrid (NN + Markov) models for short-term earthquake forecasting on a regional catalog using temporally stratified cross-validation. Models are trained on earlier portions of the catalog and evaluated on future unseen events, enabling realistic assessment of temporal generalization. We find that while these models outperform a purely Markovian model on validation data, their test performance degrades substantially in the most recent quintile. A detailed attribution analysis reveals a shift in feature relevance over time, with later data exhibiting simpler, more Markov-consistent behavior. To support interpretability, we apply Integrated Gradients to analyze how models rely on different input features. These results highlight the risks of overfitting to early patterns in seismicity and underscore the importance of temporally realistic benchmarks.
+:::
+:::
+
+## Previous Talks
+
+::: {.past-talks}
+::: {.talk-item}
+<button class="talk-header" aria-expanded="false" tabindex="0">
+<div class="talk-info">
+<h4>Solving some amazing problem with AI in solid earth geophysics</h4>
+<p>Dr. XYZ, ABC Institute · 12 Dec 2025</p>
+</div>
+<span class="talk-toggle" aria-hidden="true">▼</span>
+</button>
+<div class="talk-body">
+<div class="talk-abstract">
+
+This seminar presented recent advances in applying deep learning techniques to satellite imagery for environmental monitoring. Topics included CNN architectures for multi-spectral data, transfer learning for limited labeled datasets, and case studies in land cover classification and change detection.
+
+</div>
+</div>
+:::
+:::
+
+## How to Attend
+
+Seminars are held online and open to all. Details on registration and access links will be posted ahead of each talk.
+
+:::

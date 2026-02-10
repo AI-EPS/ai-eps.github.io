@@ -1,0 +1,30 @@
+---
+pagetitle: "AIEPS — AI in Earth & Planetary Sciences"
+toc: false
+page-layout: article
+---
+
+::: {.page-header}
+# AI in Earth & Planetary Science
+
+[A special interest group of researchers at the intersection of Earth & planetary science and AI & machine learning research and applications.]{.tagline}
+:::
+
+::: {.content-body}
+
+[Browse upcoming events under [Workshops](workshops/2026.qmd) and [Seminars](seminars/2026.qmd).]{.home-lede}
+
+This special interest group brings together geoscience, planetary science, machine learning, computer science, and AI—so AI research can benefit from domain knowledge, and geoscientists can track and apply relevant AI advances.
+
+We focus on combining geoscience and AI without compromising scientific rigor, while staying open to new technologies as they mature. ChatGPT, Copilot, and LLMs are not the primary focus of AIEPS; however, we expect to occasionally develop and monitor practical guidelines for using LLMs responsibly.
+
+::: {.supported-by}
+Supported by
+
+::: {.sponsor-logos}
+[![Geological Survey of Finland (GTK)](images/gtk.webp){.sponsor-logo .sponsor-logo--gtk}](https://www.gtk.fi/en/)
+[![Research Council of Finland](images/rcf.svg){.sponsor-logo .sponsor-logo--rcf}](https://www.aka.fi/en/)
+:::
+:::
+
+:::

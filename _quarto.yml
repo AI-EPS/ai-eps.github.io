@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - seminars/*.qmd
+    - workshops/*.qmd
+
+website:
+  title: "AIEPS"
+  description: "A special interest group for AI in Earth & Planetary Sciences"
+  favicon: images/aieps.png
+
+  navbar:
+    logo: images/aieps.png
+    logo-alt: "AIEPS"
+    background: light
+    foreground: "#2d2d2d"
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Workshops"
+        menu:
+          - text: "2026 — Upcoming"
+            href: workshops/2026.qmd
+          - text: "2025"
+            href: workshops/2025.qmd
+      - text: "Seminars"
+        menu:
+          - text: "2026 — Upcoming"
+            href: seminars/2026.qmd
+          - text: "2025"
+            href: seminars/2025.qmd
+    right:
+      - icon: github
+        href: https://github.com/AI-EPS
+        aria-label: GitHub
+
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      light:
+        - flatly
+        - styles.scss
+    fontsize: 14pt
+    linestretch: 1.1
+    toc: true
+    toc-location: right
+    smooth-scroll: true

@@ -1,0 +1,522 @@
+/*-- scss:defaults --*/
+
+/* ================================================================
+   Color Palette — edit these to restyle the entire site
+   ================================================================
+   $clr-navy:      Navbar background, badges, buttons, accents
+   $clr-text:      Main body text, headings, strong labels
+   $clr-secondary: Taglines, meta info, subtle text
+   $clr-border:    Lines, table borders, card edges
+   $clr-surface:   Abstract backgrounds, callout fills
+   $clr-page-bg:   Outside-the-content background (visible gutters)
+   $clr-card-bg:   Content area / card background
+   ================================================================ */
+$clr-navy:      #020133;   /* navbar, badges, buttons              */
+$clr-text:      #2d2d2d;   /* body text + headings                 */
+$clr-secondary: #555;      /* taglines, meta, muted text           */
+$clr-border:    #e0e0e0;   /* borders, dividers                    */
+$clr-surface:   #f5f5f3;   /* abstract bg, callout bg              */
+$clr-page-bg:   #e8e8e8;   /* outer page background                */
+$clr-card-bg:   #ffffff;   /* content area background              */
+
+/* Bootstrap / Quarto variable overrides */
+$primary: $clr-navy;
+$link-color: $clr-navy;
+$body-color: $clr-text;
+$headings-color: $clr-text;
+$font-family-sans-serif: 'Source Sans 3', 'Segoe UI', system-ui, -apple-system, sans-serif;
+$border-radius: 0.0rem;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+/* ---- Global ---- */
+body {
+  background: $clr-page-bg;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Global typography size (request: overall 14pt text) */
+html {
+  font-size: 14pt;
+}
+
+body {
+  font-size: 1rem;
+  --bs-body-font-size: 1rem;
+}
+
+/* ---- Constrain everything to same max-width & gutters ---- */
+#quarto-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: $clr-card-bg;
+  box-shadow: 0 0 60px rgba(0,0,0,0.05);
+}
+
+/* Navbar: constrain inner content AND outer bar to content width */
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid $clr-border;
+  background: $clr-card-bg !important;
+}
+
+/* Navbar logo & brand */
+.navbar .navbar-brand img {
+  height: 40pt !important;
+  width: auto;
+  max-height: none !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 36pt;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Header (navbar) text sizes */
+.navbar .navbar-nav .nav-link,
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 16pt;
+}
+
+.navbar > .container-fluid {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#quarto-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #fafafa;
+}
+
+/* Footer removed */
+#quarto-footer {
+  display: none !important;
+}
+
+/* ---- Suppress Quarto's auto-generated title block ---- */
+#title-block-header {
+  display: none;
+}
+
+/* ================================================================
+   Page Header — slim, elegant, same-width as content
+   ================================================================ */
+.page-header {
+  background: transparent;
+  padding: 1.75rem 0 1.25rem;
+  margin: 0 0 2rem;
+  border-bottom: 1px solid $clr-border;
+}
+
+.page-header-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.badge-upcoming { background: $clr-navy; color: #fff; }
+.badge-completed { background: #777; color: #fff; }
+.badge-default { background: #999; color: #fff; }
+
+.page-header h1 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: $headings-color;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.025em;
+}
+
+.page-header .tagline {
+  font-size: 1rem;
+  color: $clr-secondary;
+  margin: 0 0 0.6rem;
+  font-weight: 400;
+}
+
+/* ---- Home: supported-by sponsor strip ---- */
+.home-lede {
+  margin: 0 0 1.25rem;
+  color: $clr-secondary;
+}
+
+.supported-by {
+  border-top: 1px solid $clr-border;
+  padding-top: 1.0rem;
+  margin-top: 1.0rem;
+  color: $clr-secondary;
+  font-weight: 600;
+}
+
+.sponsor-logos {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+  row-gap: 1.25rem;
+  align-items: center;
+}
+
+.sponsor-logos a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.35rem;
+}
+
+.sponsor-logo {
+  height: 52px;
+  width: auto;
+  max-width: 240px;
+}
+
+.sponsor-logo--rcf {
+  height: 46px;
+}
+
+.page-header .meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-size: 1rem;
+  color: $clr-secondary;
+}
+
+.page-header .meta span { white-space: nowrap; }
+
+/* ---- Action buttons ---- */
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.85rem;
+}
+
+.btn-act {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid $primary;
+  transition: all 100ms ease;
+}
+
+.btn-act.primary { background: $clr-navy; color: #fff; }
+.btn-act.primary:hover { background: #2a2a5e; border-color: #2a2a5e; color: #fff; text-decoration: none; }
+.btn-act.secondary { background: transparent; color: $clr-navy; }
+.btn-act.secondary:hover { background: $clr-navy; color: #fff; text-decoration: none; }
+.btn-act.disabled { opacity: 0.4; pointer-events: none; }
+
+/* ---- Section nav pills ---- */
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid #eee;
+}
+
+.section-nav a {
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $clr-secondary;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all 80ms ease;
+}
+
+.section-nav a:hover {
+  background: #f0f0f0;
+  color: $headings-color;
+  text-decoration: none;
+}
+
+/* ================================================================
+   Content typography
+   ================================================================ */
+.content-body h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2.25rem 0 0.85rem;
+  color: $headings-color;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 80px;
+}
+
+.content-body h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.6rem;
+  color: $headings-color;
+}
+
+.content-body ul, .content-body ol {
+  margin-bottom: 1rem;
+  padding-left: 1.15rem;
+}
+
+.content-body li { margin-bottom: 0.3rem; }
+
+/* ---- Tables — clean, minimal ---- */
+.content-body table,
+#quarto-document-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.content-body table th,
+.content-body table td,
+#quarto-document-content table th,
+#quarto-document-content table td {
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid $clr-border;
+}
+
+.content-body table th,
+#quarto-document-content table th {
+  font-weight: 600;
+  color: $headings-color;
+  border-bottom: 2px solid #ddd;
+  background: transparent;
+}
+
+.content-body table tr:hover,
+#quarto-document-content table tr:hover { background: #fafafa; }
+
+.content-body table tr:nth-child(even),
+#quarto-document-content table tr:nth-child(even) { background: transparent; }
+
+/* ---- Callout box ---- */
+.callout-box {
+  background: $clr-surface;
+  padding: 1.1rem 1.25rem;
+  border-radius: 5px;
+  border-left: 3px solid $clr-navy;
+  margin: 1.25rem 0;
+}
+
+.callout-box h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+/* ---- Sponsors — subtle footer-like strip ---- */
+.sponsors-strip {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eee;
+}
+
+.sponsors-strip h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.sponsors-strip ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.sponsors-strip li {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* ================================================================
+   Seminar spotlight
+   ================================================================ */
+.seminar-spotlight { margin-bottom: 2.5rem; }
+
+.spotlight-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+  background: $clr-navy;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+.spotlight-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: $headings-color;
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+
+.spotlight-meta {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: $clr-secondary;
+  line-height: 1.65;
+}
+
+.spotlight-abstract {
+  background: $clr-surface;
+  border-radius: 5px;
+  padding: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: $clr-text;
+}
+
+/* ---- Past talks (collapsible) ---- */
+.past-talks { margin-top: 1.25rem; }
+
+.talk-item {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.talk-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0.85rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 80ms ease;
+}
+
+.talk-header:hover { background: #fafafa; }
+
+.talk-info h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $headings-color;
+  margin: 0 0 0.1rem;
+}
+
+.talk-info p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+.talk-toggle {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #999;
+  transition: all 80ms ease;
+  flex-shrink: 0;
+}
+
+.talk-header[aria-expanded="true"] .talk-toggle {
+  transform: rotate(180deg);
+}
+
+.talk-body {
+  display: none;
+  padding: 0 0.85rem 0.85rem;
+  border-top: 1px solid #eee;
+}
+
+.talk-body.show { display: block; }
+
+.talk-abstract {
+  background: #fffbe6;
+  padding: 0.85rem;
+  border-radius: 4px;
+  margin-top: 0.6rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* ---- Home page cards ---- */
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.home-card {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 1.25rem;
+  transition: box-shadow 120ms ease;
+}
+
+.home-card:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.home-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: $headings-color;
+}
+
+.home-card p {
+  font-size: 1rem;
+  color: $clr-secondary;
+  margin: 0 0 0.6rem;
+}
+
+.home-card a.card-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $clr-navy;
+  text-decoration: none;
+}
+
+.home-card a.card-link:hover { text-decoration: underline; }
+
+/* ---- Footer tweaks ---- */
+.nav-footer {
+  font-size: 1rem;
+  padding: 0.85rem 0;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .page-header h1 { font-size: 1.35rem; }
+  .page-header .meta { flex-direction: column; gap: 0.25rem; }
+  .section-nav { overflow-x: auto; flex-wrap: nowrap; }
+  .actions { flex-direction: column; }
+  .spotlight-title { font-size: 1.1rem; }
+  .home-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,19 @@
+---
+pagetitle: "AIEPS Seminars 2025"
+toc: false
+page-layout: article
+---
+
+::: {.page-header}
+# AIEPS Seminars 2025
+
+[AI in Earth & Planetary Sciences Seminar Series]{.tagline}
+:::
+
+::: {.content-body}
+
+No seminars were held in 2025. The seminar series launches in 2026.
+
+See the [2026 seminar page](2026.qmd) for upcoming talks and how to attend.
+
+:::

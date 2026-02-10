@@ -1,0 +1,87 @@
+---
+pagetitle: "AIEPS Day 2025"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Past Event]{.page-header-badge .badge-completed}
+
+# AIEPS Day 2025
+
+[Workshop on AI in Earth & Planetary Sciences]{.tagline}
+
+::: {.meta}
+[📅 27 May 2025]{} [📍 GTK, Espoo, Finland]{} [🔗 Hybrid]{}
+:::
+:::
+
+::: {.section-nav}
+[Overview](#overview) [Schedule](#schedule) [Associated Event](#associated) [Organisers](#organisers)
+:::
+
+::: {.content-body}
+
+## Overview {#overview}
+
+**AIEPS 2025** was a full-day hybrid event hosted by the Geological Survey of Finland (GTK) and co-organized with the **SEG Distinguished Instructor Short Course (DISC)**.
+
+The workshop explored emerging trends in AI, machine learning, and scientific computing applied to Earth and planetary systems — coinciding with the visit of **Prof. Mrinal K. Sen** (UT Austin) under the MULTIVERSE project funded by the Research Council of Finland.
+
+- **Venue:** GTK, Vuorimiehentie 5, Espoo, Finland
+- **Format:** Hybrid (In-person + Online)
+- **Co-host:** SEG DISC, Society of Exploration Geophysicists
+- **Supported by:** MULTIVERSE Project, Research Council of Finland
+
+## Schedule {#schedule}
+
+| Time | Session | Speaker |
+|------|---------|---------|
+| 09:45 – 10:00 | Coffee & Networking | — |
+| 10:00 – 10:10 | Welcome and AIEPS Objective | P. Mishra & M. Cyz, GTK |
+| 10:10 – 10:20 | Greetings from Science & Innovation | K. Koho, GTK |
+| 10:20 – 10:30 | Deep Learning for Geothermal Modeling | K. Korhonen, GTK |
+| 10:30 – 11:00 | ML & Remote Sensing in Peatland Mapping | M. Middleton, GTK |
+| 11:00 – 12:00 | *Invited:* Scientific ML for Earth & Planetary Sciences | *C. Rackauckas, MIT* |
+| 12:00 – 13:00 | Lunch | — |
+| 13:00 – 13:20 | GAN-driven Elastic FWI – Sleipner Case | B. Boddupalli, SINTEF |
+| 13:20 – 13:25 | AI in Rock Mechanics | D. Maina, TUBAF |
+| 13:25 – 13:45 | Digital Mapping of Peat Thickness Using ML | J. Pohjankukka, Luke |
+| 13:45 – 14:05 | GeoGPT: Open LLM for Geoscientists | G. Bouquet, Zhejiang Lab |
+| 14:05 – 14:10 | Satellite Imagery for Public Health | Y. Chinnam, Blue Eye |
+| 14:10 – 14:30 | ML for Asteroid Surface Age Prediction | L. Palamakumbure, U Helsinki |
+| 14:30 – 14:50 | AI in Autonomous Systems | R. Asif, Huld Oy |
+| 14:50 – 15:00 | ML-Assisted Seismic Analysis in Crystalline Rock | M. Cyz, GTK |
+| 15:00 – 15:20 | Coffee & Networking | — |
+| 15:20 – 15:30 | AI-Driven Igneous Geochemistry Exploration | G. Thakur, IISER Bhopal |
+| 15:30 – 15:35 | AI in Structural Geology | N. Dayma, IISER Bhopal |
+| 15:35 – 15:40 | ML in Geostatistical Analysis | D. Sahoo, Ravenshaw Univ. |
+| 15:40 – 16:00 | Scientific ML in Geochemical Systems | H. Qiao, GTK |
+| 16:00 – 17:00 | *Keynote:* Physics-based Deep Learning in Geophysics | *Prof. M.K. Sen, UT Austin* |
+| 17:00 – 17:15 | Closing Remarks | — |
+
+## Associated Event {#associated}
+
+::: {.callout-box}
+### SEG Distinguished Instructor Short Course (DISC)
+
+**28 May 2025** — *Physics and Data-Driven Machine Learning in Geophysics: Narratives of Two Approaches*  
+Prof. Mrinal K. Sen, UT Austin · GTK, Espoo
+:::
+
+## Organisers {#organisers}
+
+- **Pankaj Mishra** — GTK
+- **Marta Cyz** — GTK
+- **Prof. Mrinal K. Sen** — UT Austin (Special Guest)
+
+::: {.sponsors-strip}
+### Supported by
+
+- Geological Survey of Finland (GTK)
+- SEG Distinguished Instructor Short Course (DISC)
+- MULTIVERSE Project, Research Council of Finland
+:::
+
+:::

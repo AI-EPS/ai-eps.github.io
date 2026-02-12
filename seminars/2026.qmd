@@ -27,7 +27,7 @@ include-after-body:
 [Monthly online talks on AI in Earth & Planetary Sciences]{.tagline}
 
 ::: {.meta}
-[📅 Monthly]{} [📍 Online]{} [🔗 Microsoft Teams / Zoom]{}
+[📅 As announced]{} [📍 Online]{} [🔗 Microsoft Teams / Zoom]{}
 :::
 :::
 

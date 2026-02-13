@@ -6,7 +6,6 @@ page-layout: article
 ---
 
 ::: {.page-header}
-[Upcoming]{.page-header-badge .badge-upcoming}
 
 # AIEPS Day 2026
 

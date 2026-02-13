@@ -21,13 +21,13 @@ website:
         href: index.qmd
       - text: "Workshops"
         menu:
-          - text: "2026 — Upcoming"
+          - text: "2026 "
             href: workshops/2026.qmd
           - text: "2025"
             href: workshops/2025.qmd
       - text: "Seminars"
         menu:
-          - text: "2026 — Upcoming"
+          - text: "2026"
             href: seminars/2026.qmd
           - text: "2025"
             href: seminars/2025.qmd

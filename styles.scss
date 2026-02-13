@@ -455,13 +455,22 @@ body {
 .talk-body.show { display: block; }
 
 .talk-abstract {
-  background: #fffbe6;
-  padding: 0.85rem;
-  border-radius: 4px;
+  background: none;
+  padding: 1.1em 1.1em 1.1em 1.1em;
+  border-radius: 5pt;
   margin-top: 0.6rem;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #333;
+  font-size: 0.93rem;
+  line-height: 1.1;
+  color: $clr-text;
+}
+.spotlight-abstract {
+  background: $clr-surface;
+  padding: 0.7em 1.1em 1.1em 1.1em;
+  border-radius: 5pt;
+  margin-top: 0.6rem;
+  font-size: 0.93rem;
+  line-height: 1.1;
+  color: $clr-text;
 }
 
 /* ---- Home page cards ---- */

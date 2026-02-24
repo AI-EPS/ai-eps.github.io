@@ -7,7 +7,7 @@ include-after-body:
   text: |
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('.talk-header').forEach(function(h) {
+      document.querySelectorAll('.talk-header[data-collapsible="true"]').forEach(function(h) {
         h.addEventListener('click', function() {
           var b = this.nextElementSibling;
           var x = this.getAttribute('aria-expanded') === 'true';
@@ -48,32 +48,15 @@ include-after-body:
 ::: {.seminar-spotlight}
 [Next Talk]{.spotlight-badge}
 
-[#1 Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure]{.spotlight-title}
-
-::: {.spotlight-meta}
-**🎤[Jonas Köhler](https://www.linkedin.com/in/jonas-k%C3%B6hler-5664693a6/)** · Frankfurt Institute for Advanced Studies  
-**🗓️ 19 Feb 2026** · 15:00–15:45 EET · Online via Microsoft Teams
-
-[Register via Microsoft Teams](https://events.teams.microsoft.com/event/f8741de1-b037-4c84-97a5-d1794bccd7af@060cdb85-43cf-4df1-b998-18fe372e407a/registration)
-:::
-
-::: {.spotlight-abstract}
-Forecasting earthquake sequences remains a central challenge in seismology, particularly under non-stationary conditions. While deep learning models have shown promise, their ability to generalize across time remains poorly understood. We evaluate neural and hybrid (NN + Markov) models for short-term earthquake forecasting on a regional catalog using temporally stratified cross-validation. Models are trained on earlier portions of the catalog and evaluated on future unseen events, enabling realistic assessment of temporal generalization. We find that while these models outperform a purely Markovian model on validation data, their test performance degrades substantially in the most recent quintile. A detailed attribution analysis reveals a shift in feature relevance over time, with later data exhibiting simpler, more Markov-consistent behavior. To support interpretability, we apply Integrated Gradients to analyze how models rely on different input features. These results highlight the risks of overfitting to early patterns in seismicity and underscore the importance of temporally realistic benchmarks.
-:::
-:::
-
-## Previous Talks
-
 ::: {.past-talks}
 ::: {.talk-item}
-<button class="talk-header" aria-expanded="false" tabindex="0">
+<div class="talk-header" aria-expanded="true">
 <div class="talk-info">
-<h4> #0 Solving some amazing problem with AI in solid earth geophysics</h4>
-<p>Dr. XYZ, ABC Institute · 12 Dec 2025</p>
+<h4>#2 To be announced</h4>
+<p>🎤 Dr. TBA · TBA Institute · 🗓️ TBA · Online via Microsoft Teams / Zoom</p>
 </div>
-<span class="talk-toggle" aria-hidden="true">▼</span>
-</button>
-<div class="talk-body">
+</div>
+<div class="talk-body show">
 <div class="talk-abstract">
 
 This seminar presented recent advances in applying deep learning techniques to satellite imagery for environmental monitoring. Topics included CNN architectures for multi-spectral data, transfer learning for limited labeled datasets, and case studies in land cover classification and change detection.
@@ -81,6 +64,53 @@ This seminar presented recent advances in applying deep learning techniques to s
 </div>
 </div>
 :::
+:::
+:::
+
+::: {.panel-tabset}
+
+### Future Talks
+
+::: {.past-talks}
+::: {.talk-item}
+<button class="talk-header" data-collapsible="true" aria-expanded="false" tabindex="0">
+<div class="talk-info">
+<h4> #3 Uncertainty quantification using Hamiltonian Monte Carlo for structural geological modelling with implicit neural representations</h4>
+<p>🎤 <a href="2026.html">Kaifeng Gao</a>, RWTH Aachen University, Germany · 🗓️ 11 May 2026 </p>
+</div>
+<span class="talk-toggle" aria-hidden="true">▼</span>
+</button>
+<div class="talk-body">
+<div class="talk-abstract">
+
+Three-dimensional geological modelling is an essential tool for understanding subsurface features, supporting advanced exploration of natural resources, their sustainable development, and the identification of optimal locations for carbon storage. Recently, efficient neural network approaches have been developed to handle large datasets and to integrate diverse observations and prior knowledge into geological models. Previous work has demonstrated that neural networks are powerful tools for geological modelling, but quantifying uncertainty in their predictions remains an open issue. In this work, we address the uncertainty arising from both network parameters and observational data. We explore the full space of possible geological model realizations using a Hamiltonian Monte Carlo sampler, and quantify the uncertainty of predicted geological interfaces within a Bayesian neural network framework. Our experimental results demonstrate that the Hamiltonian Monte Carlo sampler effectively explores the posterior distribution in function space and quantifies the uncertainty of predicted geological interfaces for both a noise-free borehole dataset from the North Sea and a noisy dataset interpreted from geophysical well logs in Saskatchewan, Canada. We also apply the method to a simple faulting scenario involving a normal fault in flat stratigraphy. Furthermore, in comparison with the commonly used Monte Carlo dropout approach, the Hamiltonian Monte Carlo sampler exhibits superior accuracy in assessing epistemic uncertainty in a noise-free dataset. However, computational efficiency remains a potential challenge in large dataset and network.
+
+</div>
+</div>
+:::
+:::
+
+### Previous Talks
+
+::: {.past-talks}
+::: {.talk-item}
+<button class="talk-header" data-collapsible="true" aria-expanded="false" tabindex="0">
+<div class="talk-info">
+<h4> #1 Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure</h4>
+<p>🎤 <a href="https://www.linkedin.com/in/jonas-k%C3%B6hler-5664693a6/">Jonas Köhler</a>, Frankfurt Institute for Advanced Studies · 🗓️ 19 Feb 2026</p>
+</div>
+<span class="talk-toggle" aria-hidden="true">▼</span>
+</button>
+<div class="talk-body">
+<div class="talk-abstract">
+
+Forecasting earthquake sequences remains a central challenge in seismology, particularly under non-stationary conditions. While deep learning models have shown promise, their ability to generalize across time remains poorly understood. We evaluate neural and hybrid (NN + Markov) models for short-term earthquake forecasting on a regional catalog using temporally stratified cross-validation. Models are trained on earlier portions of the catalog and evaluated on future unseen events, enabling realistic assessment of temporal generalization. We find that while these models outperform a purely Markovian model on validation data, their test performance degrades substantially in the most recent quintile. A detailed attribution analysis reveals a shift in feature relevance over time, with later data exhibiting simpler, more Markov-consistent behavior. To support interpretability, we apply Integrated Gradients to analyze how models rely on different input features. These results highlight the risks of overfitting to early patterns in seismicity and underscore the importance of temporally realistic benchmarks.
+
+</div>
+</div>
+:::
+:::
+
 :::
 
 

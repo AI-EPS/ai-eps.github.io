@@ -53,7 +53,7 @@ include-after-body:
 <div class="talk-header" aria-expanded="true">
 <div class="talk-info">
 <h4>#2 Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction.</h4>
-<p>🎤 <a href="https://www.linkedin.com/in/simonghyselincks/">Simon Ghyselincks</a>, 🏛️ University of British Columbia (UBC), Canada.<span style="display:block;"><a href="https://events.teams.microsoft.com/event/d89586ec-cddb-42fd-933c-269262967b8e@060cdb85-43cf-4df1-b998-18fe372e407a"> 🔗 Register via Microsoft Teams</a></span></p>
+<p>🎤 <a href="https://www.linkedin.com/in/simonghyselincks/">Simon Ghyselincks</a>, 🏛️ University of British Columbia (UBC), Canada<br>🗓️ March 10, 2026 · 09.00 EET<span style="display:block;"><a href="https://events.teams.microsoft.com/event/d89586ec-cddb-42fd-933c-269262967b8e@060cdb85-43cf-4df1-b998-18fe372e407a"> 🔗 Register via Microsoft Teams</a></span></p>
 </div>
 </div>
 <div class="talk-body show">

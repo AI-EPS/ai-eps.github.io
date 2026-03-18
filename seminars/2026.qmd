@@ -104,6 +104,34 @@ Previous work has demonstrated that neural networks are powerful tools for geolo
 :::
 :::
 
+### Future Talks
+
+::: {.past-talks}
+::: {.talk-item}
+<button class="talk-header" data-collapsible="true" aria-expanded="false" tabindex="0">
+<div class="talk-info">
+<h4> #4 Machine learning for seabed classification, more details to come! </h4>
+<p>🎤 <a href="https://www.linkedin.com/in/kaifeng-g-0a347b23a/">Karuna Agarwal</a>, 🏛️ United States of America · 🗓️ 20 May 2026 </p>
+</div>
+<span class="talk-toggle" aria-hidden="true">▼</span>
+</button>
+<div class="talk-body">
+<div class="talk-abstract">
+
+TBA
+
+</div>
+<div style="text-align:center; margin-top:0.8em;">
+  <img src="../images/S3kaifeng.png" alt="Seminar visual for Kaifeng Gao talk" style="max-width:100%; height:auto; border-radius:6px;" />
+</div>
+</div>
+:::
+:::
+
+
+
+
+
 ### Previous Talks
 
 ::: {.past-talks}

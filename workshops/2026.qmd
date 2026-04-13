@@ -1,54 +1,223 @@
 ---
-pagetitle: "AIEPS Day 2026"
+pagetitle: "AIEPS Workshop 2026"
 toc: true
 toc-location: right
 page-layout: article
+include-after-body:
+  text: |
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.talk-header[data-collapsible="true"]').forEach(function(h) {
+        h.addEventListener('click', function() {
+          var b = this.nextElementSibling;
+          var x = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !x);
+          b.classList.toggle('show');
+        });
+      });
+    });
+    </script>
 ---
+
+<style>
+/* ---- Speaker card ---- */
+.ws-speaker {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: box-shadow 120ms ease;
+}
+.ws-speaker:hover {
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+.ws-speaker-header {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 80ms ease;
+  gap: 1rem;
+}
+.ws-speaker-header:hover {
+  background: #fafbfc;
+}
+.ws-speaker-info {
+  flex: 1;
+}
+.ws-speaker-info .ws-talk-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #020133;
+  margin: 0 0 0.3rem;
+  line-height: 1.35;
+}
+.ws-speaker-info .ws-speaker-name {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.4;
+}
+.ws-speaker-toggle {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  color: #999;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  transition: transform 100ms ease;
+}
+.ws-speaker-header[aria-expanded="true"] .ws-speaker-toggle {
+  transform: rotate(180deg);
+}
+.ws-speaker-body {
+  display: none;
+  padding: 0 1.25rem 1.25rem;
+  border-top: 1px solid #eee;
+}
+.ws-speaker-body.show {
+  display: block;
+}
+.ws-abstract {
+  background: #f8f9fa;
+  padding: 1rem 1.15rem;
+  border-radius: 4px;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #2d2d2d;
+}
+.ws-bio {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.55;
+  margin-top: 0.75rem;
+  padding: 0.65rem 1rem;
+  border-left: 3px solid #e0e0e0;
+  background: transparent;
+}
+
+/* ---- Day heading ---- */
+.ws-day {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 0.9rem 1.25rem;
+  margin: 2rem 0 1rem;
+}
+.ws-day h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #020133;
+  margin: 0 0 0.15rem;
+}
+.ws-day p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+</style>
 
 ::: {.page-header}
 
-# AIEPS Day 2026
+# 2026 Workshop on <br> AI in Earth and Planetary Science
 
-[Workshop on AI in Earth & Planetary Sciences]{.tagline}
+[June 01–02, 2026  ·  Espoo, Finland  ·  Hybrid]{.tagline}
 
-::: {.meta}
-[📅 June 01–02, 2026]{} [📍 Espoo, Finland]{} [🔗 Format details coming soon]{}
-:::
+[Day 1: Talks & Hands-on Exercises  ·  Day 2: Invited Talks & Discussions]{.tagline}
 
 ::: {.actions}
-[Submit Abstract](#submission-status){.btn-act .primary}
-[Register](#submission-status){.btn-act .secondary}
+[Register Now](https://forms.cloud.microsoft/e/sRdijQ0z0D){.btn-act .primary target="_blank"}
+[View Programme](#programme){.btn-act .secondary}
 :::
-:::
-
-::: {.callout-box #submission-status}
-### Abstract Submission
-
-Abstract submission will open soon.
 :::
 
 ::: {.section-nav}
-[Overview](#overview) [Key Dates](#dates) [Venue](#venue)
+[About](#about) [Programme](#programme) [Speakers](#speakers) [Venue](#venue)
+:::
+
+::: {.callout-box #about}
+**AIEPS Day 2026** brings together researchers at the intersection of AI, machine learning, and Earth & planetary sciences for two days of invited talks, hands-on exercises, and open discussions. The workshop is **free of charge**. In-person speakers will be given preference in cases where we are unable to accommodate all registrations.
 :::
 
 ::: {.content-body}
 
-## Overview {#overview}
+## Programme {#programme}
 
-**AIEPS Day 2026** is scheduled for June 01-02, 2026 in Espoo, Finland.
+<div class="ws-day">
+<h3>Day 1 — 01 June 2026</h3>
+<p>Talks & Hands-on Exercises</p>
+</div>
 
-- More details on program, speakers, and registration will be announced soon.
+Detailed programme to be announced.
 
-## Key Dates {#dates}
+<div class="ws-day">
+<h3>Day 2 — 02 June 2026</h3>
+<p>Invited Talks & Discussions</p>
+</div>
 
-| Milestone | Date |
-|-----------|------|
-| **Workshop Day 1 (Hands-on Exercises)** | **01 June 2026** |
-| **Workshop Day 2** | **02 June 2026** |
+Detailed programme to be announced.
+
+## Speakers {#speakers}
+
+<div class="ws-speaker">
+<button class="ws-speaker-header talk-header" data-collapsible="true" aria-expanded="false" tabindex="0">
+<div class="ws-speaker-info">
+<div class="ws-talk-title">Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience</div>
+<p class="ws-speaker-name">Dr. Pankaj K Mishra · Geological Survey of Finland (GTK)</p>
+</div>
+<span class="ws-speaker-toggle" aria-hidden="true">▼</span>
+</button>
+<div class="ws-speaker-body talk-body">
+<div class="ws-abstract">
+
+With recent advancements in machine learning (ML) and artificial intelligence (AI), a central question arises: how can established workflows of geophysical modelling and inversion benefit from these methods without sacrificing robustness and physical consistency? Scientific machine learning offers a pathway by respecting physical principles during the learning process, combining the strengths of physics-based formulations with the adaptability of neural networks. This integration enables flexible representations of the Earth while maintaining the reliability of traditional forward and inverse approaches.
+
+In this contribution two complementary directions are discussed. The first is how neural networks can be trained to solve geophysical forward problems and subsequently used as fast surrogates to accelerate inversion and uncertainty analysis. This approach is demonstrated with magnetotelluric modelling and probabilistic inversion, where deep operator networks emulate magnetotelluric responses and make large-scale probabilistic exploration feasible. The second direction is how geophysical inverse problems themselves can be solved by neural networks, where the subsurface is represented as a continuous neural function directly constrained by physics. This is demonstrated through three-dimensional gravity inversion, where implicit neural fields capture both gradual variations and sharp contrasts without the need for explicit depth weighting. Together, these advances point toward a new generation of geophysical workflows, opening space for geoscientists to explore a broader range of geological possibilities. While challenges remain in generalisation, data quality, and the incorporation of geological priors, scientific machine learning offers a promising framework for building Earth models that are both physically faithful and computationally efficient.
+
+</div>
+<div class="ws-bio">
+<strong>Bio:</strong> Pankaj K Mishra is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures — including deep operator networks and implicit neural representations — to build efficient and physically consistent Earth models.
+</div>
+</div>
+</div>
+
+<div class="ws-speaker">
+<button class="ws-speaker-header talk-header" data-collapsible="true" aria-expanded="false" tabindex="0">
+<div class="ws-speaker-info">
+<div class="ws-talk-title">Novel Applications of Neural Operators in Seismic Exploration and Monitoring</div>
+<p class="ws-speaker-name">Dr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)</p>
+</div>
+<span class="ws-speaker-toggle" aria-hidden="true">▼</span>
+</button>
+<div class="ws-speaker-body talk-body">
+<div class="ws-abstract">
+
+Scientific machine learning has emerged as a powerful framework for augmenting classical numerical modeling and inversion workflows in geophysics, particularly in settings where repeated simulations, limited data, and strict physical consistency are critical. Within this broader paradigm, neural operators represent a fundamental shift in how learning is performed for seismic problems: rather than approximating individual solutions, they learn mappings between function spaces, enabling rapid evaluation across varying physical and acquisition conditions. This talk focuses on novel applications of neural operators in seismic exploration and monitoring, with an emphasis on practical workflows rather than architectural details alone. I will present recent advances demonstrating how operator-learning frameworks, such as Fourier-based and DeepONet-style models, can be used for seismic forward modeling, inversion, and monitoring tasks. These approaches enable efficient handling of variable velocity models, source locations, and acquisition geometries, often without retraining, while maintaining strong consistency with underlying wave physics. Through a series of application-driven case studies, the talk will illustrate how neural operators can significantly reduce computational cost, enable real-time or near-real-time seismic analysis, and open new possibilities for scalable imaging and monitoring systems.
+
+</div>
+<div class="ws-bio">
+<strong>Bio:</strong> Umair bin Waheed is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST (Ph.D., 2015) and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award.
+</div>
+</div>
+</div>
+
+*More speakers will be announced. Interested in presenting? Contact the organisers.*
 
 ## Venue {#venue}
 
 **Location:** Espoo, Finland  
-**Format:** To be announced
+**Format:** Hybrid (In-person + Online)
 
 :::

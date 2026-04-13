@@ -2,30 +2,30 @@
   {
     "objectID": "workshops/2026.html",
     "href": "workshops/2026.html",
-    "title": "AIEPS Day 2026",
+    "title": "2026 Workshop on  AI in Earth and Planetary Science",
     "section": "",
-    "text": "Workshop on AI in Earth & Planetary Sciences\n\n📅 June 01–02, 2026 📍 Espoo, Finland 🔗 Format details coming soon\n\n\nSubmit Abstract Register"
+    "text": "June 01–02, 2026 · Espoo, Finland · Hybrid\nDay 1: Talks & Hands-on Exercises · Day 2: Invited Talks & Discussions\n\nRegister Now View Programme"
   },
   {
-    "objectID": "workshops/2026.html#overview",
-    "href": "workshops/2026.html#overview",
-    "title": "AIEPS Day 2026",
-    "section": "Overview",
-    "text": "Overview\nAIEPS Day 2026 is scheduled for June 01-02, 2026 in Espoo, Finland.\n\nMore details on program, speakers, and registration will be announced soon."
+    "objectID": "workshops/2026.html#programme",
+    "href": "workshops/2026.html#programme",
+    "title": "2026 Workshop on  AI in Earth and Planetary Science",
+    "section": "Programme",
+    "text": "Programme\n\n\nDay 1 — 01 June 2026\n\n\nTalks & Hands-on Exercises\n\n\nDetailed programme to be announced.\n\n\nDay 2 — 02 June 2026\n\n\nInvited Talks & Discussions\n\n\nDetailed programme to be announced."
   },
   {
-    "objectID": "workshops/2026.html#dates",
-    "href": "workshops/2026.html#dates",
-    "title": "AIEPS Day 2026",
-    "section": "Key Dates",
-    "text": "Key Dates\n\n\n\nMilestone\nDate\n\n\n\n\nWorkshop Day 1 (Hands-on Exercises)\n01 June 2026\n\n\nWorkshop Day 2\n02 June 2026"
+    "objectID": "workshops/2026.html#speakers",
+    "href": "workshops/2026.html#speakers",
+    "title": "2026 Workshop on  AI in Earth and Planetary Science",
+    "section": "Speakers",
+    "text": "Speakers\n\n\n\n\nScientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience\n\n\nDr. Pankaj K Mishra · Geological Survey of Finland (GTK)\n\n\n▼\n\n\n\nWith recent advancements in machine learning (ML) and artificial intelligence (AI), a central question arises: how can established workflows of geophysical modelling and inversion benefit from these methods without sacrificing robustness and physical consistency? Scientific machine learning offers a pathway by respecting physical principles during the learning process, combining the strengths of physics-based formulations with the adaptability of neural networks. This integration enables flexible representations of the Earth while maintaining the reliability of traditional forward and inverse approaches.\nIn this contribution two complementary directions are discussed. The first is how neural networks can be trained to solve geophysical forward problems and subsequently used as fast surrogates to accelerate inversion and uncertainty analysis. This approach is demonstrated with magnetotelluric modelling and probabilistic inversion, where deep operator networks emulate magnetotelluric responses and make large-scale probabilistic exploration feasible. The second direction is how geophysical inverse problems themselves can be solved by neural networks, where the subsurface is represented as a continuous neural function directly constrained by physics. This is demonstrated through three-dimensional gravity inversion, where implicit neural fields capture both gradual variations and sharp contrasts without the need for explicit depth weighting. Together, these advances point toward a new generation of geophysical workflows, opening space for geoscientists to explore a broader range of geological possibilities. While challenges remain in generalisation, data quality, and the incorporation of geological priors, scientific machine learning offers a promising framework for building Earth models that are both physically faithful and computationally efficient.\n\n\nBio: Pankaj K Mishra is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures — including deep operator networks and implicit neural representations — to build efficient and physically consistent Earth models.\n\n\n\n\n\n\n\nNovel Applications of Neural Operators in Seismic Exploration and Monitoring\n\n\nDr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)\n\n\n▼\n\n\n\nScientific machine learning has emerged as a powerful framework for augmenting classical numerical modeling and inversion workflows in geophysics, particularly in settings where repeated simulations, limited data, and strict physical consistency are critical. Within this broader paradigm, neural operators represent a fundamental shift in how learning is performed for seismic problems: rather than approximating individual solutions, they learn mappings between function spaces, enabling rapid evaluation across varying physical and acquisition conditions. This talk focuses on novel applications of neural operators in seismic exploration and monitoring, with an emphasis on practical workflows rather than architectural details alone. I will present recent advances demonstrating how operator-learning frameworks, such as Fourier-based and DeepONet-style models, can be used for seismic forward modeling, inversion, and monitoring tasks. These approaches enable efficient handling of variable velocity models, source locations, and acquisition geometries, often without retraining, while maintaining strong consistency with underlying wave physics. Through a series of application-driven case studies, the talk will illustrate how neural operators can significantly reduce computational cost, enable real-time or near-real-time seismic analysis, and open new possibilities for scalable imaging and monitoring systems.\n\n\nBio: Umair bin Waheed is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST (Ph.D., 2015) and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award.\n\n\n\nMore speakers will be announced. Interested in presenting? Contact the organisers."
   },
   {
     "objectID": "workshops/2026.html#venue",
     "href": "workshops/2026.html#venue",
-    "title": "AIEPS Day 2026",
+    "title": "2026 Workshop on  AI in Earth and Planetary Science",
     "section": "Venue",
-    "text": "Venue\nLocation: Espoo, Finland\nFormat: To be announced"
+    "text": "Venue\nLocation: Espoo, Finland\nFormat: Hybrid (In-person + Online)"
   },
   {
     "objectID": "seminars/2026.html",

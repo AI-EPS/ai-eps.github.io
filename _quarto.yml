@@ -44,7 +44,7 @@ format:
       light:
         - flatly
         - styles.scss
-    fontsize: 14pt
+    fontsize: 12.5pt
     linestretch: 1.1
     toc: true
     toc-location: right

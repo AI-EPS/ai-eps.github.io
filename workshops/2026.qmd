@@ -148,7 +148,7 @@ include-after-body:
 :::
 
 ::: {.callout-box #about}
-**This workshop** brings together researchers at the intersection of AI, machine learning, and Earth & planetary sciences for two days of invited talks, hands-on exercises, and open discussions. The workshop is **free of charge**. In-person speakers will be given preference in cases where we are unable to accommodate all registrations.
+**This workshop** brings together researchers at the intersection of AI, machine learning, and Earth & planetary sciences for two days of invited talks, hands-on exercises, and open discussions. The workshop is **free of charge**. **Abstract submission deadline:** May 15, 2026. If registrations exceed capacity, preference will be given to speakers attending in person.
 :::
 
 ::: {.content-body}

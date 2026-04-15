@@ -60,18 +60,18 @@ SPOTLIGHT TEMPLATE (copy/paste when promoting a Future Talk):
 ::: {.talk-item}
 <div class="talk-header" aria-expanded="true">
 <div class="talk-info">
-<h4>#N The title of the talk will be updated soon</h4>
-<p>🎤 Dr. Future Speaker, 🏛️ Department of Wild Guesses and Almost-Certain Discoveries<br>🗓️ Someday soon at exactly coffee o'clock · 09.00 EET<span style="display:block;"><a href="#">🔗 Registration portal currently negotiating with the space-time continuum</a></span></p>
+<h4>#3 Uncertainty quantification using Hamiltonian Monte Carlo for structural geological modelling with implicit neural representations</h4>
+<p>🎤 <a href="https://www.linkedin.com/in/kaifeng-g-0a347b23a/">Kaifeng Gao</a>, 🏛️ RWTH Aachen University, Germany<br>🗓️ 11 May 2026</p>
 </div>
 </div>
 <div class="talk-body show">
 <div class="talk-abstract">
 
-This placeholder abstract is doing its best while waiting for real science. Soon it will be replaced by cutting-edge ideas, delightful figures, and at least one sentence that makes everyone nod thoughtfully. Until then, please imagine a dramatic reveal, an elegant equation, and a surprisingly informative plot.
+Previous work has demonstrated that neural networks are powerful tools for geological modelling, but quantifying uncertainty in their predictions remains an open issue. In this work, we address the uncertainty arising from both network parameters and observational data. We explore the full space of possible geological model realizations using a Hamiltonian Monte Carlo (HMC) sampler and quantify the uncertainty of predicted geological interfaces within a Bayesian neural network framework. Our experimental results demonstrate that the HMC sampler effectively explores the posterior distribution in function space and quantifies the uncertainty of predicted geological interfaces for both a noise-free borehole dataset from the North Sea and a noisy dataset interpreted from geophysical well logs in Saskatchewan, Canada. We also apply the method to a simple faulting scenario involving a normal fault in flat stratigraphy. Furthermore, in comparison with the commonly used Monte Carlo dropout approach, the Hamiltonian Monte Carlo sampler exhibits superior accuracy in assessing epistemic uncertainty in a noise-free dataset.
 
 </div>
 <div style="text-align:center; margin-top:0.8em;">
-  <img src="../images/aieps.png" alt="AIEPS logo for upcoming spotlight talk" style="max-width:320px; width:100%; height:auto; border-radius:6px;" />
+  <img src="../images/S3kaifeng.png" alt="Seminar visual for Kaifeng Gao talk" style="max-width:100%; height:auto; border-radius:6px;" />
 </div>
 </div>
 :::

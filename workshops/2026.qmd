@@ -10,11 +10,12 @@ page-layout: article
 
 # 2026 Workshop on AI in Earth and Planetary Science
 
-[June 1-2, 2026 · Espoo, Finland · Hybrid]{.tagline}
+<br>
 
-::: {.meta}
-Day 1: Hands-on exercises · Day 2: Invited talks · Free registration
-:::
+Machine learning and AI are evolving fast, and it is difficult to track how geoscience research and application practices are changing with them. Consider joining us, either in person or remotely, for a FREE annual workshop organized by Geological Survey of Finland to explore how AI can improve geoscience workflows, as well as its risks and limitations.
+
+🗓️  June 1-2, 2026  
+📍 Venue: Geological Survey of Finland GTK, Auditorium, Vuorimiehentie 5, Espoo, Finland
 
 ::: {.actions}
 [Register Now](https://forms.cloud.microsoft/e/sRdijQ0z0D){.btn-act .primary target="_blank"}

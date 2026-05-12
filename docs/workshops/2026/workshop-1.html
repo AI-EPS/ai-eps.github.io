@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 <p><span>Day 1</span> <span>June 1, 2026</span> <span>Hands-on exercises</span> <span>1 hr 50 min</span></p>
 </div>
 <div class="actions">
-<p><a href="../../workshops/2026.html#programme" class="btn-act secondary">Back to Programme</a> <a href="https://geo-sciml.com/" class="btn-act primary" target="_blank">Workshop Website</a></p>
+<p><a href="../../workshops/2026.html#programme" class="btn-act secondary">Back to Programme</a> <a href="https://geo-sciml.com/" class="btn-act primary" target="_blank">Workshop Materials</a></p>
 </div>
 </section>
 </div>
@@ -617,6 +617,13 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.title = document.title
+    .replace(/\s*[–—-]\s*AIEPS\s*$/, '')
+    .replace(/\s*[–—-]\s*AI in Earth and Planetary Sciences\s*$/, '');
+});
+</script>
 
 
 

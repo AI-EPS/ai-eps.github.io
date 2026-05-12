@@ -18,7 +18,7 @@ page-layout: article
 
 ::: {.actions}
 [Back to Programme](../2026.qmd#programme){.btn-act .secondary}
-[Workshop Website](https://geo-sciml.com/){.btn-act .primary target="_blank"}
+[Workshop Materials](https://geo-sciml.com/){.btn-act .primary target="_blank"}
 :::
 :::
 

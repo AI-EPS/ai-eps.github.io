@@ -1,0 +1,42 @@
+---
+pagetitle: "Seminars 2026 - Kaifeng Gao"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Seminar Talk]{.page-header-badge .badge-upcoming}
+
+# Uncertainty Quantification Using Hamiltonian Monte Carlo for Structural Geological Modelling with Implicit Neural Representations
+
+[Kaifeng Gao · RWTH Aachen University, Germany]{.tagline}
+
+::: {.meta}
+[11 May 2026]{} [AIEPS Seminars 2026]{} [Online]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/kaifeng-g-0a347b23a/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Previous work has demonstrated that neural networks are powerful tools for geological modelling, but quantifying uncertainty in their predictions remains an open issue. In this work, we address the uncertainty arising from both network parameters and observational data. We explore the full space of possible geological model realizations using a Hamiltonian Monte Carlo (HMC) sampler and quantify the uncertainty of predicted geological interfaces within a Bayesian neural network framework. Our experimental results demonstrate that the HMC sampler effectively explores the posterior distribution in function space and quantifies the uncertainty of predicted geological interfaces for both a noise-free borehole dataset from the North Sea and a noisy dataset interpreted from geophysical well logs in Saskatchewan, Canada. We also apply the method to a simple faulting scenario involving a normal fault in flat stratigraphy. Furthermore, in comparison with the commonly used Monte Carlo dropout approach, the Hamiltonian Monte Carlo sampler exhibits superior accuracy in assessing epistemic uncertainty in a noise-free dataset.
+
+## Speaker Bio
+
+[Kaifeng Gao](https://www.linkedin.com/in/kaifeng-g-0a347b23a/) is a researcher at RWTH Aachen University, Germany, working on uncertainty-aware geoscientific machine learning and structural geological modelling.
+
+## Materials and Images
+
+![Seminar visual for Kaifeng Gao talk](../../images/S3kaifeng.png)
+
+- Slides: To be added.
+- Related links: To be added.
+
+:::

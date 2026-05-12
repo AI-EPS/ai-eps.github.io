@@ -4,7 +4,9 @@ project:
   render:
     - index.qmd
     - seminars/*.qmd
+    - seminars/2026/*.qmd
     - workshops/*.qmd
+    - workshops/2026/*.qmd
 
 website:
   title: "AIEPS"
@@ -12,6 +14,7 @@ website:
   favicon: images/aieps.png
 
   navbar:
+    title: "AIEPS"
     logo: images/aieps.png
     logo-alt: "AIEPS"
     background: light
@@ -37,6 +40,8 @@ website:
         aria-label: GitHub
 
   back-to-top-navigation: true
+  page-footer:
+    center: "If you have any questions regarding anything on this website, send an email to pankaj dot mishra AT gtk.fi."
 
 format:
   html:
@@ -49,3 +54,12 @@ format:
     toc: true
     toc-location: right
     smooth-scroll: true
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          document.title = document.title
+            .replace(/\s*[–—-]\s*AIEPS\s*$/, '')
+            .replace(/\s*[–—-]\s*AI in Earth and Planetary Sciences\s*$/, '');
+        });
+        </script>

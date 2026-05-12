@@ -1,45 +1,143 @@
 [
   {
+    "objectID": "workshops/2026/workshop-2.html",
+    "href": "workshops/2026/workshop-2.html",
+    "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
+    "section": "",
+    "text": "Hands-on Workshop\n\n\nDr. Heather Bedle · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 50 min + 10 min Q&A\n\n\nBack to Programme Instructor Profile"
+  },
+  {
+    "objectID": "workshops/2026/workshop-2.html#overview",
+    "href": "workshops/2026/workshop-2.html#overview",
+    "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
+    "section": "Overview",
+    "text": "Overview\nTitle: A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows\nThis hands-on session introduces a free browser-based checklist tool for systematically assessing uncertainty in unsupervised seismic ML workflows.\nDuration: 50 minutes + 10 minutes Q&A"
+  },
+  {
+    "objectID": "workshops/2026/workshop-2.html#instructor-bio",
+    "href": "workshops/2026/workshop-2.html#instructor-bio",
+    "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
+    "section": "Instructor Bio",
+    "text": "Instructor Bio\nDr. Heather Bedle is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma."
+  },
+  {
+    "objectID": "workshops/2026/workshop-2.html#materials-and-instructions",
+    "href": "workshops/2026/workshop-2.html#materials-and-instructions",
+    "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
+    "section": "Materials and Instructions",
+    "text": "Materials and Instructions\n\nTool link: https://hbedle-subsurface.github.io/seismic_ml_assessment/\nSlides: To be added.\nNotes: Live demonstration during the session."
+  },
+  {
+    "objectID": "workshops/2026/scientific-machine-learning-geoscience.html",
+    "href": "workshops/2026/scientific-machine-learning-geoscience.html",
+    "title": "Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. Pankaj K Mishra · Geological Survey of Finland (GTK)\n\nDay 2 June 2, 2026 AIEPS Workshop 2026\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/scientific-machine-learning-geoscience.html#abstract",
+    "href": "workshops/2026/scientific-machine-learning-geoscience.html#abstract",
+    "title": "Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience",
+    "section": "Abstract",
+    "text": "Abstract\nWith recent advancements in machine learning (ML) and artificial intelligence (AI), a central question arises: how can established workflows of geophysical modelling and inversion benefit from these methods without sacrificing robustness and physical consistency? Scientific machine learning offers a pathway by respecting physical principles during the learning process, combining the strengths of physics-based formulations with the adaptability of neural networks. This integration enables flexible representations of the Earth while maintaining the reliability of traditional forward and inverse approaches.\nIn this contribution two complementary directions are discussed. The first is how neural networks can be trained to solve geophysical forward problems and subsequently used as fast surrogates to accelerate inversion and uncertainty analysis. This approach is demonstrated with magnetotelluric modelling and probabilistic inversion, where deep operator networks emulate magnetotelluric responses and make large-scale probabilistic exploration feasible. The second direction is how geophysical inverse problems themselves can be solved by neural networks, where the subsurface is represented as a continuous neural function directly constrained by physics. This is demonstrated through three-dimensional gravity inversion, where implicit neural fields capture both gradual variations and sharp contrasts without the need for explicit depth weighting.\nTogether, these advances point toward a new generation of geophysical workflows, opening space for geoscientists to explore a broader range of geological possibilities. While challenges remain in generalisation, data quality, and the incorporation of geological priors, scientific machine learning offers a promising framework for building Earth models that are both physically faithful and computationally efficient."
+  },
+  {
+    "objectID": "workshops/2026/scientific-machine-learning-geoscience.html#speaker-bio",
+    "href": "workshops/2026/scientific-machine-learning-geoscience.html#speaker-bio",
+    "title": "Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. Pankaj K Mishra is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures, including deep operator networks and implicit neural representations, to build efficient and physically consistent Earth models."
+  },
+  {
+    "objectID": "workshops/2026/scientific-machine-learning-geoscience.html#materials-and-images",
+    "href": "workshops/2026/scientific-machine-learning-geoscience.html#materials-and-images",
+    "title": "Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nThis section is reserved for speaker edits. Add figures, slides, references, links, or tutorial material here.\n\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-4.html",
+    "href": "workshops/2026/invited-talk-4.html",
+    "title": "Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. April Moreno-Ward · Postdoctoral Researcher, AASPI Consortium\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-4.html#abstract",
+    "href": "workshops/2026/invited-talk-4.html#abstract",
+    "title": "Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition",
+    "section": "Abstract",
+    "text": "Abstract\nMachine learning is showing up everywhere in geoscience workflows, but many geologists are still unsure what to make of it. This talk approaches that gap from the human side rather than the technical side: why do smart, experienced geoscientists push back on new tools, even relatively simple ones, and what does that tell us about how we should introduce more complex methods like ML?\nDrawing on experience moving from geology into geophysics and machine learning, this session frames the challenge and opens it up for discussion. Importantly, this is not just a problem for skeptics to solve. Those of us building ML workflows and new seismic products also need to do a better job understanding what interpreters actually need from a result.\nRather than presenting fixed answers, the goal is a real conversation: what arguments have worked, what analogies land, and what approaches people have actually tried?"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-4.html#speaker-bio",
+    "href": "workshops/2026/invited-talk-4.html#speaker-bio",
+    "title": "Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. April Moreno-Ward is an applied geophysicist and geologist specializing in advanced multi-attribute seismic analysis of deepwater channel systems. As a postdoctoral researcher under the guidance of Dr. Heather Bedle with the AASPI (Attribute-Assisted Seismic Processing and Interpretation) consortium, she focuses on bridging the gap between academic innovation and industry application by translating cutting-edge geophysical research into practical workflows for exploration and development.\nBefore joining AASPI, she served the geologic community for eight years as a Professor of Geology at Rose State College, where she focused on hands-on learning and community engagement.\nHer industry roots are equally strong. Through her work with Petrous Exploration and Development, she collaborated with Gary King of Greenbriar Resources on mapping projects across Oklahoma and Illinois. Over six years, she also developed and refined her geophysical expertise alongside Bill Manthey, a consulting geophysicist with more than 35 years of industry experience, on projects throughout Oklahoma and North Texas. These mentorships sharpened her applied skills and reinforced her commitment to connecting subsurface science with real-world results."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-4.html#materials-and-images",
+    "href": "workshops/2026/invited-talk-4.html#materials-and-images",
+    "title": "Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
     "objectID": "workshops/2026.html",
     "href": "workshops/2026.html",
-    "title": "2026 Workshop on  AI in Earth and Planetary Science",
+    "title": "2026 Workshop on AI in Earth and Planetary Science",
     "section": "",
-    "text": "June 01–02, 2026 · Espoo, Finland · Hybrid\nDay 1: Talks & Hands-on Exercises · Day 2: Invited Talks & Discussions\n\nRegister Now View Programme"
+    "text": "Upcoming Event\n\n\nJune 1-2, 2026 · Espoo, Finland · Hybrid\n\nDay 1: hands-on exercises Day 2: invited talks Free registration\n\n\nRegister Now View Programme"
+  },
+  {
+    "objectID": "workshops/2026.html#overview",
+    "href": "workshops/2026.html#overview",
+    "title": "2026 Workshop on AI in Earth and Planetary Science",
+    "section": "Overview",
+    "text": "Overview\nThe AIEPS workshop is built for people who want to move from passive interest in AI to practical geoscience use. The focus is not hype or isolated demos, but methods that can be explained, tested, and integrated into real interpretation and modelling workflows.\nAcross two days, the programme combines beginner-friendly hands-on sessions with research talks from active practitioners. Whether you are new to coding or already building advanced models, the goal is the same: leave with clearer technical judgment, concrete tools, and better questions for your own subsurface problems.\n\n\nDay 1\nHands-on exercises\nPractical AI and scientific machine learning workflows for Earth science problems.\n\n\nDay 2\nInvited talks\nResearch talks, open discussion, and contributed short presentations.\n\n\nFormat\nHybrid\nIn person in Espoo, Finland, with online access for remote participants.\n\n\n\nRegistration and abstract deadline: May 25, 2026. Talk slots are subject to availability.\n\n\nAccess note: Only registered participants will receive the link to join the workshop, including possible individual links to hands-on sessions."
   },
   {
     "objectID": "workshops/2026.html#programme",
     "href": "workshops/2026.html#programme",
-    "title": "2026 Workshop on  AI in Earth and Planetary Science",
+    "title": "2026 Workshop on AI in Earth and Planetary Science",
     "section": "Programme",
-    "text": "Programme\n\n\nDay 1 — 01 June 2026\n\n\nTalks & Hands-on Exercises\n\n\nDetailed programme to be announced.\n\n\nDay 2 — 02 June 2026\n\n\nInvited Talks & Discussions\n\n\nDetailed programme to be announced."
+    "text": "Programme\n\nProgramme update: The programme is currently under construction and may change.\n\nThe schedule is organized as a stable index. Click a linked session title to open its editable page with abstract, bio, materials, images, and tutorial notes.\n\nDay 1 - Monday, June 1\nHands-on exercises\n\n\n\n\nTime\nSession\nLead\nFormat\n\n\n\n\n09:00-10:00\nRegistration and coffee\nOrganisers\nIn person\n\n\n10:00-10:10\nWelcome and workshop orientation\nAIEPS organisers\nPlenary\n\n\n10:10-12:00\nGetting Started with Geoscientific Machine Learning\nDr. Pankaj K Mishra, Sanni Laaksonen, Eetu Hyypio\nHands-on\n\n\n12:00-13:00\nLunch\n-\nBreak\n\n\n13:00-14:00\nA Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows\nDr. Heather Bedle\nHands-on\n\n\n14:00-15:00\nJutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation\nDr. Olav Møyner\nHands-on\n\n\n15:00-15:30\nCoffee and networking\n-\nBreak\n\n\n15:30-16:45\nParticipant work session and troubleshooting\nAIEPS instructors\nLab\n\n\n16:45-17:00\nDay 1 wrap-up\nOrganisers\nPlenary\n\n\n\n\n\n\nDay 2 - Tuesday, June 2\nInvited talks and discussion\n\n\n\n\nTime\nSession\nSpeaker\nFormat\n\n\n\n\n09:00-09:30\nCoffee and arrival\nOrganisers\nIn person\n\n\n09:30-09:40\nOpening remarks\nAIEPS organisers\nPlenary\n\n\n09:40-10:10\nScientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience\nDr. Pankaj K Mishra\nIn-person\n\n\n10:10-10:40\nNovel Applications of Neural Operators in Seismic Exploration and Monitoring\nDr. Umair bin Waheed\nHybrid\n\n\n10:40-10:50\nBreak and questions\n-\nBreak\n\n\n10:50-11:20\nSurrogate-Based Methods for Efficient Bayesian Posterior Computation\nDr. Chengkun Li\nIn-person\n\n\n11:20-11:50\nInterpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation\nDr. Hanli Qiao\nIn-person\n\n\n11:50-12:00\nShort break\n-\nBreak\n\n\n12:00-13:00\nLunch\n-\nBreak\n\n\n13:00-13:30\nIlluminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI\nDr. Heather Bedle\nHybrid\n\n\n13:30-14:00\nGeo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition\nDr. April Moreno-Ward\nHybrid\n\n\n14:00-14:30\nSome Digital Twins and Generative AI in geoscience\nDr. Fahimeh Farahnakian\nIn-person\n\n\n14:30-15:00\nCoffee and networking\n-\nBreak\n\n\n15:00-16:00\nPanel and open discussion\nInvited speakers and participants\nDiscussion\n\n\n16:00-16:15\nClosing remarks\nOrganisers\nPlenary"
   },
   {
     "objectID": "workshops/2026.html#speakers",
     "href": "workshops/2026.html#speakers",
-    "title": "2026 Workshop on  AI in Earth and Planetary Science",
-    "section": "Speakers",
-    "text": "Speakers\n\n\n\n\nScientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience\n\n\nDr. Pankaj K Mishra · Geological Survey of Finland (GTK)\n\n\n▼\n\n\n\nWith recent advancements in machine learning (ML) and artificial intelligence (AI), a central question arises: how can established workflows of geophysical modelling and inversion benefit from these methods without sacrificing robustness and physical consistency? Scientific machine learning offers a pathway by respecting physical principles during the learning process, combining the strengths of physics-based formulations with the adaptability of neural networks. This integration enables flexible representations of the Earth while maintaining the reliability of traditional forward and inverse approaches.\nIn this contribution two complementary directions are discussed. The first is how neural networks can be trained to solve geophysical forward problems and subsequently used as fast surrogates to accelerate inversion and uncertainty analysis. This approach is demonstrated with magnetotelluric modelling and probabilistic inversion, where deep operator networks emulate magnetotelluric responses and make large-scale probabilistic exploration feasible. The second direction is how geophysical inverse problems themselves can be solved by neural networks, where the subsurface is represented as a continuous neural function directly constrained by physics. This is demonstrated through three-dimensional gravity inversion, where implicit neural fields capture both gradual variations and sharp contrasts without the need for explicit depth weighting. Together, these advances point toward a new generation of geophysical workflows, opening space for geoscientists to explore a broader range of geological possibilities. While challenges remain in generalisation, data quality, and the incorporation of geological priors, scientific machine learning offers a promising framework for building Earth models that are both physically faithful and computationally efficient.\n\n\nBio: Pankaj K Mishra is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures — including deep operator networks and implicit neural representations — to build efficient and physically consistent Earth models.\n\n\n\n\n\n\n\nNovel Applications of Neural Operators in Seismic Exploration and Monitoring\n\n\nDr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)\n\n\n▼\n\n\n\nScientific machine learning has emerged as a powerful framework for augmenting classical numerical modeling and inversion workflows in geophysics, particularly in settings where repeated simulations, limited data, and strict physical consistency are critical. Within this broader paradigm, neural operators represent a fundamental shift in how learning is performed for seismic problems: rather than approximating individual solutions, they learn mappings between function spaces, enabling rapid evaluation across varying physical and acquisition conditions. This talk focuses on novel applications of neural operators in seismic exploration and monitoring, with an emphasis on practical workflows rather than architectural details alone. I will present recent advances demonstrating how operator-learning frameworks, such as Fourier-based and DeepONet-style models, can be used for seismic forward modeling, inversion, and monitoring tasks. These approaches enable efficient handling of variable velocity models, source locations, and acquisition geometries, often without retraining, while maintaining strong consistency with underlying wave physics. Through a series of application-driven case studies, the talk will illustrate how neural operators can significantly reduce computational cost, enable real-time or near-real-time seismic analysis, and open new possibilities for scalable imaging and monitoring systems.\n\n\nBio: Umair bin Waheed is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST (Ph.D., 2015) and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award.\n\n\n\nMore speakers will be announced. Interested in presenting? Contact the organisers."
+    "title": "2026 Workshop on AI in Earth and Planetary Science",
+    "section": "Speakers and Session Pages",
+    "text": "Speakers and Session Pages\n\n\nWorkshop 1: Scientific ML workflow setup\nInstructor to be announced · AIEPS Workshop 2026\nPlaceholder page for the first hands-on workshop block.\n\n\nWorkshop 2: Physics-aware modelling and inversion\nInstructor to be announced · AIEPS Workshop 2026\nPlaceholder page for the second hands-on workshop block.\n\n\nScientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience\nDr. Pankaj K Mishra · Geological Survey of Finland (GTK)\nInvited talk on scientific machine learning for geophysical forward modelling, inversion, and uncertainty quantification.\n\n\nNovel Applications of Neural Operators in Seismic Exploration and Monitoring\nDr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)\nInvited talk on neural operators for seismic modelling, inversion, and monitoring workflows.\n\n\nInvited Talk 3: Title to be announced\nSpeaker to be announced · Affiliation to be announced\nPlaceholder page for a confirmed or upcoming invited speaker.\n\n\nInvited Talk 4: Title to be announced\nSpeaker to be announced · Affiliation to be announced\nPlaceholder page for a confirmed or upcoming invited speaker."
+  },
+  {
+    "objectID": "workshops/2026.html#for-speakers",
+    "href": "workshops/2026.html#for-speakers",
+    "title": "2026 Workshop on AI in Earth and Planetary Science",
+    "section": "For speakers",
+    "text": "For speakers\nEach linked session title opens a dedicated Quarto page that can be edited independently by the speaker or instructor. Use the assigned page for the abstract, speaker bio, tutorial instructions, images, slides, notebooks, datasets, and any workshop preparation notes.\nKeep session pages in workshops/2026/, place shared images in images/, and use relative links so the pages continue to work when the site is rendered into docs/."
   },
   {
     "objectID": "workshops/2026.html#venue",
     "href": "workshops/2026.html#venue",
-    "title": "2026 Workshop on  AI in Earth and Planetary Science",
+    "title": "2026 Workshop on AI in Earth and Planetary Science",
     "section": "Venue",
-    "text": "Venue\nLocation: Espoo, Finland\nFormat: Hybrid (In-person + Online)"
+    "text": "Venue\nLocation: Geological Survey of Finland, Auditorium, Vuorimiehentie 5, 02151 Espoo\nFormat: Hybrid, with in-person and online participation"
   },
   {
     "objectID": "seminars/2026.html",
     "href": "seminars/2026.html",
-    "title": "AIEPS Seminars",
+    "title": "AIEPS Seminars 2026",
     "section": "",
-    "text": "AIEPS Seminars\nOnline talks on AI in Earth & Planetary Sciences\n\n📅 As announced 📍 Online 🔗 Microsoft Teams / Zoom\n\n\n\n\n\nNext Talk\n\n\n\n\n\n\n#3 Uncertainty quantification using Hamiltonian Monte Carlo for structural geological modelling with implicit neural representations\n\n\n🎤 Kaifeng Gao, 🏛️ RWTH Aachen University, Germany🗓️ 11 May 2026\n\n\n\n\n\nPrevious work has demonstrated that neural networks are powerful tools for geological modelling, but quantifying uncertainty in their predictions remains an open issue. In this work, we address the uncertainty arising from both network parameters and observational data. We explore the full space of possible geological model realizations using a Hamiltonian Monte Carlo (HMC) sampler and quantify the uncertainty of predicted geological interfaces within a Bayesian neural network framework. Our experimental results demonstrate that the HMC sampler effectively explores the posterior distribution in function space and quantifies the uncertainty of predicted geological interfaces for both a noise-free borehole dataset from the North Sea and a noisy dataset interpreted from geophysical well logs in Saskatchewan, Canada. We also apply the method to a simple faulting scenario involving a normal fault in flat stratigraphy. Furthermore, in comparison with the commonly used Monte Carlo dropout approach, the Hamiltonian Monte Carlo sampler exhibits superior accuracy in assessing epistemic uncertainty in a noise-free dataset.\n\n\n\n\n\n\n\n\n\nFuture TalksPrevious Talks\n\n\n\n\n\n\n\n#3 Uncertainty quantification using Hamiltonian Monte Carlo for structural geological modelling with implicit neural representations\n\n\n🎤 Kaifeng Gao, 🏛️ RWTH Aachen University, Germany · 🗓️ 11 May 2026\n\n\n▼\n\n\n\nPrevious work has demonstrated that neural networks are powerful tools for geological modelling, but quantifying uncertainty in their predictions remains an open issue. In this work, we address the uncertainty arising from both network parameters and observational data. We explore the full space of possible geological model realizations using a Hamiltonian Monte Carlo (HMC) sampler and quantify the uncertainty of predicted geological interfaces within a Bayesian neural network framework. Our experimental results demonstrate that the HMC sampler effectively explores the posterior distribution in function space and quantifies the uncertainty of predicted geological interfaces for both a noise-free borehole dataset from the North Sea and a noisy dataset interpreted from geophysical well logs in Saskatchewan, Canada. We also apply the method to a simple faulting scenario involving a normal fault in flat stratigraphy. Furthermore, in comparison with the commonly used Monte Carlo dropout approach, the Hamiltonian Monte Carlo sampler exhibits superior accuracy in assessing epistemic uncertainty in a noise-free dataset.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#2 Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction.\n\n\n🎤 Simon Ghyselincks, 🏛️ University of British Columbia (UBC), Canada · 🗓️ 10 Mar 2026\n\n\n▼\n\n\n\nReconstructing 3D structural geology from sparse surface and borehole observations is a longstanding challenge with critical applications in mineral exploration, geohazard assessment, and geotechnical engineering. This inherently ill-posed problem is often addressed by classical geophysical inversion methods, which typically yield a single maximum-likelihood model that fails to capture the full range of plausible geology. In this talk, I present StructuralGeo, a rapid simulation engine that generates synthetic lithological models encoding geological knowledge such as the tectonic, magmatic, and sedimentary processes found in textbooks. Using this engine as a synthetic dataset, we train both unconditional and conditional generative AI models that can reconstruct multiple plausible 3D scenarios from surface topography and sparse borehole data, depicting structures such as layers, faults, folds, and dikes. By sampling many reconstructions from the same observations, we gain insight into not only the most likely reconstruction, but also from the full range of plausible reconstructions that fit the data. While the realism of the output is bounded by the fidelity of the simulation engine, this approach offers a method for probabilistic modeling, regional fine-tuning, and use as an AI-based regularizer.\n\n\n\n\n\n\n\n\n\n\n#1 Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure\n\n\n🎤 Jonas Köhler, 🏛️ Frankfurt Institute for Advanced Studies · 🗓️ 19 Feb 2026\n\n\n▼\n\n\n\nForecasting earthquake sequences remains a central challenge in seismology, particularly under non-stationary conditions. While deep learning models have shown promise, their ability to generalize across time remains poorly understood. We evaluate neural and hybrid (NN + Markov) models for short-term earthquake forecasting on a regional catalog using temporally stratified cross-validation. Models are trained on earlier portions of the catalog and evaluated on future unseen events, enabling realistic assessment of temporal generalization. We find that while these models outperform a purely Markovian model on validation data, their test performance degrades substantially in the most recent quintile. A detailed attribution analysis reveals a shift in feature relevance over time, with later data exhibiting simpler, more Markov-consistent behavior. To support interpretability, we apply Integrated Gradients to analyze how models rely on different input features. These results highlight the risks of overfitting to early patterns in seismicity and underscore the importance of temporally realistic benchmarks.\n\n\n\n\n\n\n\n\n\n\n\n\n⬅️ More talks from previous years\n\n\n\n\n\n Back to top"
+    "text": "Seminar Series 2026\n\n\nAI in Earth and Planetary Sciences · Online/Hybrid Talks\n\nAs announced Online/Hybrid Teams/Zoom links shared with registrants"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "AI in Earth & Planetary Science",
     "section": "",
-    "text": "AI in Earth & Planetary Science\nA special interest group of researchers at the intersection of Earth & planetary science and AI & machine learning research and applications.\n\n\nBrowse upcoming events under Workshops and Seminars.\nThis special interest group brings together geoscience, planetary science, machine learning, computer science, and AI—so AI research can benefit from domain knowledge, and geoscientists can track and apply relevant AI advances.\nWe focus on combining geoscience and AI without compromising scientific rigor, while staying open to new technologies as they mature. ChatGPT, Copilot, and LLMs are not the primary focus of AIEPS; however, we expect to occasionally develop and monitor practical guidelines for using LLMs responsibly.\n\nSupported by\n\n \n\n\n\n\n\n\n Back to top"
+    "text": "AI in Earth & Planetary Science\nAI is no longer peripheral in geoscience. It is actively reshaping how we interpret the subsurface, quantify uncertainty, and make decisions under incomplete data.\n\n\nAIEPS is a community for geoscience students, researchers, and practitioners who want to apply AI and scientific machine learning in a way that remains physically grounded and practically useful. It is also a space for ML researchers looking for hard, meaningful problems, where data are noisy, multi-scale, and tied to real operational decisions.\nGeoscience has always advanced by combining observation, theory, and computation. AI extends that tradition, but only when combined with domain knowledge, numerical structure, and rigorous validation. The central question is not whether AI can produce an output, but whether that output is scientifically defensible and decision-relevant.\nThis website is a living hub for that work. As talks, workshop sessions, and materials evolve, the pages are updated so participants can quickly find current schedules, speaker details, and entry points for learning.\nIf you are getting started, begin with the workshop hands-on sessions. If you are already active in research or development, use the seminars to track emerging methods, practical lessons, and current debates across AI for Earth and planetary sciences.\n\n\nAnnual workshop\nTwo-day programme with hands-on sessions, invited experts, and practical workflows you can use immediately.\n2026 workshop\n\n\nMonthly webinars\nResearch-focused online talks on methods, applications, and lessons learned across AI for geoscience.\n2026 seminars\n\n\n\nSupported by\n\n \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "seminars/2025.html",
@@ -82,5 +180,327 @@
     "title": "AIEPS Day 2025",
     "section": "Organisers",
     "text": "Organisers\n\nPankaj Mishra — GTK\nMarta Cyz — GTK\nProf. Mrinal K. Sen — UT Austin (Special Guest)\n\n\nSupported by\n\nGeological Survey of Finland (GTK)\nSEG Distinguished Instructor Short Course (DISC)\nMULTIVERSE Project, Research Council of Finland"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-3.html",
+    "href": "workshops/2026/invited-talk-3.html",
+    "title": "Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. Heather Bedle · University of Oklahoma\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-3.html#abstract",
+    "href": "workshops/2026/invited-talk-3.html#abstract",
+    "title": "Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI",
+    "section": "Abstract",
+    "text": "Abstract\nMachine learning has become a routine part of seismic interpretation, but when a facies map comes out of a black box, how do you know whether to trust it?\nThis talk introduces SHAP (SHapley Additive Explanations), a practical explainability method that opens that black box and shows which seismic attributes are actually driving classification decisions, where the model is confident, and where it may be getting things wrong.\nDrawing on research from the AASPI Consortium at the University of Oklahoma, this talk walks through real case studies showing how SHAP analysis transforms ML outputs from opaque results into auditable, geologically interpretable ones.\nIn twenty minutes, attendees will come away with a clear picture of what explainable AI looks like in practice and why knowing why your model made a decision is just as important as knowing what it decided.\nDuration: 30 minutes"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-3.html#speaker-bio",
+    "href": "workshops/2026/invited-talk-3.html#speaker-bio",
+    "title": "Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. Heather Bedle is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-3.html#materials-and-images",
+    "href": "workshops/2026/invited-talk-3.html#materials-and-images",
+    "title": "Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nSlides: To be added.\nRelated links: AASPI Consortium research examples to be shared during the session.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/neural-operators-seismic.html",
+    "href": "workshops/2026/neural-operators-seismic.html",
+    "title": "Novel Applications of Neural Operators in Seismic Exploration and Monitoring",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)\n\nDay 2 June 2, 2026 AIEPS Workshop 2026\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/neural-operators-seismic.html#abstract",
+    "href": "workshops/2026/neural-operators-seismic.html#abstract",
+    "title": "Novel Applications of Neural Operators in Seismic Exploration and Monitoring",
+    "section": "Abstract",
+    "text": "Abstract\nScientific machine learning has emerged as a powerful framework for augmenting classical numerical modeling and inversion workflows in geophysics, particularly in settings where repeated simulations, limited data, and strict physical consistency are critical. Within this broader paradigm, neural operators represent a fundamental shift in how learning is performed for seismic problems: rather than approximating individual solutions, they learn mappings between function spaces, enabling rapid evaluation across varying physical and acquisition conditions.\nThis talk focuses on novel applications of neural operators in seismic exploration and monitoring, with an emphasis on practical workflows rather than architectural details alone. I will present recent advances demonstrating how operator-learning frameworks, such as Fourier-based and DeepONet-style models, can be used for seismic forward modeling, inversion, and monitoring tasks. These approaches enable efficient handling of variable velocity models, source locations, and acquisition geometries, often without retraining, while maintaining strong consistency with underlying wave physics.\nThrough a series of application-driven case studies, the talk will illustrate how neural operators can significantly reduce computational cost, enable real-time or near-real-time seismic analysis, and open new possibilities for scalable imaging and monitoring systems."
+  },
+  {
+    "objectID": "workshops/2026/neural-operators-seismic.html#speaker-bio",
+    "href": "workshops/2026/neural-operators-seismic.html#speaker-bio",
+    "title": "Novel Applications of Neural Operators in Seismic Exploration and Monitoring",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. Umair bin Waheed is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST with a Ph.D. in 2015 and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award."
+  },
+  {
+    "objectID": "workshops/2026/neural-operators-seismic.html#materials-and-images",
+    "href": "workshops/2026/neural-operators-seismic.html#materials-and-images",
+    "title": "Novel Applications of Neural Operators in Seismic Exploration and Monitoring",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nThis section is reserved for speaker edits. Add figures, slides, references, links, or tutorial material here.\n\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/workshop-1.html",
+    "href": "workshops/2026/workshop-1.html",
+    "title": "Getting Started with Geoscientific Machine Learning",
+    "section": "",
+    "text": "Hands-on Workshop\n\n\nDr. Pankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 1 hr 50 min\n\n\nBack to Programme Workshop Website"
+  },
+  {
+    "objectID": "workshops/2026/workshop-1.html#overview",
+    "href": "workshops/2026/workshop-1.html#overview",
+    "title": "Getting Started with Geoscientific Machine Learning",
+    "section": "Overview",
+    "text": "Overview\nThis beginner-friendly workshop introduces geoscientific machine learning using Julia and is designed for participants with no programming background.\nDuration: 1 hour 50 minutes\nParticipants will set up the basics, train their first neural network, and get practical guidance on how to continue learning machine learning for geoscience after the session."
+  },
+  {
+    "objectID": "workshops/2026/workshop-1.html#instructor-bio",
+    "href": "workshops/2026/workshop-1.html#instructor-bio",
+    "title": "Getting Started with Geoscientific Machine Learning",
+    "section": "Instructor Bio",
+    "text": "Instructor Bio\n\nDr. Pankaj K Mishra - AIEPS organiser and invited speaker.\nSanni Laaksonen - Co-instructor.\nEetu Hyypio - Co-instructor."
+  },
+  {
+    "objectID": "workshops/2026/workshop-1.html#materials-and-instructions",
+    "href": "workshops/2026/workshop-1.html#materials-and-instructions",
+    "title": "Getting Started with Geoscientific Machine Learning",
+    "section": "Materials and Instructions",
+    "text": "Materials and Instructions\n\nWorkshop site: https://geo-sciml.com/\nSlides: To be added.\nNotebooks or scripts: To be added.\nPreparation notes: Designed for no prior programming experience."
+  },
+  {
+    "objectID": "workshops/2026/workshop-2.html#abstract",
+    "href": "workshops/2026/workshop-2.html#abstract",
+    "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
+    "section": "Abstract",
+    "text": "Abstract\nWhen geoscientists apply machine learning to seismic data, the algorithm is rarely the problem - the decisions surrounding it are. Which attributes went in, whether they were prepared correctly, how many classes were chosen and why, and whether the output was ever checked against real geology: these are the questions that determine whether a seismic ML result reflects the subsurface or an artifact of the workflow.\nThe Seismic Multi-Attribute ML Uncertainty Assessment Tool, developed at the University of Oklahoma, is a free, browser-based checklist that guides practitioners through those questions systematically, requires no installation or ML expertise, takes fifteen to twenty minutes to complete, and produces a prioritized list of the specific steps most likely to improve the reliability of a result.\nThis presentation will demonstrate the tool live and discuss the common workflow failures it is designed to surface."
+  },
+  {
+    "objectID": "workshops/2026/workshop-1.html#workshop-description",
+    "href": "workshops/2026/workshop-1.html#workshop-description",
+    "title": "Getting Started with Geoscientific Machine Learning",
+    "section": "Workshop Description",
+    "text": "Workshop Description\nMachine learning is becoming central to modern geoscience workflows, but getting started can feel overwhelming for newcomers. This session offers a practical entry point with a gentle, hands-on introduction to Julia programming and core ML concepts.\nBy the end of the workshop, participants will have trained a first neural network and will leave with clear next steps, tools, and learning resources to continue building ML skills for geoscientific applications."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-5.html",
+    "href": "workshops/2026/invited-talk-5.html",
+    "title": "Surrogate-Based Methods for Efficient Bayesian Posterior Computation",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. Chengkun Li · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-5.html#abstract",
+    "href": "workshops/2026/invited-talk-5.html#abstract",
+    "title": "Surrogate-Based Methods for Efficient Bayesian Posterior Computation",
+    "section": "Abstract",
+    "text": "Abstract\nBayesian inference provides a principled framework for quantifying uncertainty in parameter estimation and model selection. Applying Bayesian methods to complex forward models remains computationally demanding, particularly when likelihood evaluations are expensive or noisy, or when inference must be repeated across many observed datasets.\nThis talk presents two classes of surrogate-based methods developed to address these challenges, including surrogates trained via regression and surrogates trained via conditional density estimation."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-5.html#speaker-bio",
+    "href": "workshops/2026/invited-talk-5.html#speaker-bio",
+    "title": "Surrogate-Based Methods for Efficient Bayesian Posterior Computation",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. Chengkun Li is an invited speaker at AIEPS 2026."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-5.html#materials-and-images",
+    "href": "workshops/2026/invited-talk-5.html#materials-and-images",
+    "title": "Surrogate-Based Methods for Efficient Bayesian Posterior Computation",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-6.html",
+    "href": "workshops/2026/invited-talk-6.html",
+    "title": "Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. Hanli Qiao · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-6.html#abstract",
+    "href": "workshops/2026/invited-talk-6.html#abstract",
+    "title": "Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
+    "section": "Abstract",
+    "text": "Abstract\nSustainable groundwater management and protection of water resources against contamination require detailed understanding of how contaminants propagate and spread in the subsurface. This requires computer models able to capture physical and chemical processes driving such movement. However, the state-of-the-art models are often slow because of a multitude of processes, complicating their applications in decision-making purposes.\nTo address these challenges, the InterpAI-CoM project develops a novel approach that integrates artificial intelligence with scientific computing of reactive transport processes. The goal is to produce predictions that are faster, while maintaining similar process details as considered in physics-based models.\nIf successful, this approach will support decision-makers, practitioners, government, and environmental professionals in responding more effectively to contamination issues and in designing more sustainable solutions."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-6.html#speaker-bio",
+    "href": "workshops/2026/invited-talk-6.html#speaker-bio",
+    "title": "Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. Hanli Qiao is an invited speaker at AIEPS 2026."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-6.html#materials-and-images",
+    "href": "workshops/2026/invited-talk-6.html#materials-and-images",
+    "title": "Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-7.html",
+    "href": "workshops/2026/invited-talk-7.html",
+    "title": "Some Digital Twins and Generative AI in geoscience",
+    "section": "",
+    "text": "Invited Talk\n\n\nDr. Fahimeh Farahnakian · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-7.html#abstract",
+    "href": "workshops/2026/invited-talk-7.html#abstract",
+    "title": "Some Digital Twins and Generative AI in geoscience",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract will be updated soon."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-7.html#speaker-bio",
+    "href": "workshops/2026/invited-talk-7.html#speaker-bio",
+    "title": "Some Digital Twins and Generative AI in geoscience",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDr. Fahimeh Farahnakian is an invited speaker at AIEPS 2026.\nMy research interests include Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Data Analysis, Autonomous Driving and Remote Sensing. I currently seek to advance computer vision technology via deep learning for remote sensing applications and geospatial data."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-7.html#materials-and-images",
+    "href": "workshops/2026/invited-talk-7.html#materials-and-images",
+    "title": "Some Digital Twins and Generative AI in geoscience",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/workshop-3.html",
+    "href": "workshops/2026/workshop-3.html",
+    "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
+    "section": "",
+    "text": "Hands-on Workshop\n\n\nDr. Olav Møyner · SINTEF Digital\n\nDay 1 June 1, 2026 Hands-on exercises 60 min\n\n\nBack to Programme Instructor Profile"
+  },
+  {
+    "objectID": "workshops/2026/workshop-3.html#overview",
+    "href": "workshops/2026/workshop-3.html#overview",
+    "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
+    "section": "Overview",
+    "text": "Overview\nThis hands-on session introduces JutulDarcy.jl, a high-performance porous media and reservoir simulator based on automatic differentiation.\nDuration: 60 minutes"
+  },
+  {
+    "objectID": "workshops/2026/workshop-3.html#abstract",
+    "href": "workshops/2026/workshop-3.html#abstract",
+    "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract will be updated later."
+  },
+  {
+    "objectID": "workshops/2026/workshop-3.html#instructor-bio",
+    "href": "workshops/2026/workshop-3.html#instructor-bio",
+    "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
+    "section": "Instructor Bio",
+    "text": "Instructor Bio\nDr. Olav Møyner is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.\nResearch interests include:\n\nSolution methods for coupled, nonlinear partial differential equations (PDEs)\nAutomatic differentiation and adjoint methods\nSoftware design of industry-grade simulators\nFlow and transport in porous media, with applications in hydrocarbon recovery, carbon capture and sequestration, geothermal energy, and groundwater flow\nNumerical simulation of batteries\nDiscretizations for unstructured meshes (high-order and consistent schemes)"
+  },
+  {
+    "objectID": "workshops/2026/workshop-3.html#materials-and-instructions",
+    "href": "workshops/2026/workshop-3.html#materials-and-instructions",
+    "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
+    "section": "Materials and Instructions",
+    "text": "Materials and Instructions\n\nSlides: To be added.\nNotebooks or scripts: To be added.\nData: To be added."
+  },
+  {
+    "objectID": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html",
+    "href": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html",
+    "title": "Uncertainty Quantification Using Hamiltonian Monte Carlo for Structural Geological Modelling with Implicit Neural Representations",
+    "section": "",
+    "text": "Seminar Talk\n\n\nKaifeng Gao · RWTH Aachen University, Germany\n\n11 May 2026 AIEPS Seminars 2026 Online\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html#abstract",
+    "href": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html#abstract",
+    "title": "Uncertainty Quantification Using Hamiltonian Monte Carlo for Structural Geological Modelling with Implicit Neural Representations",
+    "section": "Abstract",
+    "text": "Abstract\nPrevious work has demonstrated that neural networks are powerful tools for geological modelling, but quantifying uncertainty in their predictions remains an open issue. In this work, we address the uncertainty arising from both network parameters and observational data. We explore the full space of possible geological model realizations using a Hamiltonian Monte Carlo (HMC) sampler and quantify the uncertainty of predicted geological interfaces within a Bayesian neural network framework. Our experimental results demonstrate that the HMC sampler effectively explores the posterior distribution in function space and quantifies the uncertainty of predicted geological interfaces for both a noise-free borehole dataset from the North Sea and a noisy dataset interpreted from geophysical well logs in Saskatchewan, Canada. We also apply the method to a simple faulting scenario involving a normal fault in flat stratigraphy. Furthermore, in comparison with the commonly used Monte Carlo dropout approach, the Hamiltonian Monte Carlo sampler exhibits superior accuracy in assessing epistemic uncertainty in a noise-free dataset."
+  },
+  {
+    "objectID": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html#speaker-bio",
+    "href": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html#speaker-bio",
+    "title": "Uncertainty Quantification Using Hamiltonian Monte Carlo for Structural Geological Modelling with Implicit Neural Representations",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nKaifeng Gao is a researcher at RWTH Aachen University, Germany, working on uncertainty-aware geoscientific machine learning and structural geological modelling."
+  },
+  {
+    "objectID": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html#materials-and-images",
+    "href": "seminars/2026/uncertainty-hmc-implicit-neural-representations.html#materials-and-images",
+    "title": "Uncertainty Quantification Using Hamiltonian Monte Carlo for Structural Geological Modelling with Implicit Neural Representations",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\n\n\nSeminar visual for Kaifeng Gao talk\n\n\n\nSlides: To be added.\nRelated links: To be added."
+  },
+  {
+    "objectID": "seminars/2026/neural-earthquake-forecasting-markov-structure.html",
+    "href": "seminars/2026/neural-earthquake-forecasting-markov-structure.html",
+    "title": "Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure",
+    "section": "",
+    "text": "Seminar Talk\n\n\nJonas Köhler · Frankfurt Institute for Advanced Studies\n\n19 Feb 2026 AIEPS Seminars 2026 Online\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "seminars/2026/neural-earthquake-forecasting-markov-structure.html#abstract",
+    "href": "seminars/2026/neural-earthquake-forecasting-markov-structure.html#abstract",
+    "title": "Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure",
+    "section": "Abstract",
+    "text": "Abstract\nForecasting earthquake sequences remains a central challenge in seismology, particularly under non-stationary conditions. While deep learning models have shown promise, their ability to generalize across time remains poorly understood. We evaluate neural and hybrid (NN + Markov) models for short-term earthquake forecasting on a regional catalog using temporally stratified cross-validation. Models are trained on earlier portions of the catalog and evaluated on future unseen events, enabling realistic assessment of temporal generalization. We find that while these models outperform a purely Markovian model on validation data, their test performance degrades substantially in the most recent quintile. A detailed attribution analysis reveals a shift in feature relevance over time, with later data exhibiting simpler, more Markov-consistent behavior. To support interpretability, we apply Integrated Gradients to analyze how models rely on different input features. These results highlight the risks of overfitting to early patterns in seismicity and underscore the importance of temporally realistic benchmarks."
+  },
+  {
+    "objectID": "seminars/2026/neural-earthquake-forecasting-markov-structure.html#speaker-bio",
+    "href": "seminars/2026/neural-earthquake-forecasting-markov-structure.html#speaker-bio",
+    "title": "Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nJonas Köhler is a researcher at the Frankfurt Institute for Advanced Studies working on interpretable machine learning for seismological forecasting."
+  },
+  {
+    "objectID": "seminars/2026/neural-earthquake-forecasting-markov-structure.html#materials-and-images",
+    "href": "seminars/2026/neural-earthquake-forecasting-markov-structure.html#materials-and-images",
+    "title": "Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\n\n\nPlaceholder seminar visual for Neural Earthquake Forecasting talk\n\n\n\nSlides: To be added.\nRelated links: To be added."
+  },
+  {
+    "objectID": "seminars/2026.html#overview",
+    "href": "seminars/2026.html#overview",
+    "title": "AIEPS Seminars 2026",
+    "section": "Overview",
+    "text": "Overview\nThe AIEPS 2026 seminar series features talks at the intersection of AI, machine learning, and Earth and planetary sciences.\nEach talk in the programme below links to a dedicated page with abstract, speaker details, and supporting material.\n\nSeminar note: Times and topics may be updated as the series evolves."
+  },
+  {
+    "objectID": "seminars/2026.html#programme",
+    "href": "seminars/2026.html#programme",
+    "title": "AIEPS Seminars 2026",
+    "section": "Programme",
+    "text": "Programme\n\n\n\n\nDate\nTalk\nSpeaker\nFormat\n\n\n\n\n11 May 2026\nUncertainty Quantification Using Hamiltonian Monte Carlo for Structural Geological Modelling with Implicit Neural Representations\nKaifeng Gao\nOnline\n\n\n10 Mar 2026\nSynthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction\nSimon Ghyselincks\nOnline\n\n\n19 Feb 2026\nNeural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure\nJonas Köhler\nOnline"
+  },
+  {
+    "objectID": "seminars/2026.html#archive",
+    "href": "seminars/2026.html#archive",
+    "title": "AIEPS Seminars 2026",
+    "section": "Archive",
+    "text": "Archive\nSee 2025 seminars for previous-year seminar information."
+  },
+  {
+    "objectID": "seminars/2026/synthetic-geology-generative-ai.html",
+    "href": "seminars/2026/synthetic-geology-generative-ai.html",
+    "title": "Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction",
+    "section": "",
+    "text": "Seminar Talk\n\n\nSimon Ghyselincks · University of British Columbia (UBC), Canada\n\n10 Mar 2026 AIEPS Seminars 2026 Online\n\n\nBack to Programme Speaker Profile"
+  },
+  {
+    "objectID": "seminars/2026/synthetic-geology-generative-ai.html#abstract",
+    "href": "seminars/2026/synthetic-geology-generative-ai.html#abstract",
+    "title": "Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction",
+    "section": "Abstract",
+    "text": "Abstract\nReconstructing 3D structural geology from sparse surface and borehole observations is a longstanding challenge with critical applications in mineral exploration, geohazard assessment, and geotechnical engineering. This inherently ill-posed problem is often addressed by classical geophysical inversion methods, which typically yield a single maximum-likelihood model that fails to capture the full range of plausible geology. In this talk, I present StructuralGeo, a rapid simulation engine that generates synthetic lithological models encoding geological knowledge such as the tectonic, magmatic, and sedimentary processes found in textbooks. Using this engine as a synthetic dataset, we train both unconditional and conditional generative AI models that can reconstruct multiple plausible 3D scenarios from surface topography and sparse borehole data, depicting structures such as layers, faults, folds, and dikes. By sampling many reconstructions from the same observations, we gain insight into not only the most likely reconstruction, but also from the full range of plausible reconstructions that fit the data. While the realism of the output is bounded by the fidelity of the simulation engine, this approach offers a method for probabilistic modeling, regional fine-tuning, and use as an AI-based regularizer."
+  },
+  {
+    "objectID": "seminars/2026/synthetic-geology-generative-ai.html#speaker-bio",
+    "href": "seminars/2026/synthetic-geology-generative-ai.html#speaker-bio",
+    "title": "Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nSimon Ghyselincks is a researcher at the University of British Columbia (UBC), Canada, focusing on computational geoscience and generative modeling for geological reconstruction."
+  },
+  {
+    "objectID": "seminars/2026/synthetic-geology-generative-ai.html#materials-and-images",
+    "href": "seminars/2026/synthetic-geology-generative-ai.html#materials-and-images",
+    "title": "Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\n\n\nSeminar visual for Synthetic Geology talk\n\n\n\nSlides: To be added.\nRelated links: To be added."
   }
 ]

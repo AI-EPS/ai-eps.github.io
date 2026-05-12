@@ -1,0 +1,56 @@
+---
+pagetitle: "Workshop 2026 - JutulDarcy.jl Hands-on"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Hands-on Workshop]{.page-header-badge .badge-upcoming}
+
+# JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation
+
+[Dr. Olav Møyner · SINTEF Digital]{.tagline}
+
+::: {.meta}
+[Day 1]{} [June 1, 2026]{} [Hands-on exercises]{} [60 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Instructor Profile](https://olavmoyner.com/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Overview
+
+This hands-on session introduces JutulDarcy.jl, a high-performance porous media and reservoir simulator based on automatic differentiation.
+
+**Duration:** 60 minutes
+
+## Abstract
+
+Abstract will be updated later.
+
+## Instructor Bio
+
+[Dr. Olav Møyner](https://olavmoyner.com/) is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.
+
+Research interests include:
+
+- Solution methods for coupled, nonlinear partial differential equations (PDEs)
+- Automatic differentiation and adjoint methods
+- Software design of industry-grade simulators
+- Flow and transport in porous media, with applications in hydrocarbon recovery, carbon capture and sequestration, geothermal energy, and groundwater flow
+- Numerical simulation of batteries
+- Discretizations for unstructured meshes (high-order and consistent schemes)
+
+## Materials and Instructions
+
+- Slides: To be added.
+- Notebooks or scripts: To be added.
+- Data: To be added.
+
+:::

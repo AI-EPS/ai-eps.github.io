@@ -1,0 +1,42 @@
+---
+pagetitle: "Seminars 2026 - Simon Ghyselincks"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Seminar Talk]{.page-header-badge .badge-upcoming}
+
+# Synthetic Geology: Encoding Geological Knowledge into Generative AI Models for Probabilistic 3D Reconstruction
+
+[Simon Ghyselincks · University of British Columbia (UBC), Canada]{.tagline}
+
+::: {.meta}
+[10 Mar 2026]{} [AIEPS Seminars 2026]{} [Online]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/simonghyselincks/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Reconstructing 3D structural geology from sparse surface and borehole observations is a longstanding challenge with critical applications in mineral exploration, geohazard assessment, and geotechnical engineering. This inherently ill-posed problem is often addressed by classical geophysical inversion methods, which typically yield a single maximum-likelihood model that fails to capture the full range of plausible geology. In this talk, I present StructuralGeo, a rapid simulation engine that generates synthetic lithological models encoding geological knowledge such as the tectonic, magmatic, and sedimentary processes found in textbooks. Using this engine as a synthetic dataset, we train both unconditional and conditional generative AI models that can reconstruct multiple plausible 3D scenarios from surface topography and sparse borehole data, depicting structures such as layers, faults, folds, and dikes. By sampling many reconstructions from the same observations, we gain insight into not only the most likely reconstruction, but also from the full range of plausible reconstructions that fit the data. While the realism of the output is bounded by the fidelity of the simulation engine, this approach offers a method for probabilistic modeling, regional fine-tuning, and use as an AI-based regularizer.
+
+## Speaker Bio
+
+[Simon Ghyselincks](https://www.linkedin.com/in/simonghyselincks/) is a researcher at the University of British Columbia (UBC), Canada, focusing on computational geoscience and generative modeling for geological reconstruction.
+
+## Materials and Images
+
+![Seminar visual for Synthetic Geology talk](../../images/s2.jpg)
+
+- Slides: To be added.
+- Related links: To be added.
+
+:::

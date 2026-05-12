@@ -1,0 +1,43 @@
+---
+pagetitle: "Workshop 2026 - Surrogate-Based Methods for Efficient Bayesian Posterior Computation"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Surrogate-Based Methods for Efficient Bayesian Posterior Computation
+
+[Dr. Chengkun Li · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/chengkun-li-62360612b/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Bayesian inference provides a principled framework for quantifying uncertainty in parameter estimation and model selection. Applying Bayesian methods to complex forward models remains computationally demanding, particularly when likelihood evaluations are expensive or noisy, or when inference must be repeated across many observed datasets.
+
+This talk presents two classes of surrogate-based methods developed to address these challenges, including surrogates trained via regression and surrogates trained via conditional density estimation.
+
+## Speaker Bio
+
+[Dr. Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) is an invited speaker at AIEPS 2026.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

@@ -1,0 +1,54 @@
+---
+pagetitle: "Workshop 2026 - Getting Started with Geoscientific Machine Learning"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Hands-on Workshop]{.page-header-badge .badge-upcoming}
+
+# Getting Started with Geoscientific Machine Learning
+
+[Dr. Pankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026]{.tagline}
+
+::: {.meta}
+[Day 1]{} [June 1, 2026]{} [Hands-on exercises]{} [1 hr 50 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Workshop Website](https://geo-sciml.com/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Overview
+
+This beginner-friendly workshop introduces geoscientific machine learning using Julia and is designed for participants with no programming background.
+
+**Duration:** 1 hour 50 minutes
+
+Participants will set up the basics, train their first neural network, and get practical guidance on how to continue learning machine learning for geoscience after the session.
+
+## Workshop Description
+
+Machine learning is becoming central to modern geoscience workflows, but getting started can feel overwhelming for newcomers. This session offers a practical entry point with a gentle, hands-on introduction to Julia programming and core ML concepts.
+
+By the end of the workshop, participants will have trained a first neural network and will leave with clear next steps, tools, and learning resources to continue building ML skills for geoscientific applications.
+
+## Instructor Bio
+
+- [Dr. Pankaj K Mishra](https://www.linkedin.com/in/pankajkmishra01/) - AIEPS organiser and invited speaker.
+- [Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/) - Co-instructor.
+- Eetu Hyypio - Co-instructor.
+
+## Materials and Instructions
+
+- Workshop site: <https://geo-sciml.com/>
+- Slides: To be added.
+- Notebooks or scripts: To be added.
+- Preparation notes: Designed for no prior programming experience.
+
+:::

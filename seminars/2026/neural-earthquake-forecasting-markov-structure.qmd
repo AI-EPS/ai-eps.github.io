@@ -1,0 +1,42 @@
+---
+pagetitle: "Seminars 2026 - Jonas Köhler"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Seminar Talk]{.page-header-badge .badge-upcoming}
+
+# Neural Earthquake Forecasting with Minimal Information: Limits, Interpretability, and the Role of Markov Structure
+
+[Jonas Köhler · Frankfurt Institute for Advanced Studies]{.tagline}
+
+::: {.meta}
+[19 Feb 2026]{} [AIEPS Seminars 2026]{} [Online]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/jonas-k%C3%B6hler-5664693a6/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Forecasting earthquake sequences remains a central challenge in seismology, particularly under non-stationary conditions. While deep learning models have shown promise, their ability to generalize across time remains poorly understood. We evaluate neural and hybrid (NN + Markov) models for short-term earthquake forecasting on a regional catalog using temporally stratified cross-validation. Models are trained on earlier portions of the catalog and evaluated on future unseen events, enabling realistic assessment of temporal generalization. We find that while these models outperform a purely Markovian model on validation data, their test performance degrades substantially in the most recent quintile. A detailed attribution analysis reveals a shift in feature relevance over time, with later data exhibiting simpler, more Markov-consistent behavior. To support interpretability, we apply Integrated Gradients to analyze how models rely on different input features. These results highlight the risks of overfitting to early patterns in seismicity and underscore the importance of temporally realistic benchmarks.
+
+## Speaker Bio
+
+[Jonas Köhler](https://www.linkedin.com/in/jonas-k%C3%B6hler-5664693a6/) is a researcher at the Frankfurt Institute for Advanced Studies working on interpretable machine learning for seismological forecasting.
+
+## Materials and Images
+
+![Placeholder seminar visual for Neural Earthquake Forecasting talk](../../images/spotlight-placeholder.svg)
+
+- Slides: To be added.
+- Related links: To be added.
+
+:::

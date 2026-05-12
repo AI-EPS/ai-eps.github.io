@@ -1,0 +1,49 @@
+---
+pagetitle: "Neural Operators in Seismic Exploration and Monitoring"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Novel Applications of Neural Operators in Seismic Exploration and Monitoring
+
+[Dr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://pure.kfupm.edu.sa/en/persons/umair-waheed/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Scientific machine learning has emerged as a powerful framework for augmenting classical numerical modeling and inversion workflows in geophysics, particularly in settings where repeated simulations, limited data, and strict physical consistency are critical. Within this broader paradigm, neural operators represent a fundamental shift in how learning is performed for seismic problems: rather than approximating individual solutions, they learn mappings between function spaces, enabling rapid evaluation across varying physical and acquisition conditions.
+
+This talk focuses on novel applications of neural operators in seismic exploration and monitoring, with an emphasis on practical workflows rather than architectural details alone. I will present recent advances demonstrating how operator-learning frameworks, such as Fourier-based and DeepONet-style models, can be used for seismic forward modeling, inversion, and monitoring tasks. These approaches enable efficient handling of variable velocity models, source locations, and acquisition geometries, often without retraining, while maintaining strong consistency with underlying wave physics.
+
+Through a series of application-driven case studies, the talk will illustrate how neural operators can significantly reduce computational cost, enable real-time or near-real-time seismic analysis, and open new possibilities for scalable imaging and monitoring systems.
+
+## Speaker Bio
+
+[Dr. Umair bin Waheed](https://pure.kfupm.edu.sa/en/persons/umair-waheed/) is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST with a Ph.D. in 2015 and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award.
+
+## Materials and Images
+
+::: {.editor-note}
+This section is reserved for speaker edits. Add figures, slides, references, links, or tutorial material here.
+:::
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

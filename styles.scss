@@ -18,10 +18,12 @@ $clr-border:    #e0e0e0;   /* borders, dividers                    */
 $clr-surface:   #f5f5f3;   /* abstract bg, callout bg              */
 $clr-page-bg:   #e8e8e8;   /* outer page background                */
 $clr-card-bg:   #ffffff;   /* content area background              */
+$site-max-width: 1320px;   /* 20% wider than previous 1100px       */
 
 /* Bootstrap / Quarto variable overrides */
 $primary: $clr-navy;
-$link-color: $clr-navy;
+$link-color: #0000FF;
+$link-hover-color: #0000FF;
 $body-color: $clr-text;
 $headings-color: $clr-text;
 $font-family-sans-serif: 'Source Sans 3', 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -49,7 +51,7 @@ body {
 
 /* ---- Constrain everything to same max-width & gutters ---- */
 #quarto-content {
-  max-width: 1100px;
+  max-width: $site-max-width;
   margin: 0 auto;
   background: $clr-card-bg;
   box-shadow: 0 0 60px rgba(0,0,0,0.05);
@@ -57,7 +59,7 @@ body {
 
 /* Navbar: constrain inner content AND outer bar to content width */
 .navbar {
-  max-width: 1100px;
+  max-width: $site-max-width;
   margin: 0 auto;
   border-bottom: 1px solid $clr-border;
   background: $clr-card-bg !important;
@@ -85,12 +87,12 @@ body {
 }
 
 .navbar > .container-fluid {
-  max-width: 1100px;
+  max-width: $site-max-width;
   margin: 0 auto;
 }
 
 #quarto-footer {
-  max-width: 1100px;
+  max-width: $site-max-width;
   margin: 0 auto;
   background: #fafafa;
 }
@@ -345,6 +347,146 @@ body {
   font-size: 1rem;
   color: #555;
   margin: 0;
+}
+
+/* ================================================================
+   Event pages
+   ================================================================ */
+.event-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.event-stat {
+  border: 1px solid $clr-border;
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  background: #fff;
+}
+
+.event-stat-label {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  color: $clr-secondary;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.event-stat p {
+  margin-bottom: 0;
+  color: $clr-secondary;
+  line-height: 1.45;
+}
+
+.schedule-day {
+  margin: 1.5rem 0 2.1rem;
+}
+
+.schedule-day h3 {
+  margin-bottom: 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.session-label {
+  display: inline-block;
+  margin: 0 0 0.7rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: 3px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.session-label-hands-on {
+  background: #e9f4ee;
+  color: #1f6f4a;
+}
+
+.session-label-talk {
+  background: #eef1f6;
+  color: $clr-navy;
+}
+
+.schedule-table {
+  overflow-x: auto;
+  border-top: 2px solid $clr-navy;
+}
+
+.schedule-table table,
+#quarto-document-content .schedule-table table {
+  min-width: 760px;
+  margin-top: 0;
+}
+
+.schedule-table table th,
+#quarto-document-content .schedule-table table th {
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $clr-secondary;
+}
+
+.schedule-table table td:first-child,
+#quarto-document-content .schedule-table table td:first-child {
+  width: 7.2rem;
+  white-space: nowrap;
+  font-weight: 700;
+  color: $headings-color;
+}
+
+.schedule-table table td:last-child,
+#quarto-document-content .schedule-table table td:last-child {
+  width: 7rem;
+  color: $clr-secondary;
+}
+
+.speaker-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.speaker-card {
+  border: 1px solid $clr-border;
+  border-radius: 6px;
+  padding: 1rem 1.05rem;
+  background: #fff;
+}
+
+.speaker-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.speaker-card p {
+  margin-bottom: 0.45rem;
+  color: $clr-secondary;
+  line-height: 1.45;
+}
+
+.speaker-card p:last-child {
+  margin-bottom: 0;
+}
+
+.session-detail h2 {
+  margin-top: 1.7rem;
+}
+
+.editor-note {
+  margin: 0.85rem 0 1rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid $clr-navy;
+  background: $clr-surface;
+  border-radius: 5px;
+  color: $clr-secondary;
 }
 
 /* ================================================================
@@ -652,4 +794,6 @@ body {
   .actions { flex-direction: column; }
   .spotlight-title { font-size: 1.1rem; }
   .home-grid { grid-template-columns: 1fr; }
+  .event-summary-grid { grid-template-columns: 1fr; }
+  .speaker-card { padding: 0.85rem; }
 }

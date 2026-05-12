@@ -1,0 +1,43 @@
+---
+pagetitle: "Workshop 2026 - Some Digital Twins and Generative AI in geoscience"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Some Digital Twins and Generative AI in geoscience
+
+[Dr. Fahimeh Farahnakian · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/farahnakian/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Abstract will be updated soon.
+
+## Speaker Bio
+
+[Dr. Fahimeh Farahnakian](https://www.linkedin.com/in/farahnakian/) is an invited speaker at AIEPS 2026.
+
+My research interests include Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Data Analysis, Autonomous Driving and Remote Sensing. I currently seek to advance computer vision technology via deep learning for remote sensing applications and geospatial data.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

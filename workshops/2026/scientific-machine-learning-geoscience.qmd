@@ -1,0 +1,49 @@
+---
+pagetitle: "Scientific Machine Learning for Geoscience"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience
+
+[Dr. Pankaj K Mishra · Geological Survey of Finland (GTK)]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://pankajkmishra.github.io/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+With recent advancements in machine learning (ML) and artificial intelligence (AI), a central question arises: how can established workflows of geophysical modelling and inversion benefit from these methods without sacrificing robustness and physical consistency? Scientific machine learning offers a pathway by respecting physical principles during the learning process, combining the strengths of physics-based formulations with the adaptability of neural networks. This integration enables flexible representations of the Earth while maintaining the reliability of traditional forward and inverse approaches.
+
+In this contribution two complementary directions are discussed. The first is how neural networks can be trained to solve geophysical forward problems and subsequently used as fast surrogates to accelerate inversion and uncertainty analysis. This approach is demonstrated with magnetotelluric modelling and probabilistic inversion, where deep operator networks emulate magnetotelluric responses and make large-scale probabilistic exploration feasible. The second direction is how geophysical inverse problems themselves can be solved by neural networks, where the subsurface is represented as a continuous neural function directly constrained by physics. This is demonstrated through three-dimensional gravity inversion, where implicit neural fields capture both gradual variations and sharp contrasts without the need for explicit depth weighting.
+
+Together, these advances point toward a new generation of geophysical workflows, opening space for geoscientists to explore a broader range of geological possibilities. While challenges remain in generalisation, data quality, and the incorporation of geological priors, scientific machine learning offers a promising framework for building Earth models that are both physically faithful and computationally efficient.
+
+## Speaker Bio
+
+[Dr. Pankaj K Mishra](https://pankajkmishra.github.io/) is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures, including deep operator networks and implicit neural representations, to build efficient and physically consistent Earth models.
+
+## Materials and Images
+
+::: {.editor-note}
+This section is reserved for speaker edits. Add figures, slides, references, links, or tutorial material here.
+:::
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

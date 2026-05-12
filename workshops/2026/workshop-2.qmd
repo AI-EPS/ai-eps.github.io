@@ -1,0 +1,53 @@
+---
+pagetitle: "Workshop 2026 - Seismic ML Uncertainty Assessment Tool"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Hands-on Workshop]{.page-header-badge .badge-upcoming}
+
+# A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows
+
+[Dr. Heather Bedle · AIEPS Workshop 2026]{.tagline}
+
+::: {.meta}
+[Day 1]{} [June 1, 2026]{} [Hands-on exercises]{} [50 min + 10 min Q&A]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Instructor Profile](https://www.linkedin.com/in/heather-bedle-29b5342/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Overview
+
+**Title:** A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows
+
+This hands-on session introduces a free browser-based checklist tool for systematically assessing uncertainty in unsupervised seismic ML workflows.
+
+**Duration:** 50 minutes + 10 minutes Q&A
+
+## Abstract
+
+When geoscientists apply machine learning to seismic data, the algorithm is rarely the problem - the decisions surrounding it are. Which attributes went in, whether they were prepared correctly, how many classes were chosen and why, and whether the output was ever checked against real geology: these are the questions that determine whether a seismic ML result reflects the subsurface or an artifact of the workflow.
+
+The Seismic Multi-Attribute ML Uncertainty Assessment Tool, developed at the University of Oklahoma, is a free, browser-based checklist that guides practitioners through those questions systematically, requires no installation or ML expertise, takes fifteen to twenty minutes to complete, and produces a prioritized list of the specific steps most likely to improve the reliability of a result.
+
+This presentation will demonstrate the tool live and discuss the common workflow failures it is designed to surface.
+
+## Instructor Bio
+
+[Dr. Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma.
+
+## Materials and Instructions
+
+- Tool link: <https://hbedle-subsurface.github.io/seismic_ml_assessment/>
+- Slides: To be added.
+- Notes: Live demonstration during the session.
+
+:::

@@ -1,0 +1,49 @@
+---
+pagetitle: "Workshop 2026 - Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition
+
+[Dr. April Moreno-Ward · Postdoctoral Researcher, AASPI Consortium]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/april-moreno-ward-23566a2a/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Machine learning is showing up everywhere in geoscience workflows, but many geologists are still unsure what to make of it. This talk approaches that gap from the human side rather than the technical side: why do smart, experienced geoscientists push back on new tools, even relatively simple ones, and what does that tell us about how we should introduce more complex methods like ML?
+
+Drawing on experience moving from geology into geophysics and machine learning, this session frames the challenge and opens it up for discussion. Importantly, this is not just a problem for skeptics to solve. Those of us building ML workflows and new seismic products also need to do a better job understanding what interpreters actually need from a result.
+
+Rather than presenting fixed answers, the goal is a real conversation: what arguments have worked, what analogies land, and what approaches people have actually tried?
+
+## Speaker Bio
+
+[Dr. April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) is an applied geophysicist and geologist specializing in advanced multi-attribute seismic analysis of deepwater channel systems. As a postdoctoral researcher under the guidance of Dr. Heather Bedle with the AASPI (Attribute-Assisted Seismic Processing and Interpretation) consortium, she focuses on bridging the gap between academic innovation and industry application by translating cutting-edge geophysical research into practical workflows for exploration and development.
+
+Before joining AASPI, she served the geologic community for eight years as a Professor of Geology at Rose State College, where she focused on hands-on learning and community engagement.
+
+Her industry roots are equally strong. Through her work with Petrous Exploration and Development, she collaborated with Gary King of Greenbriar Resources on mapping projects across Oklahoma and Illinois. Over six years, she also developed and refined her geophysical expertise alongside Bill Manthey, a consulting geophysicist with more than 35 years of industry experience, on projects throughout Oklahoma and North Texas. These mentorships sharpened her applied skills and reinforced her commitment to connecting subsurface science with real-world results.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

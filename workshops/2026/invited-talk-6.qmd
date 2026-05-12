@@ -1,0 +1,45 @@
+---
+pagetitle: "Workshop 2026 - Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation
+
+[Dr. Hanli Qiao · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/hanli-qiao-128473328/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Sustainable groundwater management and protection of water resources against contamination require detailed understanding of how contaminants propagate and spread in the subsurface. This requires computer models able to capture physical and chemical processes driving such movement. However, the state-of-the-art models are often slow because of a multitude of processes, complicating their applications in decision-making purposes.
+
+To address these challenges, the InterpAI-CoM project develops a novel approach that integrates artificial intelligence with scientific computing of reactive transport processes. The goal is to produce predictions that are faster, while maintaining similar process details as considered in physics-based models.
+
+If successful, this approach will support decision-makers, practitioners, government, and environmental professionals in responding more effectively to contamination issues and in designing more sustainable solutions.
+
+## Speaker Bio
+
+[Dr. Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) is an invited speaker at AIEPS 2026.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

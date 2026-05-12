@@ -1,0 +1,49 @@
+---
+pagetitle: "Workshop 2026 - Illuminating Subsurface Uncertainty"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI
+
+[Dr. Heather Bedle · University of Oklahoma]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/heather-bedle-29b5342/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Machine learning has become a routine part of seismic interpretation, but when a facies map comes out of a black box, how do you know whether to trust it?
+
+This talk introduces SHAP (SHapley Additive Explanations), a practical explainability method that opens that black box and shows which seismic attributes are actually driving classification decisions, where the model is confident, and where it may be getting things wrong.
+
+Drawing on research from the AASPI Consortium at the University of Oklahoma, this talk walks through real case studies showing how SHAP analysis transforms ML outputs from opaque results into auditable, geologically interpretable ones.
+
+In twenty minutes, attendees will come away with a clear picture of what explainable AI looks like in practice and why knowing why your model made a decision is just as important as knowing what it decided.
+
+**Duration:** 30 minutes
+
+## Speaker Bio
+
+[Dr. Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: AASPI Consortium research examples to be shared during the session.
+- Images: To be added.
+
+:::

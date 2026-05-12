@@ -13,7 +13,7 @@ page-layout: article
 [June 1-2, 2026 · Espoo, Finland · Hybrid]{.tagline}
 
 ::: {.meta}
-[Day 1: hands-on exercises]{} [Day 2: invited talks]{} [Free registration]{}
+Day 1: Hands-on exercises · Day 2: Invited talks · Free registration
 :::
 
 ::: {.actions}

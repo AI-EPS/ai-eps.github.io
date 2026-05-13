@@ -10,7 +10,7 @@ page-layout: article
 
 # Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience
 
-[Dr. Pankaj K Mishra · Geological Survey of Finland (GTK)]{.tagline}
+[Pankaj K Mishra · Geological Survey of Finland (GTK)]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
@@ -34,7 +34,7 @@ Together, these advances point toward a new generation of geophysical workflows,
 
 ## Speaker Bio
 
-[Dr. Pankaj K Mishra](https://pankajkmishra.github.io/) is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures, including deep operator networks and implicit neural representations, to build efficient and physically consistent Earth models.
+[Pankaj K Mishra](https://pankajkmishra.github.io/) is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures, including deep operator networks and implicit neural representations, to build efficient and physically consistent Earth models.
 
 ## Materials and Images
 
@@ -47,3 +47,4 @@ This section is reserved for speaker edits. Add figures, slides, references, lin
 - Images: To be added.
 
 :::
+

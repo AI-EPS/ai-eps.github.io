@@ -4,7 +4,7 @@
     "href": "workshops/2026/workshop-2.html",
     "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
     "section": "",
-    "text": "Hands-on Workshop\n\n\nDr. Heather Bedle · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 50 min + 10 min Q&A\n\n\nBack to Programme Instructor Profile"
+    "text": "Hands-on Workshop\n\n\nHeather Bedle · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 50 min + 10 min Q&A\n\n\nBack to Programme Instructor Profile"
   },
   {
     "objectID": "workshops/2026/workshop-2.html#overview",
@@ -18,7 +18,7 @@
     "href": "workshops/2026/workshop-2.html#instructor-bio",
     "title": "A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows",
     "section": "Instructor Bio",
-    "text": "Instructor Bio\nDr. Heather Bedle is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma."
+    "text": "Instructor Bio\nHeather Bedle is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma."
   },
   {
     "objectID": "workshops/2026/workshop-2.html#materials-and-instructions",
@@ -32,7 +32,7 @@
     "href": "workshops/2026/scientific-machine-learning-geoscience.html",
     "title": "Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. Pankaj K Mishra · Geological Survey of Finland (GTK)\n\nDay 2 June 2, 2026 AIEPS Workshop 2026\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nPankaj K Mishra · Geological Survey of Finland (GTK)\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/scientific-machine-learning-geoscience.html#abstract",
@@ -46,7 +46,7 @@
     "href": "workshops/2026/scientific-machine-learning-geoscience.html#speaker-bio",
     "title": "Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. Pankaj K Mishra is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures, including deep operator networks and implicit neural representations, to build efficient and physically consistent Earth models."
+    "text": "Speaker Bio\nPankaj K Mishra is a Senior Scientist at the Geological Survey of Finland (GTK), working on scientific machine learning for geophysical modelling, inversion, and uncertainty quantification. His research combines physics-based formulations with neural network architectures, including deep operator networks and implicit neural representations, to build efficient and physically consistent Earth models."
   },
   {
     "objectID": "workshops/2026/scientific-machine-learning-geoscience.html#materials-and-images",
@@ -60,7 +60,7 @@
     "href": "workshops/2026/invited-talk-4.html",
     "title": "Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. April Moreno-Ward · Postdoctoral Researcher, AASPI Consortium\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nApril Moreno-Ward · Postdoctoral Researcher, AASPI Consortium\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/invited-talk-4.html#abstract",
@@ -74,7 +74,7 @@
     "href": "workshops/2026/invited-talk-4.html#speaker-bio",
     "title": "Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. April Moreno-Ward is an applied geophysicist and geologist specializing in advanced multi-attribute seismic analysis of deepwater channel systems. As a postdoctoral researcher under the guidance of Dr. Heather Bedle with the AASPI (Attribute-Assisted Seismic Processing and Interpretation) consortium, she focuses on bridging the gap between academic innovation and industry application by translating cutting-edge geophysical research into practical workflows for exploration and development.\nBefore joining AASPI, she served the geologic community for eight years as a Professor of Geology at Rose State College, where she focused on hands-on learning and community engagement.\nHer industry roots are equally strong. Through her work with Petrous Exploration and Development, she collaborated with Gary King of Greenbriar Resources on mapping projects across Oklahoma and Illinois. Over six years, she also developed and refined her geophysical expertise alongside Bill Manthey, a consulting geophysicist with more than 35 years of industry experience, on projects throughout Oklahoma and North Texas. These mentorships sharpened her applied skills and reinforced her commitment to connecting subsurface science with real-world results."
+    "text": "Speaker Bio\nApril Moreno-Ward is an applied geophysicist and geologist specializing in advanced multi-attribute seismic analysis of deepwater channel systems. As a postdoctoral researcher under the guidance of Heather Bedle with the AASPI (Attribute-Assisted Seismic Processing and Interpretation) consortium, she focuses on bridging the gap between academic innovation and industry application by translating cutting-edge geophysical research into practical workflows for exploration and development.\nBefore joining AASPI, she served the geologic community for eight years as a Professor of Geology at Rose State College, where she focused on hands-on learning and community engagement.\nHer industry roots are equally strong. Through her work with Petrous Exploration and Development, she collaborated with Gary King of Greenbriar Resources on mapping projects across Oklahoma and Illinois. Over six years, she also developed and refined her geophysical expertise alongside Bill Manthey, a consulting geophysicist with more than 35 years of industry experience, on projects throughout Oklahoma and North Texas. These mentorships sharpened her applied skills and reinforced her commitment to connecting subsurface science with real-world results."
   },
   {
     "objectID": "workshops/2026/invited-talk-4.html#materials-and-images",
@@ -102,7 +102,7 @@
     "href": "workshops/2026.html#programme",
     "title": "2026 Workshop on AI in Earth and Planetary Science",
     "section": "Programme",
-    "text": "Programme\n\nProgramme update: The programme is currently under construction and may change.\n\nThe schedule is organized as a stable index. Click a linked session title to open its editable page with abstract, bio, materials, images, and tutorial notes.\n\nDay 1 - Monday, June 1\nHands-on exercises\n\n\n\n\nTime\nSession\nLead\nFormat\n\n\n\n\n09:00-09:15\nTBA\nTBA\nTBA\n\n\n09:15-09:30\nTBA\nTBA\nTBA\n\n\n09:30-09:45\nTBA\nTBA\nTBA\n\n\n09:45-10:00\nTBA\nTBA\nTBA\n\n\n10:00-10:15\nTBA\nTBA\nTBA\n\n\n10:15-12:00\nGetting Started with Geoscientific Machine Learning\nDr. Pankaj K Mishra, Sanni Laaksonen, Eetu Hyypio\nHands-on\n\n\n12:00-13:00\nLunch\n-\nBreak\n\n\n13:00-14:00\nA Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows\nDr. Heather Bedle\nHands-on\n\n\n14:00-15:00\nJutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation\nDr. Olav Møyner\nHands-on\n\n\n15:00-15:15\nCoffee break\n-\nBreak\n\n\n15:15-15:30\nTBA\nTBA\nTBA\n\n\n15:30-15:45\nTBA\nTBA\nTBA\n\n\n15:45-16:00\nTBA\nTBA\nTBA\n\n\n16:00-16:15\nTBA\nTBA\nTBA\n\n\n16:15-16:30\nTBA\nTBA\nTBA\n\n\n16:30-16:45\nTBA\nTBA\nTBA\n\n\n16:45-17:00\nTBA\nTBA\nTBA\n\n\n\n\n\n\nDay 2 - Tuesday, June 2\nInvited talks and discussion\n\n\n\n\nTime\nSession\nSpeaker\nFormat\n\n\n\n\n09:00-09:15\nTBA\nTBA\nTBA\n\n\n09:15-09:30\nTBA\nTBA\nTBA\n\n\n09:30-09:45\nTBA\nTBA\nTBA\n\n\n09:45-10:15\nScientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience\nDr. Pankaj K Mishra\nIn-person · Online\n\n\n10:15-10:45\nNovel Applications of Neural Operators in Seismic Exploration and Monitoring\nDr. Umair bin Waheed\nHybrid · Online\n\n\n10:45-11:00\nTBA\nTBA\nTBA\n\n\n11:00-11:30\nSurrogate-Based Methods for Efficient Bayesian Posterior Computation\nDr. Chengkun Li\nIn-person · Online\n\n\n11:30-12:00\nInterpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation\nDr. Hanli Qiao\nIn-person · Online\n\n\n12:00-13:00\nLunch\n-\nBreak\n\n\n13:00-13:30\nIlluminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI\nDr. Heather Bedle\nHybrid · Online\n\n\n13:30-14:00\nGeo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition\nDr. April Moreno-Ward\nHybrid · Online\n\n\n14:00-14:30\nSome Digital Twins and Generative AI in geoscience\nDr. Fahimeh Farahnakian\nIn-person · Online\n\n\n14:30-14:45\nML-based workflow to enhance seismic fault interpretation in OBN seismic data\nMatheus Nilo\nHybrid · Online\n\n\n14:45-15:00\nCoffee break\n-\nBreak\n\n\n15:00-15:15\nTBA\nTBA\nTBA\n\n\n15:15-15:30\nTBA\nTBA\nTBA\n\n\n15:30-15:45\nTBA\nTBA\nTBA\n\n\n15:45-16:00\nTBA\nTBA\nTBA\n\n\n16:00-16:15\nTBA\nTBA\nTBA\n\n\n16:15-16:30\nTBA\nTBA\nTBA\n\n\n16:30-16:45\nTBA\nTBA\nTBA\n\n\n16:45-17:00\nTBA\nTBA\nTBA"
+    "text": "Programme\n\nProgramme update: The programme is currently under construction and may change.\n\nThe schedule is organized as a stable index. Click a linked session title to open its editable page with abstract, bio, materials, images, and tutorial notes.\n\nDay 1 - Monday, June 1\nHands-on exercises\n\n\n\n\nTime\nSession\nLead\nFormat\n\n\n\n\n09:00-09:15\nTBA\nTBA\nTBA\n\n\n09:15-09:30\nTBA\nTBA\nTBA\n\n\n09:30-09:45\nTBA\nTBA\nTBA\n\n\n09:45-10:00\nTBA\nTBA\nTBA\n\n\n10:00-10:15\nTBA\nTBA\nTBA\n\n\n10:15-12:00\nGetting Started with Geoscientific Machine Learning\nPankaj K Mishra, Sanni Laaksonen, Eetu Hyypio\nHands-on\n\n\n12:00-13:00\nLunch\n-\nBreak\n\n\n13:00-14:00\nA Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows\nHeather Bedle\nHands-on\n\n\n14:00-15:00\nJutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation\nOlav Møyner\nHands-on\n\n\n15:00-15:15\nCoffee break\n-\nBreak\n\n\n15:15-15:30\nTBA\nTBA\nTBA\n\n\n15:30-15:45\nTBA\nTBA\nTBA\n\n\n15:45-16:00\nTBA\nTBA\nTBA\n\n\n16:00-16:15\nTBA\nTBA\nTBA\n\n\n16:15-16:30\nTBA\nTBA\nTBA\n\n\n16:30-16:45\nTBA\nTBA\nTBA\n\n\n16:45-17:00\nTBA\nTBA\nTBA\n\n\n\n\n\n\nDay 2 - Tuesday, June 2\nInvited talks and discussion\n\n\n\n\nTime\nSession\nSpeaker\nFormat\n\n\n\n\n09:00-09:15\nTBA\nTBA\nTBA\n\n\n09:15-09:30\nTBA\nTBA\nTBA\n\n\n09:30-09:45\nTBA\nTBA\nTBA\n\n\n09:45-10:15\nScientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience\nPankaj K Mishra\nIn-person · Online\n\n\n10:15-10:45\nNovel Applications of Neural Operators in Seismic Exploration and Monitoring\nUmair bin Waheed\nHybrid · Online\n\n\n10:45-11:00\nTBA\nTBA\nTBA\n\n\n11:00-11:30\nSurrogate-Based Methods for Efficient Bayesian Posterior Computation\nChengkun Li\nIn-person · Online\n\n\n11:30-12:00\nInterpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation\nHanli Qiao\nIn-person · Online\n\n\n12:00-13:00\nLunch\n-\nBreak\n\n\n13:00-13:30\nIlluminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI\nHeather Bedle\nHybrid · Online\n\n\n13:30-14:00\nGeo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition\nApril Moreno-Ward\nHybrid · Online\n\n\n14:00-14:30\nSome Digital Twins and Generative AI in geoscience\nFahimeh Farahnakian\nIn-person · Online\n\n\n14:30-14:45\nML-based workflow to enhance seismic fault interpretation in OBN seismic data\nMatheus Nilo\nHybrid · Online\n\n\n14:45-15:00\nCoffee break\n-\nBreak\n\n\n15:00-15:15\nInterpretable Machine Learning for Geohazard study\nIqra Hassan\nOnline\n\n\n15:15-15:30\nTBA\nTBA\nTBA\n\n\n15:30-15:45\nTBA\nTBA\nTBA\n\n\n15:45-16:00\nTBA\nTBA\nTBA\n\n\n16:00-16:15\nTBA\nTBA\nTBA\n\n\n16:15-16:30\nTBA\nTBA\nTBA\n\n\n16:30-16:45\nTBA\nTBA\nTBA\n\n\n16:45-17:00\nTBA\nTBA\nTBA"
   },
   {
     "objectID": "workshops/2026.html#speakers",
@@ -186,7 +186,7 @@
     "href": "workshops/2026/invited-talk-3.html",
     "title": "Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. Heather Bedle · University of Oklahoma\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nHeather Bedle · University of Oklahoma\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/invited-talk-3.html#abstract",
@@ -200,7 +200,7 @@
     "href": "workshops/2026/invited-talk-3.html#speaker-bio",
     "title": "Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. Heather Bedle is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma."
+    "text": "Speaker Bio\nHeather Bedle is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma."
   },
   {
     "objectID": "workshops/2026/invited-talk-3.html#materials-and-images",
@@ -214,7 +214,7 @@
     "href": "workshops/2026/neural-operators-seismic.html",
     "title": "Novel Applications of Neural Operators in Seismic Exploration and Monitoring",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)\n\nDay 2 June 2, 2026 AIEPS Workshop 2026\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nUmair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/neural-operators-seismic.html#abstract",
@@ -228,7 +228,7 @@
     "href": "workshops/2026/neural-operators-seismic.html#speaker-bio",
     "title": "Novel Applications of Neural Operators in Seismic Exploration and Monitoring",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. Umair bin Waheed is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST with a Ph.D. in 2015 and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award."
+    "text": "Speaker Bio\nUmair bin Waheed is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST with a Ph.D. in 2015 and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award."
   },
   {
     "objectID": "workshops/2026/neural-operators-seismic.html#materials-and-images",
@@ -242,7 +242,7 @@
     "href": "workshops/2026/workshop-1.html",
     "title": "Getting Started with Geoscientific Machine Learning",
     "section": "",
-    "text": "Hands-on Workshop\n\n\nDr. Pankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 1 hr 50 min\n\n\nBack to Programme Workshop Materials"
+    "text": "Hands-on Workshop\n\n\nPankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 1 hr 50 min\n\n\nBack to Programme Workshop Materials"
   },
   {
     "objectID": "workshops/2026/workshop-1.html#overview",
@@ -256,7 +256,7 @@
     "href": "workshops/2026/workshop-1.html#instructor-bio",
     "title": "Getting Started with Geoscientific Machine Learning",
     "section": "Instructor Bio",
-    "text": "Instructor Bio\n\nDr. Pankaj K Mishra - AIEPS organiser and invited speaker.\nSanni Laaksonen - Co-instructor.\nEetu Hyypio - Co-instructor."
+    "text": "Instructor Bio\n\nPankaj K Mishra - AIEPS organiser and invited speaker.\nSanni Laaksonen - Co-instructor.\nEetu Hyypio - Co-instructor."
   },
   {
     "objectID": "workshops/2026/workshop-1.html#materials-and-instructions",
@@ -284,7 +284,7 @@
     "href": "workshops/2026/invited-talk-5.html",
     "title": "Surrogate-Based Methods for Efficient Bayesian Posterior Computation",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. Chengkun Li · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nChengkun Li · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/invited-talk-5.html#abstract",
@@ -298,7 +298,7 @@
     "href": "workshops/2026/invited-talk-5.html#speaker-bio",
     "title": "Surrogate-Based Methods for Efficient Bayesian Posterior Computation",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. Chengkun Li is an invited speaker at AIEPS 2026."
+    "text": "Speaker Bio\nChengkun Li is an invited speaker at AIEPS 2026."
   },
   {
     "objectID": "workshops/2026/invited-talk-5.html#materials-and-images",
@@ -312,7 +312,7 @@
     "href": "workshops/2026/invited-talk-6.html",
     "title": "Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. Hanli Qiao · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nHanli Qiao · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/invited-talk-6.html#abstract",
@@ -326,7 +326,7 @@
     "href": "workshops/2026/invited-talk-6.html#speaker-bio",
     "title": "Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. Hanli Qiao is an invited speaker at AIEPS 2026."
+    "text": "Speaker Bio\nHanli Qiao is an invited speaker at AIEPS 2026."
   },
   {
     "objectID": "workshops/2026/invited-talk-6.html#materials-and-images",
@@ -340,7 +340,7 @@
     "href": "workshops/2026/invited-talk-7.html",
     "title": "Some Digital Twins and Generative AI in geoscience",
     "section": "",
-    "text": "Invited Talk\n\n\nDr. Fahimeh Farahnakian · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
+    "text": "Invited Talk\n\n\nFahimeh Farahnakian · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 30 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/invited-talk-7.html#abstract",
@@ -354,7 +354,7 @@
     "href": "workshops/2026/invited-talk-7.html#speaker-bio",
     "title": "Some Digital Twins and Generative AI in geoscience",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nDr. Fahimeh Farahnakian is an invited speaker at AIEPS 2026.\nMy research interests include Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Data Analysis, Autonomous Driving and Remote Sensing. I currently seek to advance computer vision technology via deep learning for remote sensing applications and geospatial data."
+    "text": "Speaker Bio\nFahimeh Farahnakian is an invited speaker at AIEPS 2026.\nMy research interests include Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Data Analysis, Autonomous Driving and Remote Sensing. I currently seek to advance computer vision technology via deep learning for remote sensing applications and geospatial data."
   },
   {
     "objectID": "workshops/2026/invited-talk-7.html#materials-and-images",
@@ -368,7 +368,7 @@
     "href": "workshops/2026/workshop-3.html",
     "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
     "section": "",
-    "text": "Hands-on Workshop\n\n\nDr. Olav Møyner · SINTEF Digital\n\nDay 1 June 1, 2026 Hands-on exercises 60 min\n\n\nBack to Programme Instructor Profile"
+    "text": "Hands-on Workshop\n\n\nOlav Møyner · SINTEF Digital\n\nDay 1 June 1, 2026 Hands-on exercises 60 min\n\n\nBack to Programme Instructor Profile"
   },
   {
     "objectID": "workshops/2026/workshop-3.html#overview",
@@ -389,7 +389,7 @@
     "href": "workshops/2026/workshop-3.html#instructor-bio",
     "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
     "section": "Instructor Bio",
-    "text": "Instructor Bio\nDr. Olav Møyner is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.\nResearch interests include:\n\nSolution methods for coupled, nonlinear partial differential equations (PDEs)\nAutomatic differentiation and adjoint methods\nSoftware design of industry-grade simulators\nFlow and transport in porous media, with applications in hydrocarbon recovery, carbon capture and sequestration, geothermal energy, and groundwater flow\nNumerical simulation of batteries\nDiscretizations for unstructured meshes (high-order and consistent schemes)"
+    "text": "Instructor Bio\nOlav Møyner is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.\nResearch interests include:\n\nSolution methods for coupled, nonlinear partial differential equations (PDEs)\nAutomatic differentiation and adjoint methods\nSoftware design of industry-grade simulators\nFlow and transport in porous media, with applications in hydrocarbon recovery, carbon capture and sequestration, geothermal energy, and groundwater flow\nNumerical simulation of batteries\nDiscretizations for unstructured meshes (high-order and consistent schemes)"
   },
   {
     "objectID": "workshops/2026/workshop-3.html#materials-and-instructions",
@@ -508,7 +508,7 @@
     "href": "workshops/2026/invited-talk-8.html",
     "title": "ML-based workflow to enhance seismic fault interpretation in OBN seismic data",
     "section": "",
-    "text": "Invited Talk\n\n\nMatheus Nilo · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 15 min\n\n\nBack to Programme Contact Speaker"
+    "text": "Invited Talk\n\n\nMatheus Nilo · Invited Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 15 min\n\n\nBack to Programme Speaker Profile"
   },
   {
     "objectID": "workshops/2026/invited-talk-8.html#abstract",
@@ -522,12 +522,40 @@
     "href": "workshops/2026/invited-talk-8.html#speaker-bio",
     "title": "ML-based workflow to enhance seismic fault interpretation in OBN seismic data",
     "section": "Speaker Bio",
-    "text": "Speaker Bio\nMatheus Nilo is an invited speaker at AIEPS 2026 and will present online."
+    "text": "Speaker Bio\nMatheus Nilo is an invited speaker at AIEPS 2026 and will present in hybrid format."
   },
   {
     "objectID": "workshops/2026/invited-talk-8.html#materials-and-images",
     "href": "workshops/2026/invited-talk-8.html#materials-and-images",
     "title": "ML-based workflow to enhance seismic fault interpretation in OBN seismic data",
+    "section": "Materials and Images",
+    "text": "Materials and Images\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-9.html",
+    "href": "workshops/2026/invited-talk-9.html",
+    "title": "Interpretable Machine Learning for Geohazard study",
+    "section": "",
+    "text": "Contributed Talk\n\n\nIqra Hassan · Contributed Speaker\n\nDay 2 June 2, 2026 AIEPS Workshop 2026 15 min\n\n\nBack to Programme Contact Speaker"
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-9.html#abstract",
+    "href": "workshops/2026/invited-talk-9.html#abstract",
+    "title": "Interpretable Machine Learning for Geohazard study",
+    "section": "Abstract",
+    "text": "Abstract\nMachine learning is a powerful tool to deal with complex problems and large datasets. Regional scale geohazard mapping using Remote Sensing data and Machine Learning tools is a common practice. High resolution remote sensing images are used to train and test the model for geohazard predictions. But one of the drawbacks of this technique is the lack of transparency of models. To overcome the blackbox nature of the machine learning tools, various interpretable technologies are available including SHapeLY explanations. Such studies have ease the predictions of hazards and dealing with the complexity of the problem. The case study discusses the trigger factor investigation of landslides in high mountain terrains using uncovered machine learning models."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-9.html#speaker-bio",
+    "href": "workshops/2026/invited-talk-9.html#speaker-bio",
+    "title": "Interpretable Machine Learning for Geohazard study",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nIqra Hassan is a contributed speaker at AIEPS 2026 and will present online."
+  },
+  {
+    "objectID": "workshops/2026/invited-talk-9.html#materials-and-images",
+    "href": "workshops/2026/invited-talk-9.html#materials-and-images",
+    "title": "Interpretable Machine Learning for Geohazard study",
     "section": "Materials and Images",
     "text": "Materials and Images\n\nSlides: To be added.\nRelated links: To be added.\nImages: To be added."
   }

@@ -10,7 +10,7 @@ page-layout: article
 
 # Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation
 
-[Dr. Hanli Qiao · Invited Speaker]{.tagline}
+[Hanli Qiao · Invited Speaker]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
@@ -34,7 +34,7 @@ If successful, this approach will support decision-makers, practitioners, govern
 
 ## Speaker Bio
 
-[Dr. Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) is an invited speaker at AIEPS 2026.
+[Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) is an invited speaker at AIEPS 2026.
 
 ## Materials and Images
 
@@ -43,3 +43,4 @@ If successful, this approach will support decision-makers, practitioners, govern
 - Images: To be added.
 
 :::
+

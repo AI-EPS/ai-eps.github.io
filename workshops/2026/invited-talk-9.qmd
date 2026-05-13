@@ -1,0 +1,42 @@
+---
+pagetitle: "Workshop 2026 - Interpretable Machine Learning for Geohazard study"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Contributed Talk]{.page-header-badge .badge-upcoming}
+
+# Interpretable Machine Learning for Geohazard study
+
+[Iqra Hassan · Contributed Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [15 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Contact Speaker](mailto:iqra.hassan@uet.edu.pk){.btn-act .primary}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Machine learning is a powerful tool to deal with complex problems and large datasets. Regional scale geohazard mapping using Remote Sensing data and Machine Learning tools is a common practice. High resolution remote sensing images are used to train and test the model for geohazard predictions. But one of the drawbacks of this technique is the lack of transparency of models. To overcome the blackbox nature of the machine learning tools, various interpretable technologies are available including SHapeLY explanations. Such studies have ease the predictions of hazards and dealing with the complexity of the problem. The case study discusses the trigger factor investigation of landslides in high mountain terrains using uncovered machine learning models.
+
+## Speaker Bio
+
+[Iqra Hassan](mailto:iqra.hassan@uet.edu.pk) is a contributed speaker at AIEPS 2026 and will present online.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::
+

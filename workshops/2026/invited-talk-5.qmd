@@ -10,7 +10,7 @@ page-layout: article
 
 # Surrogate-Based Methods for Efficient Bayesian Posterior Computation
 
-[Dr. Chengkun Li · Invited Speaker]{.tagline}
+[Chengkun Li · Invited Speaker]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
@@ -32,7 +32,7 @@ This talk presents two classes of surrogate-based methods developed to address t
 
 ## Speaker Bio
 
-[Dr. Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) is an invited speaker at AIEPS 2026.
+[Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) is an invited speaker at AIEPS 2026.
 
 ## Materials and Images
 
@@ -41,3 +41,4 @@ This talk presents two classes of surrogate-based methods developed to address t
 - Images: To be added.
 
 :::
+

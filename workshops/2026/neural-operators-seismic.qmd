@@ -10,7 +10,7 @@ page-layout: article
 
 # Novel Applications of Neural Operators in Seismic Exploration and Monitoring
 
-[Dr. Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)]{.tagline}
+[Umair bin Waheed · King Fahd University of Petroleum and Minerals (KFUPM)]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
@@ -34,7 +34,7 @@ Through a series of application-driven case studies, the talk will illustrate ho
 
 ## Speaker Bio
 
-[Dr. Umair bin Waheed](https://pure.kfupm.edu.sa/en/persons/umair-waheed/) is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST with a Ph.D. in 2015 and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award.
+[Umair bin Waheed](https://pure.kfupm.edu.sa/en/persons/umair-waheed/) is an Associate Professor of Geophysics at KFUPM. His research focuses on computational geosciences and automating workflows through smart algorithms for subsurface energy systems. He graduated from KAUST with a Ph.D. in 2015 and held postdoctoral positions at Princeton University. He was the 2023 SEG Honorary Lecturer for Africa and Middle East and received the 2024 SEG Outstanding Educator Award.
 
 ## Materials and Images
 
@@ -47,3 +47,4 @@ This section is reserved for speaker edits. Add figures, slides, references, lin
 - Images: To be added.
 
 :::
+

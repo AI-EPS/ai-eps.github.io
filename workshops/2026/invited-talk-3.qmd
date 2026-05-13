@@ -10,7 +10,7 @@ page-layout: article
 
 # Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI
 
-[Dr. Heather Bedle · University of Oklahoma]{.tagline}
+[Heather Bedle · University of Oklahoma]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
@@ -38,7 +38,7 @@ In twenty minutes, attendees will come away with a clear picture of what explain
 
 ## Speaker Bio
 
-[Dr. Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma.
+[Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma.
 
 ## Materials and Images
 
@@ -47,3 +47,4 @@ In twenty minutes, attendees will come away with a clear picture of what explain
 - Images: To be added.
 
 :::
+

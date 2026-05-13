@@ -57,10 +57,10 @@ The schedule is organized as a stable index. Click a linked session title to ope
 | 09:30-09:45 | TBA | TBA | TBA |
 | 09:45-10:00 | TBA | TBA | TBA |
 | 10:00-10:15 | TBA | TBA | TBA |
-| 10:15-12:00 | [Getting Started with Geoscientific Machine Learning](2026/workshop-1.qmd) | [Dr. Pankaj K Mishra](https://www.linkedin.com/in/pankajkmishra01/), [Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/), Eetu Hyypio | Hands-on |
+| 10:15-12:00 | [Getting Started with Geoscientific Machine Learning](2026/workshop-1.qmd) | [Pankaj K Mishra](https://www.linkedin.com/in/pankajkmishra01/), [Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/), Eetu Hyypio | Hands-on |
 | 12:00-13:00 | Lunch | - | Break |
-| 13:00-14:00 | [A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows](2026/workshop-2.qmd) | [Dr. Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Hands-on |
-| 14:00-15:00 | [JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation](2026/workshop-3.qmd) | [Dr. Olav Møyner](https://olavmoyner.com/) | Hands-on |
+| 13:00-14:00 | [A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows](2026/workshop-2.qmd) | [Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Hands-on |
+| 14:00-15:00 | [JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation](2026/workshop-3.qmd) | [Olav Møyner](https://olavmoyner.com/) | Hands-on |
 | 15:00-15:15 | Coffee break | - | Break |
 | 15:15-15:30 | TBA | TBA | TBA |
 | 15:30-15:45 | TBA | TBA | TBA |
@@ -85,18 +85,18 @@ The schedule is organized as a stable index. Click a linked session title to ope
 | 09:00-09:15 | TBA | TBA | TBA |
 | 09:15-09:30 | TBA | TBA | TBA |
 | 09:30-09:45 | TBA | TBA | TBA |
-| 09:45-10:15 | [Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience](2026/scientific-machine-learning-geoscience.qmd) | [Dr. Pankaj K Mishra](https://pankajkmishra.github.io/) | In-person · Online |
-| 10:15-10:45 | [Novel Applications of Neural Operators in Seismic Exploration and Monitoring](2026/neural-operators-seismic.qmd) | [Dr. Umair bin Waheed](https://pure.kfupm.edu.sa/en/persons/umair-waheed/) | Hybrid · Online |
+| 09:45-10:15 | [Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience](2026/scientific-machine-learning-geoscience.qmd) | [Pankaj K Mishra](https://pankajkmishra.github.io/) | In-person · Online |
+| 10:15-10:45 | [Novel Applications of Neural Operators in Seismic Exploration and Monitoring](2026/neural-operators-seismic.qmd) | [Umair bin Waheed](https://pure.kfupm.edu.sa/en/persons/umair-waheed/) | Hybrid · Online |
 | 10:45-11:00 | TBA | TBA | TBA |
-| 11:00-11:30 | [Surrogate-Based Methods for Efficient Bayesian Posterior Computation](2026/invited-talk-5.qmd) | [Dr. Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) | In-person · Online |
-| 11:30-12:00 | [Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation](2026/invited-talk-6.qmd) | [Dr. Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) | In-person · Online |
+| 11:00-11:30 | [Surrogate-Based Methods for Efficient Bayesian Posterior Computation](2026/invited-talk-5.qmd) | [Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) | In-person · Online |
+| 11:30-12:00 | [Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation](2026/invited-talk-6.qmd) | [Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) | In-person · Online |
 | 12:00-13:00 | Lunch | - | Break |
-| 13:00-13:30 | [Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI](2026/invited-talk-3.qmd) | [Dr. Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Hybrid · Online |
-| 13:30-14:00 | [Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition](2026/invited-talk-4.qmd) | [Dr. April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) | Hybrid · Online |
-| 14:00-14:30 | [Some Digital Twins and Generative AI in geoscience](2026/invited-talk-7.qmd) | [Dr. Fahimeh Farahnakian](https://www.linkedin.com/in/farahnakian/) | In-person · Online |
+| 13:00-13:30 | [Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI](2026/invited-talk-3.qmd) | [Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Hybrid · Online |
+| 13:30-14:00 | [Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition](2026/invited-talk-4.qmd) | [April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) | Hybrid · Online |
+| 14:00-14:30 | [Some Digital Twins and Generative AI in geoscience](2026/invited-talk-7.qmd) | [Fahimeh Farahnakian](https://www.linkedin.com/in/farahnakian/) | In-person · Online |
 | 14:30-14:45 | [ML-based workflow to enhance seismic fault interpretation in OBN seismic data](2026/invited-talk-8.qmd) | [Matheus Nilo](https://www.linkedin.com/in/matheus-nilo-68b8a1145/) | Hybrid · Online |
 | 14:45-15:00 | Coffee break | - | Break |
-| 15:00-15:15 | TBA | TBA | TBA |
+| 15:00-15:15 | [Interpretable Machine Learning for Geohazard study](2026/invited-talk-9.qmd) | Iqra Hassan | Online |
 | 15:15-15:30 | TBA | TBA | TBA |
 | 15:30-15:45 | TBA | TBA | TBA |
 | 15:45-16:00 | TBA | TBA | TBA |

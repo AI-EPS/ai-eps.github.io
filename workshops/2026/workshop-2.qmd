@@ -10,7 +10,7 @@ page-layout: article
 
 # A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows
 
-[Dr. Heather Bedle · AIEPS Workshop 2026]{.tagline}
+[Heather Bedle · AIEPS Workshop 2026]{.tagline}
 
 ::: {.meta}
 [Day 1]{} [June 1, 2026]{} [Hands-on exercises]{} [50 min + 10 min Q&A]{}
@@ -42,7 +42,7 @@ This presentation will demonstrate the tool live and discuss the common workflow
 
 ## Instructor Bio
 
-[Dr. Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma.
+[Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) is Director of Sustainable Energy Systems and Associate Professor of Geophysics at the University of Oklahoma.
 
 ## Materials and Instructions
 
@@ -51,3 +51,4 @@ This presentation will demonstrate the tool live and discuss the common workflow
 - Notes: Live demonstration during the session.
 
 :::
+

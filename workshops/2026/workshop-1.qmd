@@ -10,7 +10,7 @@ page-layout: article
 
 # Getting Started with Geoscientific Machine Learning
 
-[Dr. Pankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026]{.tagline}
+[Pankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026]{.tagline}
 
 ::: {.meta}
 [Day 1]{} [June 1, 2026]{} [Hands-on exercises]{} [1 hr 50 min]{}
@@ -40,7 +40,7 @@ By the end of the workshop, participants will have trained a first neural networ
 
 ## Instructor Bio
 
-- [Dr. Pankaj K Mishra](https://www.linkedin.com/in/pankajkmishra01/) - AIEPS organiser and invited speaker.
+- [Pankaj K Mishra](https://www.linkedin.com/in/pankajkmishra01/) - AIEPS organiser and invited speaker.
 - [Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/) - Co-instructor.
 - Eetu Hyypio - Co-instructor.
 
@@ -52,3 +52,4 @@ By the end of the workshop, participants will have trained a first neural networ
 - Preparation notes: Designed for no prior programming experience.
 
 :::
+

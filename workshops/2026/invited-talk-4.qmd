@@ -10,7 +10,7 @@ page-layout: article
 
 # Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition
 
-[Dr. April Moreno-Ward · Postdoctoral Researcher, AASPI Consortium]{.tagline}
+[April Moreno-Ward · Postdoctoral Researcher, AASPI Consortium]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
@@ -34,7 +34,7 @@ Rather than presenting fixed answers, the goal is a real conversation: what argu
 
 ## Speaker Bio
 
-[Dr. April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) is an applied geophysicist and geologist specializing in advanced multi-attribute seismic analysis of deepwater channel systems. As a postdoctoral researcher under the guidance of Dr. Heather Bedle with the AASPI (Attribute-Assisted Seismic Processing and Interpretation) consortium, she focuses on bridging the gap between academic innovation and industry application by translating cutting-edge geophysical research into practical workflows for exploration and development.
+[April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) is an applied geophysicist and geologist specializing in advanced multi-attribute seismic analysis of deepwater channel systems. As a postdoctoral researcher under the guidance of Heather Bedle with the AASPI (Attribute-Assisted Seismic Processing and Interpretation) consortium, she focuses on bridging the gap between academic innovation and industry application by translating cutting-edge geophysical research into practical workflows for exploration and development.
 
 Before joining AASPI, she served the geologic community for eight years as a Professor of Geology at Rose State College, where she focused on hands-on learning and community engagement.
 
@@ -47,3 +47,4 @@ Her industry roots are equally strong. Through her work with Petrous Exploration
 - Images: To be added.
 
 :::
+

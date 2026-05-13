@@ -10,7 +10,7 @@ page-layout: article
 
 # JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation
 
-[Dr. Olav Møyner · SINTEF Digital]{.tagline}
+[Olav Møyner · SINTEF Digital]{.tagline}
 
 ::: {.meta}
 [Day 1]{} [June 1, 2026]{} [Hands-on exercises]{} [60 min]{}
@@ -36,7 +36,7 @@ Abstract will be updated later.
 
 ## Instructor Bio
 
-[Dr. Olav Møyner](https://olavmoyner.com/) is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.
+[Olav Møyner](https://olavmoyner.com/) is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.
 
 Research interests include:
 
@@ -54,3 +54,4 @@ Research interests include:
 - Data: To be added.
 
 :::
+

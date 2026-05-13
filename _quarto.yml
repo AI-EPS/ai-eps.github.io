@@ -45,6 +45,10 @@ website:
 
 format:
   html:
+    grid:
+      body-width: 1000px
+      margin-width: 260px
+      gutter-width: 1.2rem
     theme:
       light:
         - flatly

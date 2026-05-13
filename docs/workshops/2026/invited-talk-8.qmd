@@ -1,0 +1,41 @@
+---
+pagetitle: "Workshop 2026 - ML-based workflow to enhance seismic fault interpretation in OBN seismic data"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# ML-based workflow to enhance seismic fault interpretation in OBN seismic data
+
+[Matheus Nilo · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [15 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Contact Speaker](mailto:matheus.nilo@gmail.com){.btn-act .primary}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+In this work, I propose deep learning approaches that can be successfully applied to the challenge of fault interpretation in pre-salt seismic data. I first review some conventional seismic interpretation methods and deep learning-based methods. Next, I propose a workflow for synthetic data generation. Following a description of convolutional neural networks and how these models are trained, I analyze and evaluate model performance. Finally, I present application in field examples and discuss their merits from a qualitative perspective.
+
+## Speaker Bio
+
+[Matheus Nilo](mailto:matheus.nilo@gmail.com) is an invited speaker at AIEPS 2026 and will present online.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

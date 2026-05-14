@@ -65,9 +65,7 @@ The schedule is organized as a stable index. Click a linked session title to ope
 | 15:15-15:30 | TBA | TBA | TBA |
 | 15:30-15:45 | TBA | TBA | TBA |
 | 15:45-16:00 | TBA | TBA | TBA |
-| 16:00-16:15 | TBA | TBA | TBA |
-| 16:15-16:30 | TBA | TBA | TBA |
-| 16:30-16:45 | TBA | TBA | TBA |
+| 16:00-16:45 | [Opportunities for quantum computing in Geosciences](2026/invited-talk-10.qmd) | [Mrinal K Sen](https://www.linkedin.com/in/mrinal-sen-7056485/) | Keynote |
 | 16:45-17:00 | TBA | TBA | TBA |
 
 :::

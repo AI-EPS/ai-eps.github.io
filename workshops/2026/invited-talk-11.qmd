@@ -1,0 +1,41 @@
+---
+pagetitle: "Workshop 2026 - How to use AI to conduct a technical analysis - AI Management of Query"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Contributed Talk]{.page-header-badge .badge-upcoming}
+
+# How to use AI to conduct a technical analysis - AI Management of Query
+
+[Simon Michaux · Contributed Speaker]{.tagline}
+
+::: {.meta}
+[Day 1]{} [June 1, 2026]{} [AIEPS Workshop 2026]{} [12 min + 3 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/simonmichaux/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+How to use AI platforms in a way to manage the outcome. I use multiple AI tabs in parallel and then make a map of the analysis to keep contextual track of when the analysis is stable and finished.
+
+## Speaker Bio
+
+[Simon Michaux](https://www.linkedin.com/in/simonmichaux/) is a contributed speaker at AIEPS 2026 and will present in person.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

@@ -1,0 +1,41 @@
+---
+pagetitle: "Workshop 2026 - Deep generative learning for geophysical inverse modelling"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Deep generative learning for geophysical inverse modelling
+
+[Leonardo Azevedo · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [25 min + 5 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/leonardo-azevedo-53522716/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Geophysical inversion allows predicting the spatial distribution of subsurface rock properties from geophysical data. This is a challenging inverse, nonlinear with non-unique solution problem. We introduce deep generative learning as a flexible way to perform geophysical inversion accounting for multiple data assimilation, uncertainties and a priori geological knowledge. Several methods are introduced with synthetic and real case applications.
+
+## Speaker Bio
+
+[Leonardo Azevedo](https://www.linkedin.com/in/leonardo-azevedo-53522716/) is an invited speaker at AIEPS 2026 and will present online.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

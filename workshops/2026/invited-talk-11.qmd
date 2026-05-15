@@ -13,7 +13,7 @@ page-layout: article
 [Simon Michaux · Contributed Speaker]{.tagline}
 
 ::: {.meta}
-[Day 1]{} [June 1, 2026]{} [AIEPS Workshop 2026]{} [12 min + 3 min]{}
+[Day 1]{} [June 1, 2026]{} [AIEPS Workshop 2026]{} [30 min]{}
 :::
 
 ::: {.actions}

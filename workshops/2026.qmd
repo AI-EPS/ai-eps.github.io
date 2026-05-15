@@ -62,8 +62,7 @@ The schedule is organized as a stable index. Click a linked session title to ope
 | 13:00-14:00 | [A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows](2026/workshop-2.qmd) | [Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Hands-on |
 | 14:00-15:00 | [JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation](2026/workshop-3.qmd) | [Olav Møyner](https://olavmoyner.com/) | Hands-on |
 | 15:00-15:15 | Coffee break | - | Break |
-| 15:15-15:30 | [How to use AI to conduct a technical analysis - AI Management of Query](2026/invited-talk-11.qmd) | [Simon Michaux](https://www.linkedin.com/in/simonmichaux/) | In-person |
-| 15:30-15:45 | TBA | TBA | TBA |
+| 15:15-15:45 | [How to use AI to conduct a technical analysis - AI Management of Query](2026/invited-talk-11.qmd) | [Simon Michaux](https://www.linkedin.com/in/simonmichaux/) | In-person |
 | 15:45-16:00 | TBA | TBA | TBA |
 | 16:00-16:45 | [Opportunities for quantum computing in Geosciences](2026/invited-talk-10.qmd) | [Mrinal K Sen](https://www.linkedin.com/in/mrinal-sen-7056485/) | Keynote |
 | 16:45-17:00 | TBA | TBA | TBA |

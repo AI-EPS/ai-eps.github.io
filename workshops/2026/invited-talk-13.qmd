@@ -1,0 +1,55 @@
+---
+pagetitle: "Workshop 2026 - Multi Source and Multi Scale Earth Observation and Novel Machine Learning for Mine Site Soil Moisture Monitoring"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Contributed Talk]{.page-header-badge .badge-upcoming}
+
+# Multi Source and Multi Scale Earth Observation and Novel Machine Learning for Mine Site Soil Moisture Monitoring
+
+[Alireza Hamedianfar · Contributed Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [Slot 136]{} [12 min + 3 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Contact Speaker](mailto:alireza.hamedianfar@gtk.fi){.btn-act .primary}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+The growing availability of earth observation data and advances in machine learning (ML) offer new opportunities for environmental monitoring in complex and dynamic mining environments. Accurate estimation of soil moisture is a key challenge for mine site management because it affects slope stability, dust control, rehabilitation, and water management. Traditional in-situ measurements provide reliable observations, but they are often spatially sparse and difficult to scale across large, heterogeneous mine sites. Combining multi-source remote sensing data and ML provides a path toward continuous, spatially distributed soil moisture monitoring with improved temporal and spatial coverage.
+
+In this study, funded by the European Commission through the EU MultiMiner project (https://www.multiminer.eu), we explore the synergistic use of multi-scale earth observation data and novel ML approaches to estimate mine site soil moisture over a limestone quarry in Lappeenranta, Finland. The study combines Sentinel-1 synthetic aperture radar (SAR) time series, Sentinel-2 optical imagery, digital elevation models (DEM), and temperature data to capture complementary information on surface conditions, vegetation, and terrain. In-situ reference soil moisture measurements were collected from various sediment types using IoT-enabled capacitance sensors for model training and validation.
+
+This presentation gives an overview of the workflow, including multi-source data integration, pre-processing, and ML models for soil moisture prediction. It also highlights the importance of ML methods for extracting meaningful relationships from complex environments. The resulting soil moisture maps can support early detection of seepage or unstable zones, directly helping make mine management safer and more efficient.
+
+The MultiMiner project is funded by the European Union's Horizon Europe research and innovation actions programme under Grant Agreement No. 101091374.
+
+## Speaker Bio
+
+[Alireza Hamedianfar](https://www.linkedin.com/in/alireza-hamedianfar-1a510247/) (Geological Survey of Finland) will present in person.
+
+## Authors
+
+- [Alireza Hamedianfar](https://www.linkedin.com/in/alireza-hamedianfar-1a510247/) (Geological Survey of Finland, Espoo, Finland)
+- Oleg Antropov (VTT Technical Research Centre of Finland Ltd, Espoo, Finland)
+- Matthieu Molinier (VTT Technical Research Centre of Finland Ltd, Espoo, Finland)
+- Ulla Salmela (Nordkalk Oy Ab, Lappeenranta, Finland)
+- Maarit Middleton (Geological Survey of Finland, Rovaniemi, Finland)
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

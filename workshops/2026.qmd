@@ -94,7 +94,7 @@ The schedule is organized as a stable index. Click a linked session title to ope
 | 14:30-14:45 | [ML-based workflow to enhance seismic fault interpretation in OBN seismic data](2026/invited-talk-8.qmd) | [Matheus Nilo](https://www.linkedin.com/in/matheus-nilo-68b8a1145/) | Hybrid · Online |
 | 14:45-15:00 | Coffee break | - | Break |
 | 15:00-15:15 | [Interpretable Machine Learning for Geohazard study](2026/invited-talk-9.qmd) | Iqra Hassan | Online |
-| 15:15-15:30 | TBA | TBA | TBA |
+| 15:15-15:30 | [Multi Source and Multi Scale Earth Observation and Novel Machine Learning for Mine Site Soil Moisture Monitoring](2026/invited-talk-13.qmd) | [Alireza Hamedianfar](https://www.linkedin.com/in/alireza-hamedianfar-1a510247/) | In-person |
 | 15:30-16:00 | [Deep generative learning for geophysical inverse modelling](2026/invited-talk-12.qmd) | [Leonardo Azevedo](https://www.linkedin.com/in/leonardo-azevedo-53522716/) | Online |
 | 16:00-16:15 | TBA | TBA | TBA |
 | 16:15-16:30 | TBA | TBA | TBA |

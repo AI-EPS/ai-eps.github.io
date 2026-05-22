@@ -1,5 +1,5 @@
 ---
-pagetitle: "Workshop 2026 - Some Digital Twins and Generative AI in geoscience"
+pagetitle: "Workshop 2026 - Hybrid AI for High-Resolution Peatland Mapping"
 toc: true
 toc-location: right
 page-layout: article
@@ -8,7 +8,7 @@ page-layout: article
 ::: {.page-header}
 [Invited Talk]{.page-header-badge .badge-upcoming}
 
-# Some Digital Twins and Generative AI in geoscience
+# Hybrid AI for High-Resolution Peatland Mapping
 
 [Fahimeh Farahnakian · Invited Speaker]{.tagline}
 
@@ -18,7 +18,7 @@ page-layout: article
 
 ::: {.actions}
 [Back to Programme](../2026.qmd#programme){.btn-act .secondary}
-[Speaker Profile](https://www.linkedin.com/in/farahnakian/){.btn-act .primary target="_blank"}
+[Speaker Profile](https://users.utu.fi/fahfar/){.btn-act .primary target="_blank"}
 :::
 :::
 
@@ -26,13 +26,15 @@ page-layout: article
 
 ## Abstract
 
-Abstract will be updated soon.
+Accurate mapping of boreal peatlands is essential for environmental monitoring, greenhouse gas inventories, and sustainable ecosystem management. This talk presents how recent advances in deep learning and data fusion techniques can improve peatland classification using open-access radar and optical satellite imagery.
+
+The talk introduces a framework that integrates convolutional neural networks (CNNs) and Vision Transformers (ViTs) to capture both local spatial–spectral patterns and long-range contextual dependencies within complex peatland ecosystems. By combining spectral, textural, and structural information, the framework enables robust pixel-wise classification of peatland characteristics.
+
+The presentation highlights the potential of hybrid AI architectures and multi-modal remote sensing for advancing large-scale environmental mapping and peatland intelligence applications.
 
 ## Speaker Bio
 
-[Fahimeh Farahnakian](https://www.linkedin.com/in/farahnakian/) is an invited speaker at AIEPS 2026.
-
-My research interests include Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Data Analysis, Autonomous Driving and Remote Sensing. I currently seek to advance computer vision technology via deep learning for remote sensing applications and geospatial data.
+[Fahimeh Farahnakian](https://users.utu.fi/fahfar/) is an AI specialist in the Geoinformatics Team at Geological Survey of Finland and a Docent of Computer Science at University of Turku. She is also the PI of an EU-funded project, Peat-Genie, coordinated by GTK, which focuses on developing AI-powered solutions for peatland monitoring and environmental intelligence. Her recent research focuses on machine learning, geospatial AI and explainable AI for environmental and geoscience applications. She has authored more than 60 scientific publications in international journals and conference proceedings.
 
 ## Materials and Images
 

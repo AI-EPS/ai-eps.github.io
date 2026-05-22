@@ -12,6 +12,8 @@ page-layout: article
 
 [Leonardo Azevedo · Invited Speaker]{.tagline}
 
+[Co-authors: Roberto Miele (UNIL), Fanxin Zeng (CERENA/IST), João Narciso (CERENA/IST)]{.tagline}
+
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [25 min + 5 min]{}
 :::

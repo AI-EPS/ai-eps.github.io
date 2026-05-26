@@ -223,9 +223,9 @@ body {
 /* ---- Hero two-column (text + QR) ---- */
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
   gap: 2rem;
-  align-items: center;
+  align-items: start;
 }
 
 .hero-left { min-width: 0; }
@@ -233,14 +233,16 @@ body {
 .hero-right {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   gap: 0.4rem;
+  min-width: 0;
 }
 
 .hero-right img {
   display: block;
   height: auto;
-  max-width: 180px;
+  width: 100%;
+  max-width: 100%;
   border-radius: 6px;
   background: #fff;
   padding: 6px;

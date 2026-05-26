@@ -223,9 +223,9 @@ body {
 /* ---- Hero two-column (text + QR) ---- */
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
-  gap: 2rem;
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 220px);
+  gap: 2.5rem;
+  align-items: center;
 }
 
 .hero-left { min-width: 0; }
@@ -234,9 +234,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 0.4rem;
   min-width: 0;
 }
+
+.hero-right p { margin: 0; }
+.hero-right p + p { margin-top: 0.45rem; }
 
 .hero-right img {
   display: block;
@@ -248,9 +250,8 @@ body {
   padding: 6px;
 }
 
-.hero-right p { margin: 0; }
-
 .register-qr-caption {
+  display: block;
   font-size: 0.85rem;
   color: #555;
   text-align: center;

@@ -1,0 +1,43 @@
+---
+pagetitle: "Workshop 2026 - Fingerprints of tectonic and erosional processes in modern river sands from the Himalaya of western Bhutan"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Fingerprints of tectonic and erosional processes in modern river sands from the Himalaya of western Bhutan
+
+[[David Whipp](https://www.linkedin.com/in/dwhipp/) · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 1]{} [June 1, 2026]{} [AIEPS Workshop 2026]{} [Slot 157]{} [25 min + 5 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Contact Speaker](mailto:david.whipp@helsinki.fi){.btn-act .primary}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+In this talk I explore the record of tectonic and erosional processes recorded in sediments sampled from modern rivers in the Himalaya of Bhutan. Dating of the sampled sediments produces distributions of ages that are non-unique and challenging to link to source regions in the upstream landscape. Using a combination of forward models to predict ages, permutations of key model parameters, and random forest classification, I attempt to identify key processes responsible for producing the observed age distributions.
+
+**Duration:** 25 min + 5 min
+
+## Speaker Bio
+
+[David Whipp](https://www.linkedin.com/in/dwhipp/) (University of Helsinki) will present in person.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

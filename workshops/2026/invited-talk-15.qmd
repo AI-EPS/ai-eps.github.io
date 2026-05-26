@@ -1,0 +1,43 @@
+---
+pagetitle: "Workshop 2026 - Three-dimensional inversion of gravity data using implicit neural representations"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Invited Talk]{.page-header-badge .badge-upcoming}
+
+# Three-dimensional inversion of gravity data using implicit neural representations
+
+[[Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/) · Invited Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [15 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+Inversion of gravity data is an important method for investigating subsurface density variations relevant to mineral exploration, geothermal assessment, carbon storage, natural hydrogen, groundwater resources, and tectonic evolution. Here we present a scientific machine-learning approach for three-dimensional gravity inversion that represents subsurface density as a continuous field using an implicit neural representation (INR). The method trains a deep neural network directly through a physics-based forward-model loss, mapping spatial coordinates to a continuous density field without predefined meshes or discretisation. Spatial encoding enhances the network's capacity to capture sharp contrasts and short-wavelength features that conventional coordinate-based networks tend to oversmooth due to spectral bias. We demonstrate the approach on synthetic examples including smooth models, representing realistic geological complexity, and a dipping block model to assess recovery of structures at different depths. The INR framework reconstructs detailed structure and geologically plausible boundaries without explicit regularisation or depth weighting, while reducing the number of inversion parameters as the problem size grows bigger. These results highlight the potential of implicit representations to enable scalable, flexible, and interpretable large-scale geophysical inversion. This framework could generalise to other geophysical methods and for joint/multiphysics inversion.
+
+**Duration:** 15 minutes
+
+## Speaker Bio
+
+[Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/) (Geological Survey of Finland) will present in person.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

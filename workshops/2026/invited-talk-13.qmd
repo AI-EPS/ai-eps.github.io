@@ -6,11 +6,11 @@ page-layout: article
 ---
 
 ::: {.page-header}
-[Contributed Talk]{.page-header-badge .badge-upcoming}
+[Invited Talk]{.page-header-badge .badge-upcoming}
 
 # Multi Source and Multi Scale Earth Observation and Novel Machine Learning for Mine Site Soil Moisture Monitoring
 
-[Alireza Hamedianfar · Contributed Speaker]{.tagline}
+[Alireza Hamedianfar · Invited Speaker]{.tagline}
 
 ::: {.meta}
 [Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [Slot 136]{} [12 min + 3 min]{}

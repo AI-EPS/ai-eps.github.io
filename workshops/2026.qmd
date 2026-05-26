@@ -44,7 +44,7 @@ Machine learning and AI are evolving fast, and it is difficult to track how geos
 ::: {.schedule-day}
 ### Day 1 - Monday, June 1 {#day-1}
 
-[Hands-on exercises]{.session-label .session-label-hands-on}
+[Hands-on/demo]{.session-label .session-label-hands-on}
 
 ::: {.schedule-table}
 

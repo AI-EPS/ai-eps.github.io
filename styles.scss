@@ -220,6 +220,40 @@ body {
 .btn-act.secondary:hover { background: $clr-navy; color: #fff; text-decoration: none; }
 .btn-act.disabled { opacity: 0.4; pointer-events: none; }
 
+/* ---- Hero two-column (text + QR) ---- */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-left { min-width: 0; }
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hero-right img {
+  display: block;
+  height: auto;
+  max-width: 180px;
+  border-radius: 6px;
+  background: #fff;
+  padding: 6px;
+}
+
+.hero-right p { margin: 0; }
+
+.register-qr-caption {
+  font-size: 0.85rem;
+  color: #555;
+  text-align: center;
+}
+
 /* ---- Section nav pills ---- */
 .section-nav {
   display: flex;
@@ -792,6 +826,8 @@ body {
   .page-header .meta { flex-direction: column; gap: 0.25rem; }
   .section-nav { overflow-x: auto; flex-wrap: nowrap; }
   .actions { flex-direction: column; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-right { align-items: flex-start; }
   .spotlight-title { font-size: 1.1rem; }
   .home-grid { grid-template-columns: 1fr; }
   .event-summary-grid { grid-template-columns: 1fr; }

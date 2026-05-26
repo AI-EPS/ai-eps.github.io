@@ -12,15 +12,25 @@ page-layout: article
 
 <br>
 
+:::: {.hero-grid}
+::: {.hero-left}
 Machine learning and AI are evolving fast, and it is difficult to track how geoscience research and application practices are changing with them. Consider joining us, either in person or remotely, for a FREE annual workshop organized by Geological Survey of Finland to explore how AI can improve geoscience workflows, as well as its risks and limitations.
 
-🗓️  June 1-2, 2026  
+🗓️  June 1-2, 2026
 📍 Venue: Geological Survey of Finland GTK, Auditorium, Vuorimiehentie 5, Espoo, Finland
 
 ::: {.actions}
 [Register Now](https://forms.cloud.microsoft/e/sRdijQ0z0D){.btn-act .primary target="_blank"}
 [View Programme](#programme){.btn-act .secondary}
 :::
+:::
+
+::: {.hero-right}
+[![](/images/register-qr-2026.png){width=180 fig-alt="QR code to register for the 2026 workshop"}](https://forms.cloud.microsoft/e/sRdijQ0z0D)
+
+[Scan to register]{.register-qr-caption}
+:::
+::::
 :::
 
 ::: {.section-nav}

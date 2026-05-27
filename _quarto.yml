@@ -11,12 +11,9 @@ project:
 website:
   title: "AIEPS"
   description: "A special interest group for AI in Earth & Planetary Sciences"
-  favicon: images/aieps.png
 
   navbar:
     title: "AIEPS"
-    logo: images/aieps.png
-    logo-alt: "AIEPS"
     background: light
     foreground: "#2d2d2d"
     left:

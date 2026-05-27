@@ -73,13 +73,13 @@ Machine learning and AI are evolving fast, and it is difficult to track how geos
 
 | Time | Session | Speaker | Format |
 |------|---------|---------|--------|
-| 09:00-09:30 | Welcome | [Marta Cyz](https://www.linkedin.com/in/marta-cyz/) + S&I | In-person · Online |
+| 09:00-09:30 | Welcome | [Marta Cyz](https://www.linkedin.com/in/marta-cyz/), [Pankaj K Mishra](https://pankajkmishra.github.io/) | In-person · Online |
 | 09:30-10:00 | [Scientific Machine Learning for Modelling, Inversion and Uncertainty Quantification in Geoscience](2026/scientific-machine-learning-geoscience.qmd) | [Pankaj K Mishra](https://pankajkmishra.github.io/) | In-person · Online |
 | 10:00-10:15 | [Three-dimensional inversion of gravity data using implicit neural representations](2026/invited-talk-15.qmd) | [Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/) | In-person · Online |
 | 10:15-10:45 | [Novel Applications of Neural Operators in Seismic Exploration and Monitoring](2026/neural-operators-seismic.qmd) | [Umair bin Waheed](https://pure.kfupm.edu.sa/en/persons/umair-waheed/) | Online |
 | 10:45-11:00 | Coffee break | - | Break |
 | 11:00-11:30 | [Surrogate-Based Methods for Efficient Bayesian Posterior Computation](2026/invited-talk-5.qmd) | [Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) | In-person · Online |
-| 11:30-12:00 | [Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation](2026/invited-talk-6.qmd) | [Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) | In-person · Online |
+| 11:30-12:00 | [UFO: Generalized Operator Learning for Earth System Modeling](2026/invited-talk-6.qmd) | [Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) | In-person · Online |
 | 12:00-13:00 | Lunch | - | Break |
 | 13:00-13:30 | [Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI](2026/invited-talk-3.qmd) | [Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Online |
 | 13:30-14:00 | [Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition](2026/invited-talk-4.qmd) | [April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) | Online |

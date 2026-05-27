@@ -1,5 +1,5 @@
 ---
-pagetitle: "Workshop 2026 - Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation"
+pagetitle: "Workshop 2026 - UFO: Generalized Operator Learning for Earth System Modeling"
 toc: true
 toc-location: right
 page-layout: article
@@ -8,7 +8,7 @@ page-layout: article
 ::: {.page-header}
 [Invited Talk]{.page-header-badge .badge-upcoming}
 
-# Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation
+# UFO: Generalized Operator Learning for Earth System Modeling
 
 [Hanli Qiao · Invited Speaker]{.tagline}
 
@@ -26,11 +26,7 @@ page-layout: article
 
 ## Abstract
 
-Sustainable groundwater management and protection of water resources against contamination require detailed understanding of how contaminants propagate and spread in the subsurface. This requires computer models able to capture physical and chemical processes driving such movement. However, the state-of-the-art models are often slow because of a multitude of processes, complicating their applications in decision-making purposes.
-
-To address these challenges, the InterpAI-CoM project develops a novel approach that integrates artificial intelligence with scientific computing of reactive transport processes. The goal is to produce predictions that are faster, while maintaining similar process details as considered in physics-based models.
-
-If successful, this approach will support decision-makers, practitioners, government, and environmental professionals in responding more effectively to contamination issues and in designing more sustainable solutions.
+Reactive transport and Earth system processes involve strongly coupled nonlinear dynamics across heterogeneous spatial, temporal, and spectral scales, posing significant challenges for conventional neural operators that rely on a single representation domain. In this talk, I present UFO, a generalized operator learning framework that enables adaptive interactions among physical, spectral, and latent representations without enforcing domain unification. UFO supports discretization-decoupled learning, allowing input functions to be observed at resolutions or locations different from training while enabling flexible solution querying across output discretizations. I will discuss the application of UFO to Earth system modeling problems, including reactive transport processes, and show how cross-domain operator realization can improve robustness under irregular sampling, nonlinear dynamics, and multi-scale structure.
 
 ## Speaker Bio
 

@@ -67,7 +67,7 @@ Machine learning and AI are evolving fast, and it is difficult to track how geos
 ::: {.schedule-day}
 ### Day 2 - Tuesday, June 2 {#day-2}
 
-[Invited talks and discussion]{.session-label .session-label-talk}
+[Invited talks and discussion + Keynote]{.session-label .session-label-talk}
 
 ::: {.schedule-table}
 
@@ -89,7 +89,8 @@ Machine learning and AI are evolving fast, and it is difficult to track how geos
 | 15:15-15:30 | [Interpretable Machine Learning for Geohazard study](2026/invited-talk-9.qmd) | Iqra Hassan | Online |
 | 15:30-16:00 | [Deep generative learning for geophysical inverse modelling](2026/invited-talk-12.qmd) | [Leonardo Azevedo](https://www.linkedin.com/in/leonardo-azevedo-53522716/) | Online |
 | 16:00-16:15 | [Multi Source and Multi Scale Earth Observation and Novel Machine Learning for Mine Site Soil Moisture Monitoring](2026/invited-talk-13.qmd) | [Alireza Hamedianfar](https://www.linkedin.com/in/alireza-hamedianfar-1a510247/) | In-person · Online |
-| 16:15-... | Closing remarks & after-workshop socializing! | - | - |
+| 16:15-17:00 | [The Bitter Lesson for the Bitter Lesson: The Role of Human Engineers in the Age of AI](2026/invited-talk-16.qmd) | [Chris Rackauckas](https://chrisrackauckas.com/) | Keynote |
+| 17:00-... | Closing remarks & after-workshop socializing! | - | - |
 
 :::
 :::

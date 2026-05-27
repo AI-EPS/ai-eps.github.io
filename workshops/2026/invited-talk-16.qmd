@@ -1,0 +1,43 @@
+---
+pagetitle: "Workshop 2026 - The Bitter Lesson for the Bitter Lesson: The Role of Human Engineers in the Age of AI"
+toc: true
+toc-location: right
+page-layout: article
+---
+
+::: {.page-header}
+[Keynote Talk]{.page-header-badge .badge-upcoming}
+
+# The Bitter Lesson for the Bitter Lesson: The Role of Human Engineers in the Age of AI
+
+[Chris Rackauckas · Keynote Speaker]{.tagline}
+
+::: {.meta}
+[Day 2]{} [June 2, 2026]{} [AIEPS Workshop 2026]{} [45 min]{}
+:::
+
+::: {.actions}
+[Back to Programme](../2026.qmd#programme){.btn-act .secondary}
+[Speaker Profile](https://chrisrackauckas.com/){.btn-act .primary target="_blank"}
+:::
+:::
+
+::: {.content-body .session-detail}
+
+## Abstract
+
+With the ever increasing role of AI it is pertinent to ask the question: what will be the role of engineers and domain experts? In this talk we outline two approaches that incorporate the expertise of engineers into the latest techniques of AI and machine learning. First we showcase scientific machine learning, in particular universal differential equations, where machine learning architectures are mixed with traditional simulation techniques in order to discover higher order physical corrections and generate hypotheses for previously unknown governing laws. Then we dive into growing techniques for agentic AI in modeling and simulation, highlighting the recent empirical results around the tools and techniques which lead to improved accuracy of code generation in the context of nonlinear controls synthesis and analysis. Building on these results, we showcase the new Dyad platform for agentic AI which combines a new statically-analyzable acausal equation-based DAE modeling system with built-in scientific machine learning capabilities and demonstrate the real-world applications this is seeing in industrial applications from aerospace and automotive all the way to chemical process modeling and pharmacometrics. This talk will span the details from low level mathematical theorems to high level software demonstrations in applications, highlighting the elements of the new stack which have successfully translated into practice but also the areas which need further academic work to complete the transition.
+
+## Speaker Bio
+
+[Chris Rackauckas](https://chrisrackauckas.com/) is Research Affiliate and Co-PI of the Julia Lab at the Massachusetts Institute of Technology, Director of Modeling and Simulation at Julia Computing and Creator / Lead Developer of JuliaSim, Director of Scientific Research at Pumas-AI and Creator / Lead Developer of Pumas, and Lead Developer of the SciML Open Source Software Organization.
+
+Chris' research and software is focused on Scientific Machine Learning (SciML): the integration of domain models with artificial intelligence techniques like machine learning. By utilizing the structured scientific (differential equation) models together with the unstructured data-driven models of machine learning, our simulators can be accelerated, our science can better approximate the true systems, all while enjoying the robustness and explainability of mechanistic dynamical models.
+
+## Materials and Images
+
+- Slides: To be added.
+- Related links: To be added.
+- Images: To be added.
+
+:::

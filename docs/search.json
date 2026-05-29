@@ -18,7 +18,7 @@
     "href": "workshops/2026/workshop-3.html#abstract",
     "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
     "section": "Abstract",
-    "text": "Abstract\nAbstract will be updated later."
+    "text": "Abstract\nSubsurface flow and transport processes are central to many geoscientific applications, including hydrocarbon recovery, carbon capture and sequestration, geothermal energy, and groundwater flow. JutulDarcy.jl is a fully differentiable, high-performance simulator toolbox that allows for both custom simulations written as script, and industry standard input formats.\n\nOutline\n\nInstallation of the software and access to documentation\nA brief overview on subsurface flow\nRunning your first JutulDarcy simulation\nExample: Geothermal data assimilation & optimization"
   },
   {
     "objectID": "workshops/2026/workshop-3.html#instructor-bio",
@@ -32,7 +32,7 @@
     "href": "workshops/2026/workshop-3.html#materials-and-instructions",
     "title": "JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation",
     "section": "Materials and Instructions",
-    "text": "Materials and Instructions\n\nSlides: To be added.\nNotebooks or scripts: To be added.\nData: To be added."
+    "text": "Materials and Instructions\nSee the JutulDarcy documentation and in particular the getting started section. Installation before the session starts may save some time. All examples used in the session can be downloaded from the examples source directory and published versions with recorded output can be viewed online.\n\nSlides: To be added."
   },
   {
     "objectID": "workshops/2026/workshop-1.html",

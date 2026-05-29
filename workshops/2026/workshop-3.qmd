@@ -26,17 +26,23 @@ page-layout: article
 
 ## Overview
 
-This hands-on session introduces JutulDarcy.jl, a high-performance porous media and reservoir simulator based on automatic differentiation.
+This hands-on session introduces [JutulDarcy.jl](https://github.com/sintefmath/JutulDarcy.jl), a high-performance porous media and reservoir simulator based on automatic differentiation.
 
 **Duration:** 60 minutes
 
 ## Abstract
 
-Abstract will be updated later.
+Subsurface flow and transport processes are central to many geoscientific applications, including hydrocarbon recovery, carbon capture and sequestration, geothermal energy, and groundwater flow. JutulDarcy.jl is a fully differentiable, high-performance simulator toolbox that allows for both custom simulations written as script, and industry standard input formats.
+
+### Outline
+1. Installation of the software and access to documentation
+1. A brief overview on subsurface flow
+1. Running your first JutulDarcy simulation
+1. Example: Geothermal data assimilation & optimization
 
 ## Instructor Bio
 
-[Olav Møyner](https://olavmoyner.com/) is a Senior Research Scientist in the Applied Computational Sciences group at SINTEF Digital, a not-for-profit independent research institute in Norway.
+[Olav Møyner](https://olavmoyner.com/) is a Senior Research Scientist in the [Applied Computational Sciences group at SINTEF Digital](https://www.sintef.no/en/digital/departments/mathematics-and-cybernetics/applied-computational-science/), a not-for-profit independent research institute in Norway.
 
 Research interests include:
 
@@ -49,9 +55,10 @@ Research interests include:
 
 ## Materials and Instructions
 
+See the [JutulDarcy documentation](https://sintefmath.github.io/JutulDarcy.jl/stable/) and in particular the [getting started](https://sintefmath.github.io/JutulDarcy.jl/stable/man/intro) section. Installation before the session starts may save some time. All examples used in the session can be downloaded from the [examples source directory](https://github.com/sintefmath/JutulDarcy.jl/tree/main/examples) and [published versions with recorded output](https://sintefmath.github.io/JutulDarcy.jl/stable/examples/overview/example_overview) can be viewed online.
+
 - Slides: To be added.
-- Notebooks or scripts: To be added.
-- Data: To be added.
+
 
 :::
 

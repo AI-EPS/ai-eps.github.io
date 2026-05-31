@@ -355,6 +355,23 @@ body {
   font-size: 1rem;
 }
 
+.online-access-box {
+  background: linear-gradient(135deg, #f6f8ff 0%, #eef4ff 55%, #f8fbff 100%);
+  border: 1px solid #d5e2ff;
+  border-left: 6px solid #1e4db7;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(30, 77, 183, 0.08);
+}
+
+.online-access-box h3 {
+  margin-top: 0.9rem;
+  color: #163b8c;
+}
+
+.online-access-box h3:first-of-type {
+  margin-top: 0.35rem;
+}
+
 /* ---- Sponsors — subtle footer-like strip ---- */
 .sponsors-strip {
   margin-top: 2.5rem;

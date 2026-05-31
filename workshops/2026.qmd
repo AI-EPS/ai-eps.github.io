@@ -35,6 +35,42 @@ Machine learning and AI are evolving fast, and it is difficult to track how geos
 [Programme](#programme) [For speakers](#for-speakers) [Venue](#venue) [Contact](#contact)
 :::
 
+## Online Access {#online-access}
+
+::: {.callout-box .online-access-box}
+
+The workshop link has been sent to people who registered via the online link. If you registered and have not received the email by Sunday evening, please contact Marta at [marta.cyz@gtk.fi](mailto:marta.cyz@gtk.fi).
+
+:::
+
+<!--
+## Online Access (Not Registered?) {#online-access}
+
+::: {.callout-box .online-access-box}
+
+The workshop link has been sent to people who registered via the online link. If you have not received the email by Sunday evening, please send an email to marta.cyz@gtk.fi.
+
+If you have not registered but would still like to attend remotely, use the Microsoft Teams details below.
+
+### Monday, June 1, 2026
+
+Microsoft Teams meeting (DAY 1, June 1, 2026)
+
+- Join: [https://teams.microsoft.com/meet/351480576796607?p=EGlZOtzrikuD1MBrSj](https://teams.microsoft.com/meet/351480576796607?p=EGlZOtzrikuD1MBrSj)
+- Meeting ID: 351 480 576 796 607
+- Passcode: RC38bL3D
+
+### Tuesday, June 2, 2026
+
+Microsoft Teams meeting (DAY 2, June 2, 2026)
+
+- Join: [https://teams.microsoft.com/meet/378951316048134?p=odo80TcEI8r6HBchyT](https://teams.microsoft.com/meet/378951316048134?p=odo80TcEI8r6HBchyT)
+- Meeting ID: 378 951 316 048 134
+- Passcode: 84pJ3ZF7
+
+:::
+-->
+
 ::: {.content-body}
 
 ## Programme {#programme}

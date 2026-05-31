@@ -39,7 +39,7 @@
     "href": "workshops/2026/workshop-1.html",
     "title": "Getting Started with Geoscientific Machine Learning",
     "section": "",
-    "text": "Hands-on Workshop\n\n\nPankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 1 hr 50 min\n\n\nBack to Programme Workshop Materials"
+    "text": "Hands-on Workshop\n\n\nPankaj K Mishra, Sanni Laaksonen, and Eetu Hyypio · AIEPS Workshop 2026\n\nDay 1 June 1, 2026 Hands-on exercises 1 hr 50 min\n\n\nBack to Programme Download Materials & Slides"
   },
   {
     "objectID": "workshops/2026/workshop-1.html#overview",
@@ -67,7 +67,7 @@
     "href": "workshops/2026/workshop-1.html#materials-and-instructions",
     "title": "Getting Started with Geoscientific Machine Learning",
     "section": "Materials and Instructions",
-    "text": "Materials and Instructions\n\nWorkshop site: https://geo-sciml.com/\nSlides: To be added.\nNotebooks or scripts: To be added.\nPreparation notes: Designed for no prior programming experience."
+    "text": "Materials and Instructions\n\nDirect download (ZIP): Download workshop materials and slides\nOr clone with Git:\n\ngit clone https://github.com/AI-EPS/2026-workshop-geo-sciml.git\n\nWorkshop site: https://geo-sciml.com/\nPreparation notes: Designed for no prior programming experience."
   },
   {
     "objectID": "workshops/2026/neural-operators-seismic.html",
@@ -453,6 +453,13 @@
     "title": "2026 Workshop on  AI in Earth and Planetary Science",
     "section": "",
     "text": "Upcoming Event\n\n\nMachine learning and AI are evolving fast, and it is difficult to track how geoscience research and application practices are changing with them. Consider joining us, either in person or remotely, for a FREE annual workshop organized by Geological Survey of Finland to explore how AI can improve geoscience workflows, as well as its risks and limitations.\n🗓️ June 1-2, 2026 📍 Venue: Geological Survey of Finland GTK, Auditorium, Vuorimiehentie 5, Espoo, Finland\n\nRegister Now View Programme\n\n\n\n\n\nScan to register"
+  },
+  {
+    "objectID": "workshops/2026.html#online-access",
+    "href": "workshops/2026.html#online-access",
+    "title": "2026 Workshop on  AI in Earth and Planetary Science",
+    "section": "Online Access",
+    "text": "Online Access\n\nThe workshop link has been sent to people who registered via the online link. If you registered and have not received the email by Sunday evening, please contact Marta at marta.cyz@gtk.fi."
   },
   {
     "objectID": "workshops/2026.html#programme",

@@ -75,6 +75,8 @@ Microsoft Teams meeting (DAY 2, June 2, 2026)
 
 ## Programme {#programme}
 
+All times are listed in Helsinki time (EEST).
+
 ::: {.schedule-day}
 ### Day 1 - Monday, June 1 {#day-1}
 
@@ -88,7 +90,7 @@ Microsoft Teams meeting (DAY 2, June 2, 2026)
 | 09:30-09:45 | Welcome | [Marta Cyz](https://www.linkedin.com/in/marta-cyz/), [Pankaj K Mishra](https://pankajkmishra.github.io/) | In-person · Online |
 | 09:45-10:15 | [Fingerprints of tectonic and erosional processes in modern river sands from the Himalaya of western Bhutan](2026/invited-talk-14.qmd) | [David Whipp](https://www.linkedin.com/in/dwhipp/) | In-person · Online |
 | 10:15-12:00 | [Getting Started with Geoscientific Machine Learning](2026/workshop-1.qmd) | [Pankaj K Mishra](https://www.linkedin.com/in/pankajkmishra01/), [Sanni Laaksonen](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/), Eetu Hyypio | Hands-on/Demo |
-| 12:00-13:00 | Lunch | - | Break |
+| 12:00-13:00 | Lunch (own expense) | - | Break |
 | 13:00-14:00 | [A Free Browser-Based Tool for Systematic Uncertainty Assessment in Unsupervised Seismic ML Workflows](2026/workshop-2.qmd) | [Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Hands-on/Demo |
 | 14:00-14:10 | Break | - | Break |
 | 14:10-15:10 | [JutulDarcy.jl - High-performance porous media and reservoir simulator based on automatic differentiation](2026/workshop-3.qmd) | [Olav Møyner](https://olavmoyner.com/) | Hands-on/Demo |
@@ -116,7 +118,7 @@ Microsoft Teams meeting (DAY 2, June 2, 2026)
 | 10:45-11:00 | Coffee break | - | Break |
 | 11:00-11:30 | [Surrogate-Based Methods for Efficient Bayesian Posterior Computation](2026/invited-talk-5.qmd) | [Chengkun Li](https://www.linkedin.com/in/chengkun-li-62360612b/) | In-person · Online |
 | 11:30-12:00 | [UFO: Generalized Operator Learning for Earth System Modeling](2026/invited-talk-6.qmd) | [Hanli Qiao](https://www.linkedin.com/in/hanli-qiao-128473328/) | In-person · Online |
-| 12:00-13:00 | Lunch | - | Break |
+| 12:00-13:00 | Lunch (own expense) | - | Break |
 | 13:00-13:30 | [Illuminating Subsurface Uncertainty with Seismic Attributes, ML, and Explainable AI](2026/invited-talk-3.qmd) | [Heather Bedle](https://www.linkedin.com/in/heather-bedle-29b5342/) | Online |
 | 13:30-14:00 | [Geo or Data Science? The Challenge of ML Buy-In and Preserving Geologic Intuition](2026/invited-talk-4.qmd) | [April Moreno-Ward](https://www.linkedin.com/in/april-moreno-ward-23566a2a/) | Online |
 | 14:00-14:30 | [Hybrid AI for High-Resolution Peatland Mapping](2026/invited-talk-7.qmd) | [Fahimeh Farahnakian](https://users.utu.fi/fahfar/) | In-person · Online |

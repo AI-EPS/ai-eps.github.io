@@ -35,14 +35,6 @@ Machine learning and AI are evolving fast, and it is difficult to track how geos
 [Programme](#programme) [For speakers](#for-speakers) [Venue](#venue) [Contact](#contact)
 :::
 
-## Online Access {#online-access}
-
-::: {.callout-box .online-access-box}
-
-The workshop link has been sent to people who registered via the online link. If you registered and have not received the email by Sunday evening, please contact Marta at [marta.cyz@gtk.fi](mailto:marta.cyz@gtk.fi).
-
-:::
-
 <!--
 ## Online Access (Not Registered?) {#online-access}
 
